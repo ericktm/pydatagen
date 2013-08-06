@@ -1,0 +1,4 @@
+
+#Ignora bytecodes python
+*.pyc
+*.pyo
