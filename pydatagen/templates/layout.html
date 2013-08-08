@@ -1,7 +1,38 @@
 <html>
 <head>
-<title>Pydatagen - Gerador Automático de registros</title>
+
+<title>Pydatagen - {% block title %} Gerador Automático de
+	registros {% endblock %}</title>
+<link rel="stylesheet"
+	href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"
+	type="text/css" />
+<style type="text/css">
+body {
+	font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana",
+		"sans-serif";
+	font-size: 62.5%;
+	padding: 0;
+	margin: 0;
+}
+</style>
 </head>
-<body>Página Inicial
+<body>
+	<div id="toolbar" class="ui-widget-header ui-corner-all">
+		<a href="/conexao.html">Conexões</a> 
+		<a href="/analise.html">Análise
+			Estrutural</a> <a href="/agendar-tarefa.html">Agendar Inserção</a> <a
+			href="/sobre.html">Sobre</a>
+	</div>
+	{% block corpo %} {% endblock %}
+	<script type="text/javascript"
+		src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript"
+		src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+  $(function() {
+	$('#toolbar a').button();
+  });
+  </script>
+	{% block script %} <!-- //Custom Javascript --> {% endblock %}
 </body>
 </html>

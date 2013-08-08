@@ -1,9 +1,9 @@
-# Create your views here.
-from django.http.response import HttpResponse
-import datetime
+#! coding:utf-8
 from django.shortcuts import render_to_response
 
 def index(request):
-    now = datetime.datetime.now()
-    html = "<html><body>It is now %s.</body></html>" % now
     return render_to_response('app/index.html')
+
+def conexao(request):
+    
+    return render_to_response('app/conexao/index.html')
