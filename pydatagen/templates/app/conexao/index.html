@@ -1,35 +1,46 @@
 {% extends 'layout.html' %} {% block corpo %}
-<div id="users-contain" class="ui-widget">
-	<h1>Cadastro de Banco de dados</h1>
-	<table id="users" class="ui-widget ui-widget-content">
-		<thead>
-			<tr class="ui-widget-header ">
-				<th>Endereço</th>
-				<th>Usuário</th>
-				<th>Banco de Dados</th>
-				<th>Criação</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>John Doe</td>
-				<td>john.doe@example.com</td>
-				<td>johndoe1</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-<button id="create-conection">Novo registro</button>
-<div class="window" title="Cadastro de Conexão">
-	<form method="post" action="#" enctype="multipart/form-data">
-		{% csrf_token %} {{ form.hostname.label }} {{ form.hostname }} {{
-		form.database.label }} {{ form.database }} {{ form.username.label }}
-		{{ form.username }} {{ form.as_p }} <input type="submit"
-			class="botao salvar" value="Salvar" />
-	</form>
+    <div id="users-contain" class="ui-widget">
+        <h1>Cadastro de Banco de dados</h1>
+        <table id="users" class="ui-widget ui-widget-content">
+            <thead>
+            <tr class="ui-widget-header ">
+                <th>Endereço</th>
+                <th>Usuário</th>
+                <th>Banco de Dados</th>
+                <th>Criação</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for registro in lista %}
+            <tr>
+                <td>{{ registro.hostname }}</td>
+                <td>{{ registro.username }}</td>
+                <td>{{ registro.database }}</td>
+                <td>{{ registro.created }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <button id="create-conection">Novo registro</button>
+    <div class="window" title="Cadastro de Conexão">
+        <form method="post" action="/conexao.html" id="cadastro-conection" enctype="multipart/form-data">
 
+            <label> {{ form.hostname.label }}</label>
 
-</div>
+            {{ form.hostname }}
+            <label>{{ form.database.label }}</label>
+            {{ form.database }}
+            <label>{{ form.username.label }}</label>
+            {{ form.username }}
+
+            <input type="submit" class="btnsave bloco" value="Salvar"/>
+        </form>
+    </div>
+
+    <div class="retorno">
+
+    </div>
 {% endblock %} {% block script %}
-<script type="text/javascript" src="/media/js/function.js"></script>
+    <script type="text/javascript" src="/media/js/function.js"></script>
 {% endblock %}

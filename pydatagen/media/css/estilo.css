@@ -10,6 +10,15 @@ table {
 	width: 100%;
 }
 
-/* .window{
+#cadastro-conection label,#cadastro-conection input{
+    display: block;
+    width: 100%;
+}
+
+.bloco{
+    display: block;
+}
+
+.window{
 	display: none;
-} */
+}
