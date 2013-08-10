@@ -10,7 +10,7 @@ TYPE_CHOICES = (
                 )
 
 # Create your models here.
-class Database(models.Model):
+class Conection(models.Model):
     hostname = models.CharField(verbose_name = "Endereço", max_length = 50)
     username = models.CharField(verbose_name = "Nome do Usuário", max_length = 50)
     database = models.CharField(verbose_name = "Nome do Banco de dados", max_length = 50)
@@ -20,7 +20,7 @@ class Database(models.Model):
 class Table(models.Model):
     name = models.CharField(verbose_name = "Nome da Tabela", max_length = 50)
     created = models.DateTimeField("Criado em", auto_now = True, editable = False)
-    database = models.ForeignKey(Database, related_name = "table_database_id")
+    database = models.ForeignKey(Conection, related_name = "table_database_id")
 
 class Type(models.Model):
     name = models.CharField(verbose_name = "Nome do Tipo de Campo", max_length = 50)

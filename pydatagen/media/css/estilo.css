@@ -1,0 +1,15 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 62.5%;
+	padding: 0;
+	margin: 0;
+}
+
+table {
+	display: block;
+	width: 100%;
+}
+
+/* .window{
+	display: none;
+} */
