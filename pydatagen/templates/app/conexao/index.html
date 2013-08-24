@@ -4,6 +4,8 @@
         <table id="users" class="ui-widget ui-widget-content">
             <thead>
             <tr class="ui-widget-header ">
+                <th>Ações</th>
+                <th>Cod</th>
                 <th>Endereço</th>
                 <th>Usuário</th>
                 <th>Banco de Dados</th>
@@ -12,12 +14,21 @@
             </thead>
             <tbody>
             {% for registro in lista %}
-            <tr>
-                <td>{{ registro.hostname }}</td>
-                <td>{{ registro.username }}</td>
-                <td>{{ registro.database }}</td>
-                <td>{{ registro.created }}</td>
-            </tr>
+                <tr>
+                    <td>
+                        <a class="botao" href="/tabelas.html">
+                            Tabelas
+                        </a>
+                        <a class="btn-edit" href="#" id="{{ registro.id }}">
+                            Editar
+                        </a>
+                    </td>
+                    <td>{{ registro.id }}</td>
+                    <td>{{ registro.hostname }}</td>
+                    <td>{{ registro.username }}</td>
+                    <td>{{ registro.database }}</td>
+                    <td>{{ registro.created }}</td>
+                </tr>
             {% endfor %}
             </tbody>
         </table>
@@ -42,5 +53,5 @@
 
     </div>
 {% endblock %} {% block script %}
-    <script type="text/javascript" src="/media/js/function.js"></script>
+
 {% endblock %}

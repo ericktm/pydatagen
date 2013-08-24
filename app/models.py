@@ -1,4 +1,5 @@
 #!- coding:utf-8
+from httplib2 import CertificateHostnameMismatch
 from django.db import models
 
 TYPE_CHOICES = (
@@ -16,6 +17,9 @@ class Conection(models.Model):
     database = models.CharField(verbose_name = "Nome do Banco de dados", max_length = 50)
     # database = models.CharField(verbose_name = "Senha do Banco de dados", max_length = 50)
     created = models.DateTimeField("Created", auto_now = True, editable = False)
+
+    def __unicode__(self):
+        return self.hostname
 
 class Table(models.Model):
     name = models.CharField(verbose_name = "Nome da Tabela", max_length = 50)

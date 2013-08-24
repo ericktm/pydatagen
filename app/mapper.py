@@ -5,7 +5,11 @@ import re
 
 
 class Mapper(object):
-    def __init__(self, arquivo=None):
+
+    def __init__(self, con, arquivo=None):
+
+        print con
+
         if arquivo:
             #Implementar função para leitura e parser do arquivo json
             pass
@@ -131,35 +135,12 @@ class Mapper(object):
 
         return opcoes
 
-    def calcOrder(self):
-        '''
-        Método responsável por definir a ordem de insersão dos dados nas tabelas, levando em consideração
-        as foreign_keys dependentes
-        '''
-        pass
-
-        # print len(tabela.keys)
-
     def saveFile(self,filename):
         with open('mapa.json', 'w') as outfile:
             json.dump(map.map, outfile)
 
-    def quicksort(self, v):
-        if len(v) <= 1:
-            return v # uma lista vazia ou com 1 elemento ja esta ordenada
-        less, equal, greater = [], [], [] # cria as sublistas dos maiores, menores e iguais ao pivo
-        pivot = v[0] # escolhe o pivo. neste caso, o primeiro elemento da lista
-        for x in v:
-            # adiciona o elemento x a lista corespondeste
-            if x < pivot:
-                less.append(x)
-            elif x == pivot:
-                equal.append(x)
-            else:
-                greater.append(x)
-        return self.quicksort(less) + equal + self.quicksort(greater) # concatena e retorna recursivamente
-        # .. as listas ordenadas
-
+    def saveTables(self):
+        print "Salvando"
 
 if __name__ == '__main__':
     map = Mapper()

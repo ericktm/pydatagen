@@ -1,8 +1,12 @@
 $(document).ready(function () {
-    $(function () {
-        $('#toolbar a').button();
-    });
+    $('#toolbar a').button();
+    $('.botao').button();
     $('#create-conection').button();
+    $('.btn-edit').button({
+       icons:{
+           primary:"ui-icon-pencil"
+       }
+    });
     $('.btnsave').button({
         icons: {
             primary: "ui-icon-locked"
@@ -13,11 +17,17 @@ $(document).ready(function () {
             modal: true
         });
     });
-    $('form').on('submit',function(e){
+    $('.btn-edit').on('click',function(){
+        var element = $(this);
+        var id = element.attr('id');
+
+
+    });
+    $('form').on('submit', function (e) {
         e.preventDefault();
         var form = $(this);
         var dados = form.serialize();
-        $.post(form.attr('action'),dados,function(retorno){
+        $.post(form.attr('action'), dados, function (retorno) {
             console.log(retorno);
         });
         console.log(dados);
