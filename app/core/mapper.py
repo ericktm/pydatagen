@@ -136,7 +136,7 @@ class Mapper(object):
         return opcoes
 
     def saveFile(self,filename):
-        with open('mapa.json', 'w') as outfile:
+        with open('../mapa.json', 'w') as outfile:
             json.dump(map.map, outfile)
 
     def saveTables(self):
