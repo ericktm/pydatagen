@@ -1,26 +1,40 @@
 #! coding:utf-8
-from conection import Conection
+# from app.models import Conection
 import json
 import re
+from sqlalchemy.schema import MetaData
 
 
 class Mapper(object):
 
-    def __init__(self, con, arquivo=None):
+    def __init__(self, con = None, arquivo=None):
 
-        print con
-
+        # strCon = str('mysql+mysqldb' + '://' + con.username + ':' + con.password + '@' + con.hostname + '/' + con.database)
+        strCon = str('mysql+mysqldb://root:ericktm@localhost/banco')
+        self.meta = MetaData(strCon)
+        print self.meta.reflect()
+        print "Conectou ao banco de dados!"
+        
         if arquivo:
             #Implementar função para leitura e parser do arquivo json
             pass
-        else:
-            self.map = dict()
+        self.map = dict()
 
-        self.map = {}
+
+        # self.map['database'] = {
+        #     'engine': sgbd,
+        #     'server': servidor,
+        #     'user': usuario,
+        #     'password': senha,
+        #     'database': banco
+        # }
+
+        self.map['tabelas'] = {}
+        self.map['foreign_keys'] = dict()
+
 
     def conecta(self, sgbd, servidor, usuario, senha, banco):
-        self.con = Conection(sgbd, servidor, usuario, senha, banco)
-
+        # self.con = Conection(sgbd, servidor, usuario, senha, banco)
         self.map['database'] = {
             'engine': sgbd,
             'server': servidor,
@@ -28,6 +42,7 @@ class Mapper(object):
             'password': senha,
             'database': banco
         }
+
         self.map['tabelas'] = {}
         self.map['foreign_keys'] = dict()
 
@@ -144,5 +159,5 @@ class Mapper(object):
 
 if __name__ == '__main__':
     map = Mapper()
-    map.conecta('mysql+mysqldb', 'localhost', 'root', 'ericktm', 'mariana_banco')
-    map.saveFile('arquivo.json')
+    # map.conecta('mysql+mysqldb', 'localhost', 'root', 'ericktm', 'mariana_banco')
+    # map.saveFile('arquivo.json')

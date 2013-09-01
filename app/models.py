@@ -14,6 +14,7 @@ class Conection(models.Model):
     hostname = models.CharField(verbose_name = "Endereço", max_length = 50)
     username = models.CharField(verbose_name = "Nome do Usuário", max_length = 50)
     database = models.CharField(verbose_name = "Nome do Banco de dados", max_length = 50)
+    password = models.CharField(verbose_name="Senha do Banco de dados", max_length=50, null=True)
     # database = models.CharField(verbose_name = "Senha do Banco de dados", max_length = 50)
     created = models.DateTimeField("Created", auto_now = True, editable = False)
 

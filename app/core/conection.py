@@ -7,7 +7,7 @@ class Conection(object):
     """
     def __init__(self, sgbd, server, user, password, database):
         super(Conection, self).__init__()
-        strCon = str(sgbd + '://' + user + ':' + password + '@' + server + '/' + database)
+        strCon = str('mysql+mysqldb' + '://' + user + ':' + password + '@' + server + '/' + database)
         self.meta = MetaData(strCon)
         self.meta.reflect()
         print "Conectou ao banco de dados!"
