@@ -32,4 +32,7 @@ $(document).ready(function () {
         });
         console.log(dados);
     });
+
+
+    $('.endless_page_link').button();
 });

@@ -11,6 +11,7 @@ urlpatterns = patterns('',
     url(r'^index.html$', 'app.views.index'),
     url(r'^conexao.html$', 'app.views.conexao'),
     url(r'^tabelas.html$', 'app.views.tabela'),
+    url(r'^delete(.html)?$','app.views.delete'),
     url(r'^tabela/registro/?(?P<cod>\d*).html$', 'app.views.registro_tabela'),
     ('^sobre(.html)?$', TemplateView.as_view(template_name='sobre.html')),
     # Examples:

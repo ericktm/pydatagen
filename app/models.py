@@ -1,5 +1,4 @@
 #!- coding:utf-8
-from httplib2 import CertificateHostnameMismatch
 from django.db import models
 
 TYPE_CHOICES = (
