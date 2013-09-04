@@ -124,6 +124,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'endless_pagination',
+    'south',
     'app'
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',

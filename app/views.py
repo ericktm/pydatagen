@@ -3,10 +3,7 @@ from django.http.response import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.views.decorators.csrf import csrf_exempt
-from app import conection
-from app.conection import Conection
 from app.forms import ModelConection, FormTable
-from app.mapper import Mapper
 from app.models import Conection, Table
 
 
