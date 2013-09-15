@@ -17,6 +17,34 @@ class Generator(object):
         return start + timedelta(
             seconds= random.randint(0, int((end - start).total_seconds())))
 
+    '''
+    Método responsável pela geração dos Nome de pessoas
+    '''
+    def NameField(self, gender = None):
+        '''
+        Os nomes são gerados conforme o gênero informado ao chamar o método
+        Se o gênero não é informado, é gerado de qualquer gênero.
+        '''
+        name = ''
+
+        if not gender:
+            pass
+        elif gender == 'M':
+            name= 'João da Silva'
+        elif gender == 'F':
+            name = 'Mariana Rocha'
+
+        return name
+
+    '''
+
+    '''
+    def EmailField(self, name = None):
+        #Caso seja informado o parâmero nome, o  mesmo será utilizado para geração do endereço de Email
+        #Caso contrário, é gerado um Nome, que será convertido em endereço de Email
+        if name:
+
+
 
 if __name__ == '__main__':
     gen = Generator()
@@ -24,3 +52,5 @@ if __name__ == '__main__':
     datain = datetime.datetime(2013,12,12)
     # datetime.datetime(1990,12,12),datetime.datetime(2013,12,30)
     print gen.DateField('01/01/2000','30/12/2013')
+
+    print gen.Name
