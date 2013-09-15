@@ -36,9 +36,7 @@ class Generator(object):
 
         return name
 
-    '''
 
-    '''
     def EmailField(self, name = None):
         #Caso seja informado o parâmero nome, o  mesmo será utilizado para geração do endereço de Email
         #Caso contrário, é gerado um Nome, que será convertido em endereço de Email
