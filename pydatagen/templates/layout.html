@@ -4,9 +4,9 @@
     <title>Pydatagen - {% block title %} Gerador Automático de
         registros {% endblock %}</title>
     <link rel="stylesheet"
-          href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"
+          href="{{ MEDIA_URL }}css/jquery-ui.css"
           type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="/media/css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}/css/estilo.css"/>
 
 </head>
 <body>
@@ -19,9 +19,9 @@
 
 
 <script type="text/javascript"
-        src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        src="{{ MEDIA_URL }}js/jquery-1.9.1.js"></script>
 <script type="text/javascript"
-        src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        src="{{ MEDIA_URL }}js/jquery-ui.js"></script>
 
 <script type="text/javascript" src="/media/js/function.js"></script>
 {% block script %}
