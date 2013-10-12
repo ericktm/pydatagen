@@ -1,29 +1,69 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gerador de Registros relevantes para Bancos de dados">
+    <meta name="author" content="Erick Roberto de Oliveira">
+    {#    <link rel="shortcut icon" href="../../assets/ico/favicon.png">#}
 
     <title>Pydatagen - {% block title %} Gerador Automático de
         registros {% endblock %}</title>
-    <link rel="stylesheet"
-          href="{{ MEDIA_URL }}css/jquery-ui.css"
-          type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}/css/estilo.css"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ MEDIA_URL }}css/bootstrap.css" rel="stylesheet">
 
 </head>
+
 <body>
-<div id="toolbar" class="ui-widget-header ui-corner-all">
-    <a href="/conexao.html">Conexões</a> <a href="/analise.html">Análise
-    Estrutural</a> <a href="/agendar-tarefa.html">Agendar Inserção</a> <a
-        href="/sobre.html">Sobre</a>
+
+<div class="container">
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">PyDataGen</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href=/projeto>Projetos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Configurações</a></li>
+                <li><a href="#">Sair (Logoff)</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <h1>Navbar example</h1>
+
+        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work.
+            It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+
+        <p>
+            <a class="btn btn-lg btn-primary" href="../../components/#navbar">View navbar docs &raquo;</a>
+        </p>
+    </div>
+
 </div>
-{% block corpo %} {% endblock %}
+<!-- /container -->
 
 
-<script type="text/javascript"
-        src="{{ MEDIA_URL }}js/jquery-1.9.1.js"></script>
-<script type="text/javascript"
-        src="{{ MEDIA_URL }}js/jquery-ui.js"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{ MEDIA_URL }}js/jquery-1.9.1.js"></script>
+<script src="{{ MEDIA_URL }}js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="/media/js/function.js"></script>
 {% block script %}
     <!-- //Custom Javascript -->
 {% endblock %}

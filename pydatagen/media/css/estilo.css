@@ -1,24 +1,7 @@
 body {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 62.5%;
-	padding: 0;
-	margin: 0;
+    padding: 30px;
 }
 
-table {
-	display: block;
-	width: 100%;
-}
-
-#cadastro-conection label,#cadastro-conection input{
-    display: block;
-    width: 100%;
-}
-
-.bloco{
-    display: block;
-}
-
-.window{
-	display: none;
+.navbar {
+    margin-bottom: 30px;
 }
