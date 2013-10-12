@@ -1,66 +1,50 @@
 {% extends 'layout.html' %}
 
-{% block corpo %}
-    {% load endless %}
+{% block title %}
 
-    <div id="users-contain" class="ui-widget">
-        <h1>Cadastro de Tabelas de dados</h1>
-        <table id="users" class="ui-widget ui-widget-content">
-            <thead>
-            <tr class="ui-widget-header ">
-                <th>Ações</th>
-                <th>Cod</th>
-                <th>Endereço</th>
-                <th>Usuário</th>
-                <th>Banco de Dados</th>
-                <th>Criação</th>
+    Cadastro de Tabelas do Projeto {{ project.name }}
+
+{% endblock %}
+
+
+{% block content %}
+    <p>
+        <a class="btn btn-info" href="/table/{{ project.id }}/record">
+            Novo Registro
+        </a>
+        <br>
+    <hr>
+    <h5>Tabelas Cadastradas para o Projeto {{ project }}</h5>
+    <hr>
+    </p>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>Cód</th>
+            <th>Nome</th>
+            <th>Quantidade de Campos</th>
+            <th>Chave Primária</th>
+            <th>Ordem</th>
+            <th>Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for record in record_list %}
+            <tr>
+                <td>{{ record.id }}</td>
+                <td>{{ record.name }}</td>
+                <td>{{ record }}</td>
+                <td></td>
+                <td>{{ record.order }}</td>
+                <td>
+                    <a class="btn" href="/table/{{ project.id }}/{{ record.id }}"><i
+                            class="glyphicon glyphicon-edit"></i></a>
+                    <a class="btn" href="/fields/{{ record.id }}"><i class="glyphicon glyphicon-list-alt"></i></a>
+                    <a class="btn" href="/table/delete/{{ record.id }}"><i class="glyphicon glyphicon-trash"></i></a>
+                </td>
             </tr>
-            </thead>
-            <tbody>
-            {% lazy_paginate lista %}
-            {% for registro in lista %}
-                <tr>
-                    <td>
-                        <a class="botao" href="/tabelas.html">
-                            Tabelas
-                        </a>
-                        <a class="btn-edit" href="#" id="{{ registro.id }}">
-                            Editar
-                        </a>
-                    </td>
-                    <td>{{ registro.id }}</td>
-                    <td>{{ registro.hostname }}</td>
-                    <td>{{ registro.username }}</td>
-                    <td>{{ registro.database }}</td>
-                    <td>{{ registro.created }}</td>
-                </tr>
-            {% endfor %}
-            </tbody>
-        </table>
-    </div>
-    <button id="create-conection">Novo registro</button>
-    <div class="window" title="Cadastro de Conexão">
-        <form method="post" action="/conexao.html" id="cadastro-conection" enctype="multipart/form-data">
-
-            <label> {{ form.hostname.label }}</label>
-
-            {{ form.hostname }}
-            <label>{{ form.database.label }}</label>
-            {{ form.database }}
-            <label>{{ form.username.label }}</label>
-            {{ form.username }}
-
-            <input type="submit" class="btnsave bloco" value="Salvar"/>
-        </form>
-    </div>
-
-    <div class="retorno">
-
-    </div>
-<center>
-    {% show_pages %}
-</center>
-
-{% endblock %} {% block script %}
-
+        {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}

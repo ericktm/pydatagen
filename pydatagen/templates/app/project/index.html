@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+
+    Cadastro de Projetos
+
+{% endblock %}
+
+
+{% block content %}
+    <p>
+        <a class="btn btn-info" href="/project/record">
+            Novo Registro
+        </a>
+    </p>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>Cód</th>
+            <th>Nome</th>
+            <th>Quantidade de Tabelas</th>
+            <th>Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for record in record_list %}
+            <tr>
+                <td>{{ record.id }}</td>
+                <td>{{ record.name }}</td>
+                <td>{{ record }}</td>
+                <td>
+                    <a class="btn" href="/project/record/{{ record.id }}"><i class="glyphicon glyphicon-edit"></i></a>
+                    <a class="btn" href="/tables/{{ record.id }}"><i class="glyphicon glyphicon-list-alt"></i></a>
+                    <a class="btn" href="/project/delete/{{ record.id }}"><i class="glyphicon glyphicon-trash"></i></a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

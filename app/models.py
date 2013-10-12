@@ -18,6 +18,9 @@ TYPE_CHOICES = (
 class Project(models.Model):
     name = models.CharField(verbose_name='Nome do Projeto', max_length=50)
 
+    def __unicode__(self):
+        return self.name.upper()
+
 
 class Table(models.Model):
     project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_table_project')

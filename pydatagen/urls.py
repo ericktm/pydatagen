@@ -7,15 +7,20 @@ from pydatagen import settings
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-                       
-    url(r'^index.html$', 'app.views.index'),
-    url(r'^conexao.html$', 'app.views.conexao'),
-    url(r'^tabelas/(?P<cod>\d*).html$', 'app.views.tabela'),
-    url(r'^delete(.html)?$','app.views.delete'),
+
+                       url(r'^index.html$', 'app.views.index'),
+                       url(r'^project$', 'app.views.projects'),
+                       url(r'^project/record$', 'app.views.project'),
+                       url(r'^project/record/(?P<id>\d+)$', 'app.views.project'),
+
+                       url(r'^conexao.html$', 'app.views.conexao'),
+                       url(r'^tables/(?P<id>\d+)', 'app.views.tables'),
+                       url(r'^table/(?P<project_id>\d+)/(?P<id>\d+)?', 'app.views.table'),
+                       url(r'^delete(.html)?$','app.views.delete'),
     url(r'^tabela/registro/?(?P<cod>\d*).html$', 'app.views.registro_tabela'),
      url(r'^execution.html$', 'app.views.execution'),
-    ('^sobre(.html)?$', TemplateView.as_view(template_name='sobre.html')),
-    # Examples:
+     ('^about(.html)?$', TemplateView.as_view(template_name='sobre.html')),
+     # Examples:
     # url(r'^$', 'pydatagen.views.home', name='home'),
     # url(r'^pydatagen/', include('pydatagen.foo.urls')),
 
@@ -24,7 +29,7 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
-    
-     (r'^media/(.*)$', 'django.views.static.serve',
+
+    (r'^media/(.*)$', 'django.views.static.serve',
      {'document_root': settings.MEDIA_ROOT}),
 )
