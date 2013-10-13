@@ -7,7 +7,7 @@ from app.forms import FormProject, FormTable, FormField, FormAssociate
 from app.models import Project, Table, Field
 
 
-def index(request):
+def index(request, *args):
     return render_to_response('app/index.html', RequestContext(request))
 
 

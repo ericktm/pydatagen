@@ -7,7 +7,7 @@ from pydatagen import settings
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-                       url(r'^index.html$', 'app.views.index'),
+                       url(r'^(index.html)?$', 'app.views.index'),
                        url(r'^project$', 'app.views.projects'),
                        url(r'^project/record$', 'app.views.project'),
                        url(r'^project/record/(?P<id>\d+)$', 'app.views.project'),
