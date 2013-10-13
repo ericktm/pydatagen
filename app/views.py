@@ -3,8 +3,8 @@ from django.http.response import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.views.decorators.csrf import csrf_exempt
-from app.forms import FormProject, FormTable
-from app.models import Project, Table
+from app.forms import FormProject, FormTable, FormField, FormAssociate
+from app.models import Project, Table, Field
 
 
 def index(request):
@@ -21,6 +21,35 @@ def tables(request, id=None):
     record_list = Table.objects.all().filter(project=id).order_by('order')
     return render_to_response('app/table/index.html', {'record_list': record_list, 'project': project_record},
                               RequestContext(request))
+
+
+def fields(request, id=None):
+    table_record = Table.objects.get(pk=id)
+    record_list = Field.objects.all().filter(table=id).order_by('id')
+    return render_to_response('app/field/index.html', {'record_list': record_list, 'table': table_record},
+                              RequestContext(request))
+
+
+def field(request, table_id, id=None):
+    table_record = Table.objects.get(pk=table_id)
+    if request.method == 'POST':
+        form = FormField(request.POST, instance=Field.objects.get(pk=id)) if id else FormField(request.POST)
+        if form.is_valid():
+            record = form.save(commit=False)
+            record.table = table_record
+            record.save()
+            return HttpResponseRedirect('/fields/%s' % table_id, RequestContext(request))
+        else:
+            return render_to_response('record.html', {'form': form}, RequestContext(request))
+    else:
+        form = FormField(instance=Field.objects.get(pk=id)) if id else FormField()
+
+        return render_to_response('record.html', {'form': form}, RequestContext(request))
+
+
+def associate(request):
+    form = FormAssociate
+    return render_to_response('record.html', {'form': form}, RequestContext(request))
 
 
 def table(request, project_id, id=None):

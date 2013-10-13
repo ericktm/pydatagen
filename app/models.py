@@ -27,14 +27,20 @@ class Table(models.Model):
     name = models.CharField(verbose_name='Nome da Tabela', max_length=50)
     order = models.SmallIntegerField(verbose_name='Ordem')
 
+    def __unicode__(self):
+        return self.name
+
 
 class Field(models.Model):
     table = models.ForeignKey(verbose_name='Nome da Tabela', to=Table, related_name='app_field_table')
     name = models.CharField(verbose_name='Nome do Campo', max_length=50)
     primary = models.BooleanField('Chave Primária', default=False, blank=False)
     null = models.BooleanField('Nulo', default=False)
-    type = models.IntegerField(verbose_name='Tipo de Campo', max_length=2)
-    insert = models.BooleanField(verbose_name='Populável', default=False)
+    type = models.IntegerField(verbose_name='Tipo de Campo', max_length=2, choices=TYPE_CHOICES)
+    insert = models.BooleanField(verbose_name='Populável', default=True)
+
+    def __unicode__(self):
+        return '%s - %s' % (self.name, self.table)
 
 
 class ForeignKey(models.Model):

@@ -7,7 +7,6 @@ from pydatagen import settings
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-
                        url(r'^index.html$', 'app.views.index'),
                        url(r'^project$', 'app.views.projects'),
                        url(r'^project/record$', 'app.views.project'),
@@ -16,20 +15,24 @@ urlpatterns = patterns('',
                        url(r'^conexao.html$', 'app.views.conexao'),
                        url(r'^tables/(?P<id>\d+)', 'app.views.tables'),
                        url(r'^table/(?P<project_id>\d+)/(?P<id>\d+)?', 'app.views.table'),
-                       url(r'^delete(.html)?$','app.views.delete'),
-    url(r'^tabela/registro/?(?P<cod>\d*).html$', 'app.views.registro_tabela'),
-     url(r'^execution.html$', 'app.views.execution'),
-     ('^about(.html)?$', TemplateView.as_view(template_name='sobre.html')),
-     # Examples:
-    # url(r'^$', 'pydatagen.views.home', name='home'),
-    # url(r'^pydatagen/', include('pydatagen.foo.urls')),
 
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+                       url(r'^fields/(?P<id>\d+)$', 'app.views.fields'),
+                       url(r'^field/(?P<table_id>\d+)/(?P<id>\d+)?', 'app.views.field'),
+                       url(r'^field/associate$', 'app.views.associate'),
+                       url(r'^delete(.html)?$', 'app.views.delete'),
+                       url(r'^tabela/registro/?(?P<cod>\d*).html$', 'app.views.registro_tabela'),
+                       url(r'^execution.html$', 'app.views.execution'),
+                       ('^about(.html)?$', TemplateView.as_view(template_name='sobre.html')),
+                       # Examples:
+                       # url(r'^$', 'pydatagen.views.home', name='home'),
+                       # url(r'^pydatagen/', include('pydatagen.foo.urls')),
 
-    # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
+                       # Uncomment the admin/doc line below to enable admin documentation:
+                       # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
-    (r'^media/(.*)$', 'django.views.static.serve',
-     {'document_root': settings.MEDIA_ROOT}),
+                       # Uncomment the next line to enable the admin:
+                       # url(r'^admin/', include(admin.site.urls)),
+
+                       (r'^media/(.*)$', 'django.views.static.serve',
+                        {'document_root': settings.MEDIA_ROOT}),
 )

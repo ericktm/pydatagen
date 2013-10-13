@@ -1,0 +1,54 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+
+    Cadastro de Campos da Tabela {{ table.name }}
+
+{% endblock %}
+
+
+{% block content %}
+    <p>
+        <a class="btn btn-info" href="/field/{{ table.id }}/record">
+            Novo Registro
+        </a>
+        <a class="btn btn-success" href="/field/associate">
+            Associar Foreign Key
+        </a>
+        <br>
+    <hr>
+    <h5>Campos cadastrados para a tabela {{ table }}</h5>
+    <hr>
+    </p>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>Cód</th>
+            <th>Nome</th>
+            <th>Tipo de Campo</th>
+            <th>Chave Primária</th>
+            <th>Nulo</th>
+            <th>Populável</th>
+            <th>Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for record in record_list %}
+            <tr>
+                <td>{{ record.id }}</td>
+                <td>{{ record.name }}</td>
+                <td>{{ record.get_type_display }}</td>
+                <td>{{ record.primary }}</td>
+                <td>{{ record.null }}</td>
+                <td>{{ record.insert }}</td>
+                <td>
+                    <a class="btn" href="/field/{{ table.id }}/{{ record.id }}"><i
+                            class="glyphicon glyphicon-edit"></i></a>
+                    <a class="btn" href="/field/delete/{{ record.id }}"><i class="glyphicon glyphicon-trash"></i></a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
