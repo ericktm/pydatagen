@@ -1,6 +1,19 @@
 $(document).ready(function () {
     $('#toolbar a').button();
-    $('.botao').button();
+    $('.btn-menu').button({
+        icons: {
+            secondary: "ui-icon-triangle-1-s"
+        }
+    });
+
+    $('.sub_menu ul li').mouseover(function () {
+        $(this).addClass('ui-state-hover');
+    });
+
+    $('.sub_menu ul li').mouseout(function () {
+        $(this).removeClass('ui-state-hover');
+    });
+
     $('#create-conection').button();
     $('.btn-edit').button({
         icons: {
