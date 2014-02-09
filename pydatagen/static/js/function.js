@@ -1,10 +1,35 @@
 $(document).ready(function () {
-    $('#toolbar a').button();
     $('.btn-menu').button({
         icons: {
             secondary: "ui-icon-triangle-1-s"
         }
     });
+
+    $(document).ajaxStart(function () {
+        console.log('Ajax Start!');
+        $.blockUI({
+            message: '<h1> Carregando... </h1>',
+            css: {
+                border: 'none',
+                padding: '15px',
+                backgroundColor: 'white',
+                backgroundRepeat: 'no-repeat',
+                backgroundImage: 'url("/static/img/loader.gif")',
+                backgroundPosition: 'center',
+                '-webkit-border-radius': '10px',
+                '-moz-border-radius': '10px',
+                opacity: .5,
+                color: '#0073ea',
+                paddingTop: '130px'
+            }
+        });
+    }).ajaxStop(function () {
+        console.log('Ajax Stop!');
+        setTimeout(function () {
+            $.unblockUI();
+        }, 1000)
+    });
+
 
     $('.sub_menu ul li').mouseover(function () {
         $(this).addClass('ui-state-hover');
@@ -14,7 +39,6 @@ $(document).ready(function () {
         $(this).removeClass('ui-state-hover');
     });
 
-    $('#create-conection').button();
     $('.btn-edit').button({
         icons: {
             primary: "ui-icon-pencil"
@@ -25,17 +49,21 @@ $(document).ready(function () {
             primary: "ui-icon-locked"
         }
     });
-    $('#create-conection').on('click', function () {
-        $('.window').dialog({
-            modal: true
-        });
-    });
+
     $('.btn-edit').on('click', function () {
         var element = $(this);
         var id = element.attr('id');
-
-
     });
+
+    $('.load').on('click', function (e) {
+        e.preventDefault();
+        var href = $(this).attr('href');
+        if (href != '#') {
+            console.log('Carregando página ' + href);
+            $('#center').load(href);
+        }
+    });
+
     $('form').on('submit', function (e) {
         e.preventDefault();
         var form = $(this);
@@ -46,6 +74,4 @@ $(document).ready(function () {
         console.log(dados);
     });
 
-
-    $('.endless_page_link').button();
 });

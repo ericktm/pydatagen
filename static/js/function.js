@@ -1,7 +1,11 @@
 $(document).ready(function () {
-    $('#toolbar a').button();
-    $('.botao').button();
-    $('#create-conection').button();
+
+    $(document).ajaxStart(function () {
+        console.log('Ajax Start!');
+    }).ajaxStop(function () {
+        console.log('Ajax Stop!');
+    });
+
     $('.btn-edit').button({
         icons: {
             primary: "ui-icon-pencil"
@@ -12,17 +16,13 @@ $(document).ready(function () {
             primary: "ui-icon-locked"
         }
     });
-    $('#create-conection').on('click', function () {
-        $('.window').dialog({
-            modal: true
-        });
-    });
+
     $('.btn-edit').on('click', function () {
         var element = $(this);
         var id = element.attr('id');
-
-
     });
+
+
     $('form').on('submit', function (e) {
         e.preventDefault();
         var form = $(this);
@@ -33,6 +33,4 @@ $(document).ready(function () {
         console.log(dados);
     });
 
-
-    $('.endless_page_link').button();
 });
