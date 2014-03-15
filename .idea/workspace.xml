@@ -2,33 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="Criado menu no topo da página principal&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/static/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_0_eeeeee_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_55_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_0073ea_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_666666_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_ff0084_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/jquery-ui-1.10.4.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/static/js/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/project.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/business/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/business/project/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/generic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/project/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/function.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/function.js" afterPath="$PROJECT_DIR$/static/js/function.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/templates/layout.html" afterPath="$PROJECT_DIR$/pydatagen/templates/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/project.py" afterPath="$PROJECT_DIR$/app/views/project.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/settings.py" afterPath="$PROJECT_DIR$/pydatagen/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/style.css" afterPath="$PROJECT_DIR$/pydatagen/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/urls.py" afterPath="$PROJECT_DIR$/app/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/urls.py" afterPath="$PROJECT_DIR$/pydatagen/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -60,10 +48,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="function.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="function.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="301" selection-end="301" vertical-scroll-proportion="0.3357271" vertical-offset="0" max-vertical-offset="1394">
+            <state line="34" column="0" selection-start="1030" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1854">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="85" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1494">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="52" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="55" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.31634447" vertical-offset="0" max-vertical-offset="569">
+              <folding>
+                <element signature="e#17#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generic.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/generic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/project/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="51" selection-start="370" selection-end="370" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydatagen/templates/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="7" selection-start="729" selection-end="729" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1818">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydatagen/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="27" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="1195" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
@@ -92,29 +154,32 @@
         <option value="$PROJECT_DIR$/pydatagen/templates/record.html" />
         <option value="$PROJECT_DIR$/pydatagen/templates/app/table/index.html" />
         <option value="$PROJECT_DIR$/pydatagen/templates/app/project/index.html" />
-        <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/pydatagen/templates/app/field/index.html" />
         <option value="$PROJECT_DIR$/pydatagen/templates/sobre.html" />
         <option value="$PROJECT_DIR$/app/forms.py" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/deploy" />
         <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/static/js/function.js" />
         <option value="$PROJECT_DIR$/pydatagen/settings.py" />
-        <option value="$PROJECT_DIR$/pydatagen/static/css/style.css" />
-        <option value="$PROJECT_DIR$/pydatagen/templates/layout.html" />
         <option value="$PROJECT_DIR$/pydatagen/urls.py" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/static/generic.js" />
+        <option value="$PROJECT_DIR$/pydatagen/templates/layout.html" />
+        <option value="$PROJECT_DIR$/pydatagen/static/js/function.js" />
+        <option value="$PROJECT_DIR$/pydatagen/static/css/style.css" />
+        <option value="$PROJECT_DIR$/app/templates/project/index.html" />
         <option value="$PROJECT_DIR$/app/views/project.py" />
         <option value="$PROJECT_DIR$/app/urls.py" />
-        <option value="$PROJECT_DIR$/static/js/function.js" />
-        <option value="$PROJECT_DIR$/pydatagen/static/js/function.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1857" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -189,79 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,6 +290,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -309,12 +360,30 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntriesDjangoTemplate" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="33" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="39" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="40" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="306" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="33" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="39" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="40" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="306" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -680,25 +749,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6853377" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2549889" sideWeight="0.6784969" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12990603" sideWeight="0.6784969" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34049773" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34049773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3493724" sideWeight="0.50026953" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.357985" sideWeight="0.49973047" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3387271" sideWeight="0.49945474" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -736,6 +805,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/templates/record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="12" selection-start="3361" selection-end="3361" vertical-scroll-proportion="0.0" vertical-offset="1278" max-vertical-offset="1764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="66" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2074">
@@ -745,9 +856,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="16" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1309">
-          <folding />
-        </state>
+        <state line="20" column="16" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1309" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
@@ -759,9 +868,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/core/conection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
@@ -773,44 +880,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="18" column="35" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="43" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="748">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/templates/sobre.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="31" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
@@ -831,9 +923,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/core/conection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="20" column="28" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
@@ -845,31 +935,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="18" column="35" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="43" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="748">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -895,11 +977,6 @@
         <state line="29" column="34" selection-start="602" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="690" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="71" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="810" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/templates/app/field/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="57" selection-start="300" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="885" />
@@ -912,67 +989,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="346" selection-end="346" vertical-scroll-proportion="0.5708955" vertical-offset="0" max-vertical-offset="536">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/templates/record.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="21" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0" vertical-offset="826" max-vertical-offset="2025">
-          <folding />
-        </state>
+        <state line="18" column="35" selection-start="346" selection-end="346" vertical-scroll-proportion="0.5708955" vertical-offset="0" max-vertical-offset="536" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/core/conection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="16" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="830" max-vertical-offset="1377">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/static/js/jquery.blockUI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="474" selection-end="474" vertical-scroll-proportion="0.031835206" vertical-offset="255" max-vertical-offset="10625">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="12" selection-start="3361" selection-end="3361" vertical-scroll-proportion="-2.5384614" vertical-offset="1141" max-vertical-offset="1666">
-          <folding />
-        </state>
+        <state line="16" column="13" selection-start="474" selection-end="474" vertical-scroll-proportion="0.031835206" vertical-offset="255" max-vertical-offset="10625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/templates/sobre.html">
@@ -982,49 +1019,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.26003823" vertical-offset="0" max-vertical-offset="523">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1734" selection-end="1734" vertical-scroll-proportion="1.1066177" vertical-offset="10" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="117" selection-end="117" vertical-scroll-proportion="0.15260324" vertical-offset="0" max-vertical-offset="557">
-          <folding>
-            <marker date="1391949088556" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="214" selection-end="214" vertical-scroll-proportion="0.18312387" vertical-offset="0" max-vertical-offset="557">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="33" selection-end="182" vertical-scroll-proportion="0.06104129" vertical-offset="0" max-vertical-offset="697">
+        <state line="2" column="0" selection-start="33" selection-end="182" vertical-scroll-proportion="0.06104129" vertical-offset="0" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/templates/record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="181" selection-end="181" vertical-scroll-proportion="0.30405405" vertical-offset="0" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DjangoModelDependency/#pydatagen">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#pydatagen</OriginalElement>
+          <nodes>
+            <node x="107.0" y="603.0">app.models.ForeignKey</node>
+            <node x="54.0" y="0.0">app.models.Project</node>
+            <node x="0.0" y="354.0">app.models.Field</node>
+            <node x="44.12035398230091" y="165.81769911504426">app.models.Table</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="app.models.Field" target="app.models.Table">
+              <point x="0.0" y="-99.5" />
+              <point x="0.0" y="63.5" />
+            </edge>
+            <edge source="app.models.Table" target="app.models.Project">
+              <point x="0.0" y="-63.5" />
+              <point x="0.0" y="63.5" />
+            </edge>
+            <edge source="app.models.ForeignKey" target="app.models.Field">
+              <point x="0.0" y="-39.5" />
+              <point x="0.0" y="99.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8048433048433048" x="211.67964601769916" y="241.0" />
+          <SelectedNodes>
+            <node>app.models.Project</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="63" selection-start="718" selection-end="829" vertical-scroll-proportion="0.39527026" vertical-offset="144" max-vertical-offset="2430">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="301" selection-end="301" vertical-scroll-proportion="0.3357271" vertical-offset="0" max-vertical-offset="1394">
+        <state line="34" column="0" selection-start="1030" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1854">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/generic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="27" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="1195" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="729" selection-end="729" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="51" selection-start="370" selection-end="370" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="85" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="52" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="55" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.31634447" vertical-offset="0" max-vertical-offset="569">
+          <folding>
+            <element signature="e#17#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
