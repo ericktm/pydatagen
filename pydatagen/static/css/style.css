@@ -78,6 +78,10 @@ li a {
     margin: 0 auto;
 }
 
+.tam300 {
+    width: 300px;
+}
+
 .tam400 {
     width: 400px;
 }
@@ -92,5 +96,31 @@ li a {
 
 form label {
     width: 100px !important;
+    display: inline-table;
+    margin-left: 10px;
 }
 
+form input {
+    width: 160px;
+}
+
+.form_pesquisa {
+    min-height: 100px;
+}
+
+.table {
+    margin-top: 15px;
+}
+
+#accordion {
+    margin-bottom: 15px;
+}
+
+.actions {
+    margin-top: 30px;
+}
+
+.mini {
+    width: 30px;
+    height: 25px;
+}

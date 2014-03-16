@@ -13,28 +13,28 @@ $(document).ready(function () {
 
     $(document).ajaxStart(function () {
         debug('Iniciando requisição ajax.');
-//        $.blockUI({
-//            message: '<h1> Carregando... </h1>',
-//            css: {
-//                border: 'none',
-//                padding: '15px',
-//                backgroundColor: 'white',
-//                backgroundRepeat: 'no-repeat',
-//                backgroundImage: 'url("/static/img/loader.gif")',
-//                backgroundPosition: 'center',
-//                '-webkit-border-radius': '10px',
-//                '-moz-border-radius': '10px',
-//                opacity: .5,
-//                color: '#0073ea',
-//                paddingTop: '130px'
-//            }
-//        });
+        $.blockUI({
+            message: '<h1> Carregando... </h1>',
+            css: {
+                border: 'none',
+                padding: '15px',
+                backgroundColor: 'white',
+                backgroundRepeat: 'no-repeat',
+                backgroundImage: 'url("/static/img/loader.gif")',
+                backgroundPosition: 'center',
+                '-webkit-border-radius': '10px',
+                '-moz-border-radius': '10px',
+                opacity: .5,
+                color: '#0073ea',
+                paddingTop: '130px'
+            }
+        });
     }).ajaxStop(function () {
         debug('Requisição ajax finalizada!');
         updateScreen();
-//        setTimeout(function () {
-//            $.unblockUI();
-//        }, 1000)
+        setTimeout(function () {
+            $.unblockUI();
+        }, 1000)
     });
 
 
@@ -66,6 +66,7 @@ $(document).ready(function () {
         e.preventDefault();
         var href = $(this).attr('href');
         if (href != '#') {
+            $('#center *').remove();
             console.log('Carregando página ' + href);
             $('#center').load(href);
         }
@@ -90,6 +91,43 @@ $(document).ready(function () {
         });
 
         $('.btn-search').button({
+            icons: {
+                primary: 'ui-icon-search'
+            }
+        });
+
+        $('.btn-add').button({
+            icons: {
+                primary: 'ui-icon-plus'
+            }
+        });
+
+
+        $('.btn-edit').button({
+            icons: {
+                primary: 'ui-icon-pencil'
+            }
+        });
+
+        $('.btn-trash').button({
+            icons: {
+                primary: 'ui-icon-trash'
+            }
+        });
+
+        $('.btn-clean').button({
+            icons: {
+                primary: 'ui-icon-tag'
+            }
+        });
+
+        $('.btn-table').button({
+            icons: {
+                primary: 'ui-icon-calculator'
+            }
+        });
+
+        $('.btn-view').button({
             icons: {
                 primary: 'ui-icon-search'
             }

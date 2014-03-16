@@ -1,20 +1,26 @@
+{% load staticfiles %}
 <div id="accordion">
     <h3>Parâmetros de pesquisa</h3>
 
     <div>
-        <p>
-
-        <form name="form_pesquisa" class="form_pesquisa tam600 center" method="post">
+        <form name="form_pesquisa" class="form_pesquisa center tam600" method="post">
             <label for="codigo">Código:</label>
             <input type="text" name="codigo" id="codigo"/>
 
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome"/>
 
-            <div class="actions center tam400">
+            <div class="actions center tam300">
                 <button type="button" class="btn-search">Pesquisar</button>
+                <button type="button" class="btn-clean">Limpar</button>
+                <button type="button" class="btn-add">Adicionar</button>
             </div>
         </form>
-        </p>
     </div>
 </div>
+
+
+<table id="tab_project" class="table"></table>
+<div id="pag_project"></div>
+
+<script type="text/javascript" src="{% static "js/project/project.js" %}"></script>
