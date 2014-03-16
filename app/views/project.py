@@ -3,6 +3,7 @@ import json
 from django.http.response import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
+from app.business.project.search import ProjectSearch
 
 
 def index(request):
@@ -13,7 +14,8 @@ def search(request):
     retorno = {}
 
     try:
-        pass
+        busca = ProjectSearch(request.GET)
+        retorno = busca.buscar()
     except Exception, e:
         print(e)
 
