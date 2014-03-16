@@ -4,6 +4,7 @@ from django.http.response import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from app.business.project.search import ProjectSearch
+from app.forms import FormProject
 
 
 def index(request):
@@ -21,3 +22,9 @@ def search(request):
 
     retorno = json.dumps(retorno)
     return HttpResponse(retorno, mimetype='text/json')
+
+
+def record(request, id=None):
+    form = FormProject()
+
+    return render_to_response('project/record.html', {'form': form})

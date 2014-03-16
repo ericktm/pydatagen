@@ -82,6 +82,30 @@ $(document).ready(function () {
         console.log(dados);
     });
 
+    $(document).on('click', '.open', function (e) {
+        e.preventDefault();
+
+        var div = $(this).attr('data-div');
+        var url = $(this).attr('data-url');
+
+        if (url != '#') {
+            $('#' + div).remove();
+            $('<div id="' + div + '" class="hidden"></div>').appendTo('#center');
+
+            $('#' + div).load(url);
+
+            $('#' + div).dialog({
+                title: $(this).attr('data-title'),
+                height: $(this).attr('data-height'),
+                width: $(this).attr('data-width'),
+                modal: true,
+                resizable: false
+            });
+        }
+
+
+    });
+
     function updateScreen() {
 
         debug('Atualizando tela');

@@ -124,3 +124,17 @@ form input {
     width: 30px;
     height: 25px;
 }
+
+#footer {
+    position: fixed;
+    height: 50px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.hidden {
+    display: none;
+}

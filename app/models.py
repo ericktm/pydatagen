@@ -18,7 +18,7 @@ TYPE_CHOICES = (
 class Project(models.Model):
     name = models.CharField(verbose_name='Nome do Projeto', max_length=50)
     created = models.DateTimeField(auto_now=True, editable=False)
-    edited = models.DateTimeField(null=True)
+    edited = models.DateTimeField(null=True, editable=False)
 
     def __unicode__(self):
         return self.name.upper()
