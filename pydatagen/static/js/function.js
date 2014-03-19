@@ -82,6 +82,11 @@ $(document).ready(function () {
         console.log(dados);
     });
 
+    $(document).on('submit', '.form_post', function (e) {
+        e.preventDefault();
+        debug('Post de formulário');
+    });
+
     $(document).on('click', '.open', function (e) {
         e.preventDefault();
 
@@ -154,6 +159,12 @@ $(document).ready(function () {
         $('.btn-view').button({
             icons: {
                 primary: 'ui-icon-search'
+            }
+        });
+
+        $('.btn-save').button({
+            icons: {
+                primary: 'ui-icon-disk'
             }
         });
     }
