@@ -4,6 +4,17 @@ function debug(msg) {
     }
 }
 
+function message(title, content, type) {
+    if (!type) {
+        type = 'info';
+    }
+    $.jGrowl(content, {
+        header: title
+    });
+}
+
+$.jGrowl.defaults.closerTemplate = '<div>Fechar todas </div>';
+
 $(document).ready(function () {
     $('.btn-menu').button({
         icons: {
@@ -84,7 +95,23 @@ $(document).ready(function () {
 
     $(document).on('submit', '.form_post', function (e) {
         e.preventDefault();
-        debug('Post de formulário');
+
+        var url = $(this).attr('action');
+        var update = $(this).attr('data-update');
+        var close = $(this).attr('data-close');
+
+        $.post(url, $(this).serialize(), function (retorno) {
+            debug(retorno);
+            if (retorno.success == true) {
+                message('Sucesso', 'Registro salvo com sucesso', 'success');
+                $('#' + update).trigger("reloadGrid");
+                $('#' + close).remove();
+            } else {
+                message('Sucesso', 'Registro salvo com sucesso');
+            }
+
+        });
+
     });
 
     $(document).on('click', '.open', function (e) {

@@ -1,15 +1,6 @@
-/**
- *  Created by erick on 3/16/14.
- */
-
-
 $(document).ready(function () {
 
     function actions(cellValue, options, rowObject) {
-        debug(cellValue);
-        debug(options);
-        debug(rowObject)
-
         var view = '<button class="btn-view mini open" title="Visualizar registro." data-url="/app/project/view/' + rowObject.id + '.html"></button>';
         var table = '<button class="btn-table mini open" title="Tabelas do Projeto" data-url="/app/project/view/' + rowObject.id + '.html"></button>';
         var edit = '<button class="btn-edit mini open" title="Editar Projeto" data-url="/app/project/view/' + rowObject.id + '.html"></button>';
