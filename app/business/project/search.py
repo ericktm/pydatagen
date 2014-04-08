@@ -5,6 +5,8 @@ from app.models import Project
 class ProjectSearch(object):
     def __init__(self, query={}):
 
+        self.dados = Project.objects
+
         self.id = query.get('id')
         self.name = query.get('name')
 
@@ -16,16 +18,15 @@ class ProjectSearch(object):
         self.page = query.get('page', 1)
         self.quant = query.get('rows', 10)
 
-        self.dados = Project.objects
         self.registros = []
 
     def buscar(self):
 
         if self.id:
-            self.dados.filter(pk=self.id)
+            self.dados = self.dados.filter(pk=self.id)
 
         if self.name:
-            self.dados.filter(name__icontains=self.name)
+            self.dados = self.dados.filter(name__icontains=self.name)
 
         return self.paginar()
 

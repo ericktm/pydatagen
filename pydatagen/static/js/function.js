@@ -138,6 +138,28 @@ $(document).ready(function () {
 
     });
 
+    $(document).on('click', '.action', function (e) {
+        e.preventDefault();
+
+        var url = $(this).attr('data-url');
+        var update = $(this).attr('data-update');
+
+
+        if (url != '#') {
+            $.get(url, function (retorno) {
+                debug(retorno);
+                if (retorno.success == true) {
+                    message('Sucesso', 'Registro removido com sucesso', 'success');
+                    $('#' + update).trigger("reloadGrid");
+                } else {
+                    message('Sucesso', retorno.error);
+                }
+            });
+        }
+
+
+    });
+
     function updateScreen() {
 
         debug('Atualizando tela');

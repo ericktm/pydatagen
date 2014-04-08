@@ -1,4 +1,5 @@
-<form method="post" name="form_project" class="center tam400 form_post" action="/app/project/record.html"
+<form method="post" name="form_project" class="center tam400 form_post"
+      action="/app/project/record{% if id %}/{{ id }}{% endif %}.html"
       data-update="tab_project" data-close="dlg-project">
 <ul>
         {{ form.as_ul }}

@@ -3,8 +3,12 @@ $(document).ready(function () {
     function actions(cellValue, options, rowObject) {
         var view = '<button class="btn-view mini open" title="Visualizar registro." data-url="/app/project/view/' + rowObject.id + '.html"></button>';
         var table = '<button class="btn-table mini open" title="Tabelas do Projeto" data-url="/app/project/view/' + rowObject.id + '.html"></button>';
-        var edit = '<button class="btn-edit mini open" title="Editar Projeto" data-url="/app/project/view/' + rowObject.id + '.html"></button>';
-        var trash = '<button class="btn-trash mini open" title="Excluir Projeto" data-url="/app/project/view/' + rowObject.id + '.html"></button>';
+        var edit = '<button class="btn-edit mini open"' +
+            'data-title="Editar Projeto"' +
+            'data-width="500"' +
+            'data-height="300"' +
+            'data-url="/app/project/record/' + rowObject.id + '.html"></button>';
+        var trash = '<button class="btn-trash mini action" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
         return view + table + edit + trash;
     }
 
