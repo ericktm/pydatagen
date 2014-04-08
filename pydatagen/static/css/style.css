@@ -138,3 +138,7 @@ form input {
 .hidden {
     display: none;
 }
+
+form label {
+    cursor: pointer;
+}

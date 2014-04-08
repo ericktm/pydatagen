@@ -7,4 +7,7 @@ urlpatterns = patterns('app.views',
                        url(r'^project/search\.html', 'project.search'),
                        url(r'^project/record/?(?P<id>\d*)?\.html', 'project.record'),
                        url(r'^project/delete/?(?P<id>\d*)?\.html', 'project.delete'),
+
+
+                       url(r'^generate\.html$', 'generate.index'),
 )
