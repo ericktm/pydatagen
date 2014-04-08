@@ -3,7 +3,7 @@
     <h3>Parâmetros de pesquisa</h3>
 
     <div>
-        <form name="form_pesquisa" class="form_pesquisa center tam600" method="post">
+        <form name="form_pesquisa" class="form_pesquisa center tam600 busca_projeto" method="post">
             <label for="codigo">Código:</label>
             <input type="text" name="codigo" id="codigo"/>
 
@@ -11,8 +11,8 @@
             <input type="text" name="nome" id="nome"/>
 
             <div class="actions center tam300">
-                <button type="button" class="btn-search">Pesquisar</button>
-                <button type="button" class="btn-clean">Limpar</button>
+                <button type="submit" class="btn-search">Pesquisar</button>
+                <button type="reset" class="btn-clean" data-update="tab_project">Limpar</button>
                 <button type="button" class="btn-add open"
                         data-div="dlg-project"
                         data-width="500"

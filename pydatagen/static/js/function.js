@@ -160,6 +160,13 @@ $(document).ready(function () {
 
     });
 
+    $(document).on('click', '.btn-clean', function (e) {
+        var update = $(this).attr('data-update');
+        $("#" + update).jqGrid('setGridParam', {
+            datatype: 'local'
+        }).trigger('reloadGrid');
+    });
+
     function updateScreen() {
 
         debug('Atualizando tela');

@@ -28,6 +28,9 @@ class ProjectSearch(object):
         if self.name:
             self.dados = self.dados.filter(name__icontains=self.name)
 
+
+        # Only active records
+        self.dados = self.dados.filter(active=True)
         return self.paginar()
 
     def paginar(self):

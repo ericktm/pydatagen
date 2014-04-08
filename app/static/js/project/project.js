@@ -8,13 +8,14 @@ $(document).ready(function () {
             'data-width="500"' +
             'data-height="300"' +
             'data-url="/app/project/record/' + rowObject.id + '.html"></button>';
-        var trash = '<button class="btn-trash mini action" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
+        var trash = '<button class="btn-trash mini action" data-update="tab_project" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
+        debug(rowObject.id)
         return view + table + edit + trash;
     }
 
     $("#tab_project").jqGrid({
         url: '/app/project/search.html',
-        datatype: "json",
+        datatype: 'local',
         colNames: ['Ações', 'Código', 'Nome do Projeto', 'Data criação', 'Data Edição'],
         colModel: [
             {name: 'actions', width: 50, formatter: actions, align: "center", sortable: false},
@@ -27,6 +28,7 @@ $(document).ready(function () {
         autowidth: true,
         rowList: [10, 15, 20],
         height: 'auto',
+        minHeight: '270px',
         pager: '#pag_project',
         sortname: 'id',
         viewrecords: true,
@@ -34,7 +36,15 @@ $(document).ready(function () {
         hidegrid: false,
         caption: "Resultado da pesquisa",
         scrollOffset: 0,
-        jsonReader: { repeatitems: false }
+        jsonReader: { repeatitems: false}
     });
     $("#tab_project").jqGrid('navGrid', '#pag_project', {edit: false, add: false, del: false, search: false});
+
+    $(document).on('submit', '.busca_projeto', function (e) {
+        e.preventDefault();
+        $("#tab_project").jqGrid('setGridParam', {
+            postData: {id: $('#codigo').val(), name: $('#nome').val()},
+            datatype: 'json'
+        }).trigger('reloadGrid');
+    });
 });
