@@ -10,11 +10,11 @@ $(document).ready(function () {
             'data-height="500"' +
             '></button>';
         var edit = '<button class="btn-edit mini open"' +
-            'data-div="dlt-table"' +
+            'data-div="dlg-table"' +
             'data-title="Editar Tabela"' +
             'data-width="500"' +
             'data-height="300"' +
-            'data-url="/app/table/record/' + rowObject.id + '.html"></button>';
+            'data-url="/app/table/record/' + $('#project').val() + '/' + rowObject.id + '.html"></button>';
         var trash = '<button class="btn-trash mini action" data-update="tab_table" title="Excluir Tabela" data-url="/app/table/delete/' + rowObject.id + '.html"></button>';
         debug(rowObject.id)
         return view + table + edit + trash;
@@ -23,11 +23,12 @@ $(document).ready(function () {
     $("#tab_table").jqGrid({
         url: '/app/table/search.html',
         datatype: 'local',
-        colNames: ['Ações', 'Código', 'Nome do Tabela', 'Data criação', 'Data Edição'],
+        colNames: ['Ações', 'Código', 'Nome da Tabela', 'Ordem', 'Data criação', 'Data Edição'],
         colModel: [
-            {name: 'actions', width: 50, formatter: actions, align: "center", sortable: false},
+            {name: 'actions', width: 90, formatter: actions, align: "center", sortable: false},
             {name: 'id', index: 'id', width: 90, key: true},
-            {name: 'name', index: 'name', width: 200},
+            {name: 'name', index: 'name', width: 100},
+            {name: 'order', index: 'order'},
             {name: 'created', index: 'created', width: 80, align: "center"},
             {name: 'edited', index: 'edited', width: 80, align: "center"}
         ],

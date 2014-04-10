@@ -5,12 +5,12 @@ $(document).ready(function () {
         var table = '<button class="btn-table mini open"' +
             'data-title="Tabelas do Projeto"' +
             'data-url="/app/table/' + rowObject.id + '.html"' +
-            'data-div="dlg-table"' +
+            'data-div="window-table"' +
             'data-width="700"' +
             'data-height="500"' +
             '></button>';
         var edit = '<button class="btn-edit mini open"' +
-            'data-div="dlt-project"' +
+            'data-div="dlg-project"' +
             'data-title="Editar Projeto"' +
             'data-width="500"' +
             'data-height="300"' +

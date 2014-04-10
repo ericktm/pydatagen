@@ -1,12 +1,12 @@
 from django.core.paginator import Paginator
 
-from app.models import Project
+from app.models import Table
 
 
 class TableSearch(object):
     def __init__(self, query={}):
 
-        self.dados = Project.objects
+        self.data = Table.objects
 
         self.project = query.get('project', 0)
         self.id = query.get('id')
@@ -22,42 +22,43 @@ class TableSearch(object):
 
         self.registros = []
 
-    def buscar(self):
+    def search(self):
 
         if self.id:
-            self.dados = self.dados.filter(pk=self.id)
+            self.data = self.data.filter(pk=self.id)
 
         if self.name:
-            self.dados = self.dados.filter(name__icontains=self.name)
+            self.data = self.data.filter(name__icontains=self.name)
 
         if self.project:
-            self.dados = self.dados.filter(project=self.project)
-
+            self.data = self.data.filter(project=self.project)
 
         # Only active records
-        self.dados = self.dados.filter(active=True)
-        return self.paginar()
+        #self.data = self.data.filter(active=True)
+        print('Table search: %s' % self.data.query)
+        return self.paginate()
 
-    def paginar(self):
+    def paginate(self):
 
-        paginator = Paginator(self.dados.order_by(self.order), self.quant)  # Show 25 contacts per page
+        paginator = Paginator(self.data.order_by(self.order), self.quant)  # Show 25 contacts per page
         page_records = paginator.page(self.page)
 
         for registro in page_records:
-            novo = {}
-            novo['id'] = str(registro.id)
-            novo['name'] = registro.name
-            novo['created'] = registro.created.strftime('%d/%m/%Y')
-            novo['edited'] = registro.edited.strftime('%d/%m/%Y') if registro.edited else ' - '
-            self.registros.append(novo)
+            new = {'id': str(registro.id),
+                   'name': registro.name,
+                   'order': registro.order,
+                   'created': registro.created.strftime('%d/%m/%Y'),
+                   'edited': registro.edited.strftime('%d/%m/%Y') if registro.edited else ' - '
+            }
+            self.registros.append(new)
 
-        retorno = {}
-        retorno['records'] = paginator.count
-        retorno['page'] = self.page
-        retorno['rows'] = self.registros
-        retorno['total'] = paginator.num_pages
+        return_data = {'records': paginator.count,
+                       'page': self.page,
+                       'rows': self.registros,
+                       'total': paginator.num_pages
+        }
 
-        return retorno
+        return return_data
 
 
 
