@@ -9,5 +9,6 @@ urlpatterns = patterns('app.views',
                        url(r'^project/delete/?(?P<id>\d*)?\.html', 'project.delete'),
 
 
+                       url(r'^table/?(?P<project>\d*)?\.html', 'table.index'),
                        url(r'^generate\.html$', 'generate.index'),
 )

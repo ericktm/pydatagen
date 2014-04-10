@@ -171,7 +171,7 @@ $(document).ready(function () {
 
         debug('Atualizando tela');
 
-        $('#accordion').accordion({
+        $('.accordion').accordion({
             collapsible: true
         });
 

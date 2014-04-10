@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<div id="accordion_table" class="accordion">
+    <h3>Parâmetros de pesquisa</h3>
+
+    <div>
+        <form name="form_pesquisa" class="form_pesquisa center tam600 busca_table" method="post">
+
+            <input type="hidden" name="project" id="project" value="{{ project }}"/>
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome"/>
+
+            <div class="actions center tam300">
+                <button type="submit" class="btn-search">Pesquisar</button>
+                <button type="reset" class="btn-clean" data-update="tab_table">Limpar</button>
+                <button type="button" class="btn-add open"
+                        data-div="dlg-table"
+                        data-width="500"
+                        data-height="300"
+                        data-title="Cadastro de Tabela"
+                        data-url="/app/table/record.html"
+                        >Adicionar
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<table id="tab_table" class="table"></table>
+<div id="pag_table"></div>
+
+<script type="text/javascript" src="{% static "js/table/table.js" %}"></script>

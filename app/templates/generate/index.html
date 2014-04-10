@@ -1,7 +1,7 @@
 {% load staticfiles %}
 
-
-
-{% for key in retorno %}
-    {{ key }}
+{% for record in retorno %}
+    <li>Nome: {{ record.nome }} - Telefone: {{ record.telefone }} - Cep: {{ record.cep }} - Número: {{ record.numero }}
+        - Nascimento: {{ record.nascimento }}</li>
 {% endfor %}
+
