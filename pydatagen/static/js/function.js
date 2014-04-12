@@ -45,7 +45,7 @@ $(document).ready(function () {
         updateScreen();
         setTimeout(function () {
             $.unblockUI();
-        }, 1000)
+        }, 500)
     });
 
 
@@ -181,6 +181,11 @@ $(document).ready(function () {
             }
         });
 
+        $('.btn-field').button({
+            icons: {
+                primary: 'ui-icon-script'
+            }
+        });
         $('.btn-add').button({
             icons: {
                 primary: 'ui-icon-plus'

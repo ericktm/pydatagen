@@ -1,14 +1,14 @@
 from django.core.paginator import Paginator
 
-from app.models import Table
+from app.models import Field
 
 
-class TableSearch(object):
+class FieldSearch(object):
     def __init__(self, query={}):
 
-        self.data = Table.objects
+        self.data = Field.objects
 
-        self.project = query.get('project', 0)
+        self.table = query.get('table', 0)
         self.id = query.get('id')
         self.name = query.get('name')
 
@@ -30,12 +30,12 @@ class TableSearch(object):
         if self.name:
             self.data = self.data.filter(name__icontains=self.name)
 
-        if self.project:
-            self.data = self.data.filter(project=self.project)
+        if self.table:
+            self.data = self.data.filter(table=self.table)
 
         # Only active records
         self.data = self.data.filter(active=True)
-        print('Table search: %s' % self.data.query)
+        print('Field search: %s' % self.data.query)
         return self.paginate()
 
     def paginate(self):

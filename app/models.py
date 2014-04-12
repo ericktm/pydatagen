@@ -44,9 +44,13 @@ class Field(models.Model):
     null = models.BooleanField('Nulo', default=False)
     type = models.IntegerField(verbose_name='Tipo de Campo', max_length=2, choices=TYPE_CHOICES)
     insert = models.BooleanField(verbose_name='Populável', default=True)
+    created = models.DateTimeField(auto_now_add=True, editable=False)
+    edited = models.DateTimeField(null=True, editable=False, auto_now=True)
+    active = models.BooleanField(default=True, editable=False)
 
-    def __unicode__(self):
-        return '%s - %s' % (self.name, self.table)
+
+def __unicode__(self):
+    return '%s - %s' % (self.name, self.table)
 
 
 class ForeignKey(models.Model):

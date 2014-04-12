@@ -1,4 +1,5 @@
 from django.core.paginator import Paginator
+
 from app.models import Project
 
 
@@ -43,6 +44,7 @@ class ProjectSearch(object):
             novo['id'] = str(registro.id)
             novo['name'] = registro.name
             novo['created'] = registro.created.strftime('%d/%m/%Y')
+            novo['quant'] = registro.app_table_project.filter(active=True).count()
             novo['edited'] = registro.edited.strftime('%d/%m/%Y') if registro.edited else ' - '
             self.registros.append(novo)
 

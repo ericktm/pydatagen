@@ -2,10 +2,10 @@ $(document).ready(function () {
 
     function actions(cellValue, options, rowObject) {
         var view = '<button class="btn-view mini open" title="Visualizar registro." data-url="/app/table/view/' + rowObject.id + '.html"></button>';
-        var table = '<button class="btn-table mini open"' +
-            'data-title="Tabelas do Tabela"' +
-            'data-url="/app/table/' + rowObject.id + '.html"' +
-            'data-div="dlg-table"' +
+        var field = '<button class="btn-field mini open"' +
+            'data-title="Campos da Tabela"' +
+            'data-url="/app/field/' + rowObject.id + '.html"' +
+            'data-div="window-field"' +
             'data-width="700"' +
             'data-height="500"' +
             '></button>';
@@ -16,8 +16,7 @@ $(document).ready(function () {
             'data-height="300"' +
             'data-url="/app/table/record/' + $('#project').val() + '/' + rowObject.id + '.html"></button>';
         var trash = '<button class="btn-trash mini action" data-update="tab_table" title="Excluir Tabela" data-url="/app/table/delete/' + rowObject.id + '.html"></button>';
-        debug(rowObject.id)
-        return view + table + edit + trash;
+        return field + edit + trash;
     }
 
     $("#tab_table").jqGrid({
@@ -25,7 +24,7 @@ $(document).ready(function () {
         datatype: 'local',
         colNames: ['Ações', 'Código', 'Nome da Tabela', 'Ordem', 'Data criação', 'Data Edição'],
         colModel: [
-            {name: 'actions', width: 90, formatter: actions, align: "center", sortable: false},
+            {name: 'actions', formatter: actions, align: "center", sortable: false},
             {name: 'id', index: 'id', width: 90, key: true},
             {name: 'name', index: 'name', width: 100},
             {name: 'order', index: 'order'},
@@ -34,9 +33,7 @@ $(document).ready(function () {
         ],
         rowNum: 10,
         autowidth: true,
-        rowList: [10, 15, 20],
-        height: 'auto',
-        minHeight: '270px',
+        height: '270',
         pager: '#pag_table',
         sortname: 'order',
         viewrecords: true,
@@ -48,10 +45,13 @@ $(document).ready(function () {
     });
     $("#tab_table").jqGrid('navGrid', '#pag_table', {edit: false, add: false, del: false, search: false});
 
-    $(document).on('submit', '.busca_Tabela', function (e) {
+    $(document).on('submit', '.busca_table', function (e) {
         e.preventDefault();
         $("#tab_table").jqGrid('setGridParam', {
-            postData: {project: $('#project').val(), name: $('#nome').val()},
+            postData: {
+                id: $('#codigo_tabela').val(),
+                project: $('#project').val(),
+                name: $('#nome_tabela').val()},
             datatype: 'json'
         }).trigger('reloadGrid');
     });

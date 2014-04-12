@@ -7,7 +7,7 @@ $(document).ready(function () {
             'data-url="/app/table/' + rowObject.id + '.html"' +
             'data-div="window-table"' +
             'data-width="700"' +
-            'data-height="500"' +
+            'data-height="600"' +
             '></button>';
         var edit = '<button class="btn-edit mini open"' +
             'data-div="dlg-project"' +
@@ -23,11 +23,12 @@ $(document).ready(function () {
     $("#tab_project").jqGrid({
         url: '/app/project/search.html',
         datatype: 'local',
-        colNames: ['Ações', 'Código', 'Nome do Projeto', 'Data criação', 'Data Edição'],
+        colNames: ['Ações', 'Código', 'Nome do Projeto', 'Quant. Tabelas', 'Data criação', 'Data Edição'],
         colModel: [
             {name: 'actions', width: 50, formatter: actions, align: "center", sortable: false},
             {name: 'id', index: 'id', width: 90, key: true},
             {name: 'name', index: 'name', width: 200},
+            {name: 'quant', index: 'quant', sortable: false},
             {name: 'created', index: 'created', width: 80, align: "center"},
             {name: 'edited', index: 'edited', width: 80, align: "center"}
         ],
