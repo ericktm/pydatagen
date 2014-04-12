@@ -16,7 +16,6 @@ $(document).ready(function () {
             'data-height="300"' +
             'data-url="/app/project/record/' + rowObject.id + '.html"></button>';
         var trash = '<button class="btn-trash mini action" data-update="tab_project" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
-        debug(rowObject.id)
         return view + table + edit + trash;
     }
 

@@ -3,7 +3,7 @@ from django.db import models
 
 
 TYPE_CHOICES = (
-    (1, 'Lero Lero'),
+    (1, 'String'),
     (2, 'Nome de Pessoa'),
     (3, 'Data'),
     (4, 'Inteiro'),
@@ -44,6 +44,7 @@ class Field(models.Model):
     null = models.BooleanField('Nulo', default=False)
     type = models.IntegerField(verbose_name='Tipo de Campo', max_length=2, choices=TYPE_CHOICES)
     insert = models.BooleanField(verbose_name='Populável', default=True)
+    regex = models.CharField(verbose_name='Expressão regular', max_length=100, null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True, editable=False)
     edited = models.DateTimeField(null=True, editable=False, auto_now=True)
     active = models.BooleanField(default=True, editable=False)

@@ -1,0 +1,15 @@
+<form method="post" name="form_field" class="center tam400 form_post"
+      action="/app/field/record/{{ table_id }}{% if id %}/{{ id }}{% endif %}.html"
+      data-update="tab_field" data-close="dlg-field">
+    <ul>
+        {{ form.as_ul }}
+    </ul>
+
+    <div class="actions center tam400">
+        <button type="submit" class="btn-save">
+            Salvar
+        </button>
+    </div>
+</form>
+
+

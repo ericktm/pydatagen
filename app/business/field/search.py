@@ -46,7 +46,8 @@ class FieldSearch(object):
         for registro in page_records:
             new = {'id': str(registro.id),
                    'name': registro.name,
-                   'order': registro.order,
+                   'type': registro.get_type_display(),
+                   'insert': registro.insert,
                    'created': registro.created.strftime('%d/%m/%Y'),
                    'edited': registro.edited.strftime('%d/%m/%Y') if registro.edited else ' - '
             }

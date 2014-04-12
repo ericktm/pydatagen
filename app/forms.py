@@ -18,9 +18,11 @@ class FormTable(ModelForm):
 
 
 class FormField(ModelForm):
+    table = forms.ModelChoiceField(queryset=Table.objects.all(),
+                                   widget=forms.HiddenInput)
+
     class Meta:
         model = Field
-        exclude = {'table'}
 
 
 class FormAssociate(ModelForm):

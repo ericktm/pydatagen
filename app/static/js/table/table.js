@@ -6,8 +6,8 @@ $(document).ready(function () {
             'data-title="Campos da Tabela"' +
             'data-url="/app/field/' + rowObject.id + '.html"' +
             'data-div="window-field"' +
-            'data-width="700"' +
-            'data-height="500"' +
+            'data-width="750"' +
+            'data-height="550"' +
             '></button>';
         var edit = '<button class="btn-edit mini open"' +
             'data-div="dlg-table"' +
