@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="Adicionada estrutura básica de cadastro de tabelas.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export.sql" afterPath="$PROJECT_DIR$/export.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/generate.py" afterPath="$PROJECT_DIR$/app/views/generate.py" />
+    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="Adicionado escape para nomes">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -42,10 +40,10 @@
       <file leaf-file-name="generate.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="21" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.6424474" vertical-offset="616" max-vertical-offset="1190">
+            <state line="57" column="21" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.6449136" vertical-offset="633" max-vertical-offset="1207">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1401235870263" expanded="true" signature="414:445" placeholder="INSERT INTO ..." />
+                <marker date="1401238300820" expanded="true" signature="415:446" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -939,7 +937,11 @@
       <created>1397600849975</created>
       <updated>1397600849975</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adicionado escape para nomes">
+      <created>1401238301695</created>
+      <updated>1401238301695</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -964,8 +966,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1931" height="1040" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -975,13 +978,12 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38105977" sideWeight="0.49946752" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3819209" sideWeight="0.49946752" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3387271" sideWeight="0.49945474" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1017,7 +1019,8 @@
     <MESSAGE value="Implementada funcionalidade de busca de projetos, integrada com a grid" />
     <MESSAGE value="Implementadas views simples para testes de geração de strings randomicas" />
     <MESSAGE value="Adicionada estrutura básica de cadastro de tabelas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionada estrutura básica de cadastro de tabelas." />
+    <MESSAGE value="Adicionado escape para nomes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado escape para nomes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1316,10 +1319,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/generate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="21" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.6424474" vertical-offset="616" max-vertical-offset="1190">
+        <state line="57" column="21" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.6449136" vertical-offset="633" max-vertical-offset="1207">
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1401235870263" expanded="true" signature="414:445" placeholder="INSERT INTO ..." />
+            <marker date="1401238300820" expanded="true" signature="415:446" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
