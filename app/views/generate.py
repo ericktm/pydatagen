@@ -1,3 +1,5 @@
+import re
+
 from django.shortcuts import render_to_response
 import exrex
 from faker.factory import Factory
@@ -30,8 +32,6 @@ def index(request, project=None):
             else:
                 columns_names += ',%s' % column.name
 
-        print(columns_names)
-
         for i in range(quant):
             values = ''
             for field in fields:
@@ -51,7 +51,7 @@ def index(request, project=None):
                         value = "'%s'" % exrex.getone(field.regex)
                 #Person Name
                 elif field.type == 2:
-                    value = "'%s'" % factory.name()
+                    value = "'%s'" % re.escape(factory.name())
 
                 if values == '':
                     values += '%s' % value
@@ -59,8 +59,6 @@ def index(request, project=None):
                     values += ', %s' % value
             #After generate all fields
             sql += sql_insert % (table.name, columns_names, values)
-
-    print(sql)
 
     file = open('export.sql', 'w')
     file.write(sql)
