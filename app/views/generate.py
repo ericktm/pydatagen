@@ -1,5 +1,3 @@
-import re
-
 from django.shortcuts import render_to_response
 import exrex
 from faker.factory import Factory
@@ -51,7 +49,7 @@ def index(request, project=None):
                         value = "'%s'" % exrex.getone(field.regex)
                 #Person Name
                 elif field.type == 2:
-                    value = "'%s'" % re.escape(factory.name())
+                    value = "'%s'" % factory.name().replace("'", "")
 
                 if values == '':
                     values += '%s' % value
