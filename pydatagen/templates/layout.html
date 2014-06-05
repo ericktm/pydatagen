@@ -9,7 +9,7 @@
     {#    <link rel="shortcut icon" href="../../assets/ico/favicon.png">#}
     <title>Pydatagen - {% block title %} Gerador Automático de
         registros {% endblock %}</title>
-    <link href="{% static "css/flick/jquery-ui-1.10.4.custom.min.css" %}" rel="stylesheet" type="text/css">
+    <link href="{% static "css/default/jquery-ui.min.css" %}" rel="stylesheet" type="text/css">
     <link href="{% static "css/style.css" %}" rel="stylesheet" type="text/css"/>
     <link href="{% static "css/ui.jqgrid.css" %}" rel="stylesheet" type="text/css"/>
     <link href="{% static "css/jquery.jgrowl.min.css" %}" rel="stylesheet" type="text/css"/>
@@ -18,7 +18,8 @@
     var DEBUG = true;
 </script>
 <body>
-<div id="top">
+{% block layout %}
+    <div id="top">
     <div class="menu ui-widget-header">
         <li class="sub_menu">
             <a href="#" class="btn-menu"> Cadastros</a>
@@ -55,14 +56,11 @@
         </li>
 
         <li class="sub_menu right">
-            <a href="#" class="btn-menu"> Sessão</a>
+            <a href="#" class="btn-menu"> Usuário: {{ request.user.username }}</a>
             <ul>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
+                <li class="ui-widget-content"><a href="#">Perfil</a></li>
+                <li class="ui-widget-content"><a href="{% url "django.contrib.auth.views.logout" %}">Encerrar Sessão</a>
+                </li>
             </ul>
         </li>
     </div>
@@ -74,6 +72,8 @@
 <div id="footer">
 
 </div>
+{% endblock %}
+
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->

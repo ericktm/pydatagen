@@ -83,16 +83,6 @@ $(document).ready(function () {
         }
     });
 
-    $('form').on('submit', function (e) {
-        e.preventDefault();
-        var form = $(this);
-        var dados = form.serialize();
-        $.post(form.attr('action'), dados, function (retorno) {
-            console.log(retorno);
-        });
-        console.log(dados);
-    });
-
     $(document).on('submit', '.form_post', function (e) {
         e.preventDefault();
 

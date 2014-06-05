@@ -1,14 +1,18 @@
 #! coding: utf-8
 import json
+
+from django.contrib.auth.decorators import login_required
 from django.http.response import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.views.decorators.csrf import csrf_exempt
+
 from app.business.project.search import ProjectSearch
 from app.forms import FormProject
 from app.models import Project
 
 
+@login_required
 def index(request):
     return render_to_response('project/index.html', RequestContext(request))
 
