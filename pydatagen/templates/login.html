@@ -4,7 +4,7 @@
 {% block layout %}
 
 
-    <div id="window" title="Autenticação">
+    <div id="window" class="hidden" title="Autenticação Obrigatória">
         {% if form.errors %}
             <p>Usuário e/ou senha inválidos.</p>
         {% endif %}
@@ -21,8 +21,10 @@
                     <td>{{ form.password }}</td>
                 </tr>
             </table>
-            <button type="submit" id="btn_login">Autenticar</button>
+            <button type="submit" id="btn_login" title="Autenticar">Autenticar</button>
             <input type="hidden" name="next" value="{{ next }}"/>
+            <a href="http://erick.net.br" title="Erick Oliveira - http://erick.net.br"> Erick Oliveira
+                - {% now 'Y' %}</a>
         </form>
 
     </div>

@@ -5,7 +5,9 @@
 $(document).ready(function () {
 
     $('#window').dialog({
-        resizable: false
+        resizable: false,
+        modal: true,
+        closeOnEscape: false
     });
 
     $('#btn_login').button({
@@ -13,4 +15,6 @@ $(document).ready(function () {
             secondary: "ui-icon-key"
         }
     });
+
+    $(".ui-dialog-titlebar-close").hide();
 });

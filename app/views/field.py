@@ -1,5 +1,6 @@
 import json
 
+from django.contrib.auth.decorators import login_required
 from django.http.response import HttpResponse
 from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
@@ -9,6 +10,7 @@ from app.forms import FormField
 from app.models import Field, Table
 
 
+@login_required
 def index(request, table=None):
     return_data = {'table': table}
 
@@ -16,6 +18,7 @@ def index(request, table=None):
 
 
 @csrf_exempt
+@login_required
 def search(request):
     return_data = {}
     try:
@@ -28,6 +31,7 @@ def search(request):
     return HttpResponse(return_data, content_type='text/json')
 
 
+@login_required
 @csrf_exempt
 def record(request, id=None, table_id=None):
     if request.method == 'POST':
@@ -70,6 +74,7 @@ def save(data, id=None):
     return HttpResponse(json.dumps(return_data), content_type='text/json')
 
 
+@login_required
 @csrf_exempt
 def delete(request, id=None):
     retorno = {}

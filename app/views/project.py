@@ -17,6 +17,7 @@ def index(request):
     return render_to_response('project/index.html', RequestContext(request))
 
 
+@login_required
 def search(request):
     retorno = {}
 
@@ -31,6 +32,7 @@ def search(request):
 
 
 @csrf_exempt
+@login_required
 def record(request, id=None):
     if request.method == 'POST':
         return save(request.POST, id)
@@ -45,6 +47,7 @@ def record(request, id=None):
         return render_to_response('project/record.html', retorno)
 
 
+@login_required
 def save(data, id=None):
     try:
         retorno = {}
@@ -68,6 +71,7 @@ def save(data, id=None):
 
 
 @csrf_exempt
+@login_required
 def delete(request, id=None):
     retorno = {}
 

@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render_to_response
 import exrex
 from faker.factory import Factory
@@ -5,6 +6,7 @@ from faker.factory import Factory
 from app.models import Project
 
 
+@login_required
 def index(request, project=None):
     retorno = []
     factory = Factory.create()

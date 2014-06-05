@@ -1,6 +1,7 @@
 #! coding: utf-8
 import json
 
+from django.contrib.auth.decorators import login_required
 from django.http.response import HttpResponse
 from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
@@ -73,6 +74,7 @@ def save(data, id=None):
     return HttpResponse(json.dumps(return_data), content_type='text/json')
 
 
+@login_required
 @csrf_exempt
 def delete(request, id=None):
     retorno = {}
