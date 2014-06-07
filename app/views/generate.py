@@ -3,6 +3,7 @@ from django.shortcuts import render_to_response
 import exrex
 from faker.factory import Factory
 
+from app.core.generator.main import Generator
 from app.models import Project
 
 
@@ -22,6 +23,8 @@ def index(request, project=None):
 
         sql_insert = 'INSERT INTO %s (%s) VALUES (%s);\n'
 
+        fabric = Generator()
+
         #get active fields
         fields = table.app_field_table.filter(active=True, insert=True).all()
 
@@ -40,9 +43,9 @@ def index(request, project=None):
                 # Case Integer
                 if field.type == 4:
                     if field.regex == '':
-                        value = "%s" % exrex.getone('\d{2}')
+                        value = "%s" % fabric.get_regex('\d{2}')
                     else:
-                        value = "%s" % exrex.getone(field.regex)
+                        value = "%s" % fabric.get_regex(field.regex)
                 #case string
                 elif field.type == 1:
                     if field.regex == '':
@@ -51,7 +54,7 @@ def index(request, project=None):
                         value = "'%s'" % exrex.getone(field.regex)
                 #Person Name
                 elif field.type == 2:
-                    value = "'%s'" % factory.name().replace("'", "")
+                    value = "'%s'" % fabric.get_name().replace("'", "")
 
                 if values == '':
                     values += '%s' % value

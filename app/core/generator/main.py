@@ -1,4 +1,5 @@
 #! coding: utf-8
+import os
 import random
 from datetime import timedelta
 import datetime
@@ -10,14 +11,15 @@ import exrex
 
 class Generator(object):
     def __init__(self):
+        print(os.getcwd())
         super(Generator, self).__init__()
         self.names = self.get_names()
-        self.countries = self.countries()
+        self.countries = self.get_countries()
 
     @staticmethod
     def get_names():
         names = []
-        arquivo = open('names.csv', 'r')
+        arquivo = open('pydatagen/res/names.csv', 'r')
         for linha in arquivo:
             names.append(linha)
         print len(names)
@@ -27,7 +29,7 @@ class Generator(object):
     def get_countries():
         countries = []
 
-        arquivo = open('country_list.txt', 'r')
+        arquivo = open('pydatagen/res/country_list.txt', 'r')
         for line in arquivo:
             countries.append(line)
 
