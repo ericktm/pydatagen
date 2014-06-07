@@ -5,13 +5,17 @@ import datetime
 from random import choice
 import re
 
+import exrex
+
 
 class Generator(object):
     def __init__(self):
         super(Generator, self).__init__()
         self.names = self.get_names()
+        self.countries = self.countries()
 
-    def get_names(self):
+    @staticmethod
+    def get_names():
         names = []
         arquivo = open('names.csv', 'r')
         for linha in arquivo:
@@ -19,7 +23,26 @@ class Generator(object):
         print len(names)
         return names
 
+    @staticmethod
+    def get_countries():
+        countries = []
+
+        arquivo = open('country_list.txt', 'r')
+        for line in arquivo:
+            countries.append(line)
+
+        return countries
+
+    def get_country(self):
+        return random.choice(self.countries)
+
     def get_int(self, min=0, max=100):
+        """
+
+        @param min:
+        @param max:
+        @return:
+        """
         return random.randint(min, max)
 
     def get_date(self, start, end):
@@ -29,9 +52,7 @@ class Generator(object):
             seconds=random.randint(0, int((end - start).total_seconds())))
 
     def get_regex(self, regex=str()):
-        result = rstr.xeger('\d{2}')
-        print('teste')
-        return rstr.xeger('\d{2}')
+        return exrex.getone(regex)
 
 
     '''

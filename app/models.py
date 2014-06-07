@@ -7,7 +7,8 @@ TYPE_CHOICES = (
     (2, 'Nome de Pessoa'),
     (3, 'Data'),
     (4, 'Inteiro'),
-    (5, 'Chave Estrangeira')
+    (5, 'Chave Estrangeira'),
+    (6, 'País'),
 )
 #
 #GENDER_CHOICES = (
