@@ -1,6 +1,8 @@
 # Django settings for pydatagen project.
 import os
+
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
+
 
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 
@@ -124,7 +126,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'south',
-    'app'
+    'app',
+    'gunicorn',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS += (
