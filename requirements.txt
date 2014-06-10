@@ -6,3 +6,4 @@ gunicorn==18.0
 psycopg2==2.5.3
 setproctitle==1.1.8
 wsgiref==0.1.2
+fake-factory==0.2

@@ -36,6 +36,15 @@ source ../bin/activate
 export DJANGO_SETTINGS_MODULE=${DJANGO_SETTINGS_MODULE}
 export PYTHONPATH=${DJANGODIR}:${PYTHONPATH}
 
+## Copy Static files
+./manage.py collectstatic --noinput
+
+## Migrate Database
+./manage.py migrate
+
+# Remove python compiled files
+find . -name '*.pyc' |xargs rm -f
+
 # Create the run directory if it doesn't exist
 # Create the run directory if it doesn't exist
 RUNDIR=$(dirname $SOCKFILE)

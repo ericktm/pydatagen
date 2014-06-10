@@ -47,7 +47,6 @@ def record(request, id=None):
         return render_to_response('project/record.html', retorno)
 
 
-@login_required
 def save(data, id=None):
     try:
         retorno = {}
@@ -70,8 +69,8 @@ def save(data, id=None):
     return HttpResponse(json.dumps(retorno), content_type='text/json')
 
 
-@csrf_exempt
 @login_required
+@csrf_exempt
 def delete(request, id=None):
     retorno = {}
 
