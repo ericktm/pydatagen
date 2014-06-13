@@ -1,125 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="Adicionado PIP&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_0_eeeeee_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_55_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_0073ea_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_666666_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_ff0084_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/field/field.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/generic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/i18n/grid.locale-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/i18n/grid.locale-pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-1.9.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flick/jquery-ui-1.10.4.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/i18n/jquery-ui-i18n.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/default/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/jquery.jgrowl.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.jgrowl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.jqGrid.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-en-AU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-en-GB.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-en-NZ.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-pt-BR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/project/project.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen-nginx.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/table/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/ui.jqgrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/animated-overlay.gif" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/animated-overlay.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/img/loader.gif" afterPath="$PROJECT_DIR$/pydatagen/static/img/loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_flat_0_eeeeee_40x100.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_flat_0_eeeeee_40x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_flat_55_ffffff_40x100.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_flat_55_ffffff_40x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_0073ea_256x240.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_0073ea_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_454545_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_666666_256x240.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_666666_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_ff0084_256x240.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_ff0084_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/images/ui-icons_ffffff_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/migrations/0002_auto__add_field_project_created__add_field_project_edited.py" afterPath="$PROJECT_DIR$/app/migrations/0002_auto__add_field_project_created__add_field_project_edited.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/migrations/0003_auto__add_field_project_active.py" afterPath="$PROJECT_DIR$/app/migrations/0003_auto__add_field_project_active.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/migrations/0004_auto__add_field_table_created__add_field_table_edited__add_field_table.py" afterPath="$PROJECT_DIR$/app/migrations/0004_auto__add_field_table_created__add_field_table_edited__add_field_table.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/migrations/0005_auto__add_field_field_created__add_field_field_edited__add_field_field.py" afterPath="$PROJECT_DIR$/app/migrations/0005_auto__add_field_field_created__add_field_field_edited__add_field_field.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/migrations/0006_auto__add_field_table_regex.py" afterPath="$PROJECT_DIR$/app/migrations/0006_auto__add_field_table_regex.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/migrations/0007_auto__add_field_field_regex__del_field_table_regex.py" afterPath="$PROJECT_DIR$/app/migrations/0007_auto__add_field_field_regex__del_field_table_regex.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/business/__init__.py" afterPath="$PROJECT_DIR$/app/business/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/business/field/__init__.py" afterPath="$PROJECT_DIR$/app/business/field/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/business/project/__init__.py" afterPath="$PROJECT_DIR$/app/business/project/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/business/table/__init__.py" afterPath="$PROJECT_DIR$/app/business/table/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/__init__.py" afterPath="$PROJECT_DIR$/app/views/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/util/__init__.py" afterPath="$PROJECT_DIR$/pydatagen/util/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/res/country_list.txt" afterPath="$PROJECT_DIR$/pydatagen/res/country_list.txt" />
+    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="aLterado arquivo de automação de deploy">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy.sh" afterPath="$PROJECT_DIR$/deploy.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export.sql" afterPath="$PROJECT_DIR$/export.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/field/field.js" afterPath="$PROJECT_DIR$/app/static/js/field/field.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/field.py" afterPath="$PROJECT_DIR$/app/views/field.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/function.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/generate.py" afterPath="$PROJECT_DIR$/app/views/generate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/generic.js" afterPath="$PROJECT_DIR$/app/static/generic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/i18n/grid.locale-en.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/i18n/grid.locale-en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/i18n/grid.locale-pt-br.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/i18n/grid.locale-pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/field/index.html" afterPath="$PROJECT_DIR$/app/templates/field/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/generate/index.html" afterPath="$PROJECT_DIR$/app/templates/generate/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/project/index.html" afterPath="$PROJECT_DIR$/app/templates/project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/table/index.html" afterPath="$PROJECT_DIR$/app/templates/table/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/flick/jquery-ui-1.10.4.custom.min.css" afterPath="$PROJECT_DIR$/pydatagen/static/css/flick/jquery-ui-1.10.4.custom.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/jquery.blockUI.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/jquery.blockUI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/jquery.jgrowl.min.css" afterPath="$PROJECT_DIR$/pydatagen/static/css/jquery.jgrowl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/jquery.jgrowl.min.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/jquery.jgrowl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/jquery.jqGrid.min.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/jquery.jqGrid.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/templates/login.html" afterPath="$PROJECT_DIR$/pydatagen/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/login.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/res/names.csv" afterPath="$PROJECT_DIR$/pydatagen/res/names.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/util/pagination.py" afterPath="$PROJECT_DIR$/pydatagen/util/pagination.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/project/project.js" afterPath="$PROJECT_DIR$/app/static/js/project/project.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/project.py" afterPath="$PROJECT_DIR$/app/views/project.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen.conf" afterPath="$PROJECT_DIR$/pydatagen.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/field/record.html" afterPath="$PROJECT_DIR$/app/templates/field/record.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/project/record.html" afterPath="$PROJECT_DIR$/app/templates/project/record.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/table/record.html" afterPath="$PROJECT_DIR$/app/templates/table/record.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/business/field/search.py" afterPath="$PROJECT_DIR$/app/business/field/search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/business/project/search.py" afterPath="$PROJECT_DIR$/app/business/project/search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/business/table/search.py" afterPath="$PROJECT_DIR$/app/business/table/search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/style.css" afterPath="$PROJECT_DIR$/pydatagen/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/table/table.js" afterPath="$PROJECT_DIR$/app/static/js/table/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/table.py" afterPath="$PROJECT_DIR$/app/views/table.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/ui.jqgrid.css" afterPath="$PROJECT_DIR$/pydatagen/static/css/ui.jqgrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/urls.py" afterPath="$PROJECT_DIR$/app/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery.jqGrid.min.js" afterPath="$PROJECT_DIR$/static/js/jquery.jqGrid.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen-nginx.conf" afterPath="$PROJECT_DIR$/pydatagen-nginx.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -158,33 +43,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.sh" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4499151" vertical-offset="527" max-vertical-offset="1170">
-              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pydatagen-nginx.conf" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pydatagen-nginx.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pydatagen-nginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.7647057" vertical-offset="0" max-vertical-offset="1242">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25058004" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+            <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="252">
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
@@ -214,7 +99,7 @@
       <file leaf-file-name="project.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="1512">
+            <state vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1692">
               <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
               <folding />
             </state>
@@ -234,7 +119,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="684">
+            <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="684">
               <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding />
             </state>
@@ -318,9 +203,9 @@
         <option value="$PROJECT_DIR$/pydatagen.conf" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/pydatagen/static/js/function.js" />
-        <option value="$PROJECT_DIR$/pydatagen-nginx.conf" />
         <option value="$PROJECT_DIR$/app/views/project.py" />
         <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/pydatagen-nginx.conf" />
       </list>
     </option>
   </component>
@@ -390,114 +275,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -939,7 +716,11 @@
       <created>1402241353015</created>
       <updated>1402241353015</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="aLterado arquivo de automação de deploy">
+      <created>1402443521325</created>
+      <updated>1402443521325</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -972,7 +753,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37214136" sideWeight="0.49946752" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33679834" sideWeight="0.49945474" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33679834" sideWeight="0.49945474" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.6853377" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1023,7 +804,8 @@
     <MESSAGE value="Implementado login obirgatorio para todas as views" />
     <MESSAGE value="Adicionado tipo de preenchiumento País;&#10;Implementado arquivo com lista de países do mundo todo(em ingles);&#10;Implementados metódos para busca e retorno de nomes de países válidos;" />
     <MESSAGE value="Adicionado PIP&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado PIP&#10;" />
+    <MESSAGE value="aLterado arquivo de automação de deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="aLterado arquivo de automação de deploy" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1037,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1188">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
           <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="1728">
           <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1188">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1170">
           <caret line="44" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="1728">
           <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1188">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,15 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1368" max-vertical-offset="1728">
           <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/core/generator/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1854">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,13 +1123,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/export.sql">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="35964">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
@@ -1398,20 +1164,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen-nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.7647057" vertical-offset="0" max-vertical-offset="1242">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="684">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="684">
           <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding />
         </state>
@@ -1425,10 +1180,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/generator/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1854">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4499151" vertical-offset="527" max-vertical-offset="1170">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen-nginx.conf">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25058004" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
