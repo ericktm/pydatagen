@@ -14,5 +14,6 @@ urlpatterns = patterns('',
                         {'document_root': settings.MEDIA_ROOT}),
 
                        (r'^accounts/login/$', 'django.contrib.auth.views.login', {'template_name': 'login.html'}),
+                       (r'^accounts/login/do$', 'app.views.user.do_login'),
                        (r'^accounts/logout/$', 'django.contrib.auth.views.logout', {'next_page': '/'}),
 )
