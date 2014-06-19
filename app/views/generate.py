@@ -63,7 +63,7 @@ def index(request, project=None):
             #After generate all fields
             sql += sql_insert % (table.name, columns_names, values)
 
-    file = open('export.sql', 'w')
+    file = open('pydatagen/output/export.sql', 'w')
     file.write(sql)
 
     return render_to_response('generate/index.html', {'retorno': retorno})
