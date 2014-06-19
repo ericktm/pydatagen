@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="Alterado user do nginx">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/img/loader.gif" afterPath="$PROJECT_DIR$/pydatagen/static/img/loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/function.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/function.js" afterPath="$PROJECT_DIR$/static/js/function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/login.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/login.js" afterPath="$PROJECT_DIR$/static/js/login.js" />
+    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="Modificados metodos de login via js;&#10;alterado loading ajax da aplicação;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export.sql" afterPath="$PROJECT_DIR$/export.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/generate.py" afterPath="$PROJECT_DIR$/app/views/generate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -33,13 +30,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="generate.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="generate.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1332">
-              <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.66615146" vertical-offset="469" max-vertical-offset="1224">
+              <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
               <folding>
-                <marker date="1402235736753" expanded="true" signature="524:555" placeholder="INSERT INTO ..." />
+                <marker date="1403207644370" expanded="true" signature="524:555" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -125,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="function.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7527047" vertical-offset="2232" max-vertical-offset="4032">
-              <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2232" max-vertical-offset="4032">
+              <caret line="140" column="11" selection-start-line="140" selection-start-column="11" selection-end-line="140" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -194,7 +191,6 @@
         <option value="$PROJECT_DIR$/app/views/table.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/app/core/generator/main.py" />
-        <option value="$PROJECT_DIR$/app/views/generate.py" />
         <option value="$PROJECT_DIR$/pydatagen/settings.py" />
         <option value="$PROJECT_DIR$/pydatagen.conf" />
         <option value="$PROJECT_DIR$/requirements.txt" />
@@ -206,6 +202,7 @@
         <option value="$PROJECT_DIR$/app/views/user.py" />
         <option value="$PROJECT_DIR$/pydatagen/static/js/login.js" />
         <option value="$PROJECT_DIR$/pydatagen/static/js/function.js" />
+        <option value="$PROJECT_DIR$/app/views/generate.py" />
       </list>
     </option>
   </component>
@@ -741,7 +738,11 @@
       <created>1402967111212</created>
       <updated>1402967111212</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Modificados metodos de login via js;&#10;alterado loading ajax da aplicação;">
+      <created>1403192354821</created>
+      <updated>1403192354821</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -771,6 +772,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29637527" sideWeight="0.6784969" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23767799" sideWeight="0.49946752" order="2" side_tool="false" content_ui="tabs" />
@@ -780,7 +782,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -827,7 +828,8 @@
     <MESSAGE value="Adicionado PIP&#10;" />
     <MESSAGE value="aLterado arquivo de automação de deploy" />
     <MESSAGE value="Alterado user do nginx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterado user do nginx" />
+    <MESSAGE value="Modificados metodos de login via js;&#10;alterado loading ajax da aplicação;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificados metodos de login via js;&#10;alterado loading ajax da aplicação;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -849,7 +851,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1224">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
-            <marker date="1402235736753" expanded="true" signature="524:555" placeholder="INSERT INTO ..." />
+            <marker date="1403207644370" expanded="true" signature="524:555" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1169,16 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/generate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1224">
-          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-          <folding>
-            <marker date="1402235736753" expanded="true" signature="524:555" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
@@ -1221,9 +1213,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7527047" vertical-offset="2232" max-vertical-offset="4032">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2232" max-vertical-offset="4032">
+          <caret line="140" column="11" selection-start-line="140" selection-start-column="11" selection-end-line="140" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66615146" vertical-offset="469" max-vertical-offset="1224">
+          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
+          <folding>
+            <marker date="1403207644370" expanded="true" signature="524:555" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -54,7 +54,7 @@ def index(request, project=None):
                         value = "'%s'" % exrex.getone(field.regex)
                 #Person Name
                 elif field.type == 2:
-                    value = "'%s'" % fabric.get_name().replace("'", "")
+                    value = "'%s'" % fabric.get_name().replace("\n", "")
 
                 if values == '':
                     values += '%s' % value
