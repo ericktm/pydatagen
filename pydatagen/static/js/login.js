@@ -26,6 +26,8 @@ $(document).ready(function () {
         $.post(form.attr('action'), dados, function (retorno) {
             if (retorno.status == 'success') {
                 window.location = "/";
+            } else {
+                message('Erro na autenticação', retorno.message, 'error');
             }
         });
         console.log(dados);

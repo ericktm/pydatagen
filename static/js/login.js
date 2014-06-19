@@ -17,4 +17,17 @@ $(document).ready(function () {
     });
 
     $(".ui-dialog-titlebar-close").hide();
+
+
+    $('form').on('submit', function (e) {
+        e.preventDefault();
+        var form = $(this);
+        var dados = form.serialize();
+        $.post(form.attr('action'), dados, function (retorno) {
+            if (retorno.status == 'success') {
+                window.location = "/";
+            }
+        });
+        console.log(dados);
+    });
 });
