@@ -31,7 +31,7 @@ class Generator(object):
 
         arquivo = open('pydatagen/res/country_list.txt', 'r')
         for line in arquivo:
-            countries.append(line)
+            countries.append(line.replace('\n', '').replace("'", "''"))
 
         return countries
 
@@ -70,8 +70,8 @@ class Generator(object):
 
 
     def get_email(self, name="name sample"):
-        #Caso seja informado o parâmero nome, o  mesmo será utilizado para geração do endereço de Email
-        #Caso contrário, é gerado um Nome, que será convertido em endereço de Email
+        # Caso seja informado o parâmero nome, o  mesmo será utilizado para geração do endereço de Email
+        # Caso contrário, é gerado um Nome, que será convertido em endereço de Email
         if name:
             name = str(name)
             name = name.lower()
@@ -93,6 +93,6 @@ if __name__ == '__main__':
     print email
     datain = datetime.datetime(2013, 12, 12)
 
-    #print gen.get_regex('')
+    # print gen.get_regex('')
     # datetime.datetime(1990,12,12),datetime.datetime(2013,12,30)
     # print gen.DateField('01/01/2000','30/12/2013')print gen.Name

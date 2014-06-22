@@ -55,11 +55,15 @@ def index(request, project=None):
                 #Person Name
                 elif field.type == 2:
                     value = "'%s'" % fabric.get_name().replace("\n", "")
+                # Country name
+                elif field.type == 6:
+                    value = "'%s'" % fabric.get_country()
 
                 if values == '':
                     values += '%s' % value
                 else:
                     values += ', %s' % value
+
             #After generate all fields
             sql += sql_insert % (table.name, columns_names, values)
 

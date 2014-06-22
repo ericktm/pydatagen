@@ -25,19 +25,16 @@ $(document).ready(function () {
     $(document).ajaxStart(function () {
         debug('Iniciando requisição ajax.');
         $.blockUI({
-            message: '<h1> Carregando... </h1>',
-            css: {
-                border: 'none',
-                padding: '15px',
-                backgroundColor: 'white',
-                backgroundRepeat: 'no-repeat',
-                backgroundImage: 'url("/static/img/loader.gif")',
-                backgroundPosition: 'center',
-                '-webkit-border-radius': '10px',
-                '-moz-border-radius': '10px',
-                opacity: .5,
-                color: '#0073ea',
-                paddingTop: '130px'
+            title: 'Aguarde..',
+            message: '<h1><img src="/static/img/loader.gif"/></h1>',
+            theme: true,
+            themedCSS: {
+                margin: '0 auto',
+                position: 'absolute',
+                marginLeft: '50%',
+                left: '-120px',
+                width: '240px',
+                padding: '5px'
             }
         });
     }).ajaxStop(function () {
