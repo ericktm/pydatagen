@@ -38,8 +38,8 @@ def index(request, project=None):
         for i in range(quant):
             values = ''
             for field in fields:
-                value = 'teste'
 
+                value = 'teste'
                 # Case Integer
                 if field.type == 4:
                     if field.regex == '':
