@@ -25,7 +25,7 @@ def index(request, project=None):
 
         fabric = Generator()
 
-        #get active fields
+        # get active fields
         fields = table.app_field_table.filter(active=True, insert=True).all()
 
         columns_names = ''
@@ -58,6 +58,12 @@ def index(request, project=None):
                 # Country name
                 elif field.type == 6:
                     value = "'%s'" % fabric.get_country()
+                # Case Foreign Key
+                elif field.type == 5:
+                    value = "(SELECT %s FROM %s ORDER BY RANDOM() LIMIT 1)"
+                    value = value % (field.to_field.name, field.to_field.table.name)
+                    if field.to_field.type == 4:
+                        pass
 
                 if values == '':
                     values += '%s' % value
