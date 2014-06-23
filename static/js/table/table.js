@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     function actions(cellValue, options, rowObject) {
-        var view = '<button class="btn-view mini open" title="Visualizar registro." data-url="/app/table/view/' + rowObject.id + '.html"></button>';
+        var view = '<button disabled class="btn-view mini open" title="Visualizar registro." data-url="/app/table/view/' + rowObject.id + '.html"></button>';
         var field = '<button class="btn-field mini open"' +
             'data-title="Campos da Tabela"' +
             'data-url="/app/field/' + rowObject.id + '.html"' +

@@ -3,12 +3,13 @@ from django.db import models
 
 
 TYPE_CHOICES = (
-    (1, 'String'),
+    (1, 'Palavra Aleatória'),
     (2, 'Nome de Pessoa'),
     (3, 'Data'),
     (4, 'Inteiro'),
     (5, 'Chave Estrangeira'),
     (6, 'País'),
+    (7, 'Email')
 )
 #
 #GENDER_CHOICES = (

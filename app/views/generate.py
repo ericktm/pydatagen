@@ -46,7 +46,7 @@ def index(request, project=None):
                         value = "%s" % fabric.get_regex('\d{2}')
                     else:
                         value = "%s" % fabric.get_regex(field.regex)
-                #case string
+                # case string
                 elif field.type == 1:
                     if field.regex == '':
                         value = "'%s'" % 'String'
@@ -62,15 +62,16 @@ def index(request, project=None):
                 elif field.type == 5:
                     value = "(SELECT %s FROM %s ORDER BY RANDOM() LIMIT 1)"
                     value = value % (field.to_field.name, field.to_field.table.name)
-                    if field.to_field.type == 4:
-                        pass
+                # Case Email address
+                elif field.type == 7:
+                    value = "'%s'" % fabric.get_email(fabric.get_name())
 
                 if values == '':
                     values += '%s' % value
                 else:
                     values += ', %s' % value
 
-            #After generate all fields
+            # After generate all fields
             sql += sql_insert % (table.name, columns_names, values)
 
     file = open('pydatagen/media/export.sql', 'w')

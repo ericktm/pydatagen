@@ -79,7 +79,6 @@ class Generator(object):
             name = re.sub(r"[\t\b\n]", "", name)
             name = re.sub(r"\.{2,}", "", name)
             name = '%s@pydatagen.com' % name
-        print name
         return name
 
 
