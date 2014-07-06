@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="implementada funcionalidade de geração de email;&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/media/export.sql" afterPath="$PROJECT_DIR$/pydatagen/media/export.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/forms.py" afterPath="$PROJECT_DIR$/app/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/function.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/generate.py" afterPath="$PROJECT_DIR$/app/views/generate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/project/project.js" afterPath="$PROJECT_DIR$/app/static/js/project/project.js" />
+    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="Adicionados modelos de endereçamento;&#10;melhorada mensagem de erro&#10;otimização no processo de geração de email, com base no ultimo nome gerado&#10;adicionado icone para geração de arquivo do projeto atravez da grid de listagem de projetos&#10;adicionado quantidade de registros a ser gerado por tabela&#10;adicionado flag que indica se a tabela é populável&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/migrations/0010_auto__add_field_table_insert__add_field_table_quantity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/migrations/0011_auto__del_foreignkey__add_city__add_state__add_country.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -40,8 +36,7 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="1102" max-vertical-offset="1764">
               <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1404657927829" expanded="true" signature="612:643" placeholder="INSERT INTO ..." />
+                <marker date="1404658763541" expanded="true" signature="565:596" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -92,8 +87,8 @@
       <file leaf-file-name="forms.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.083850935" vertical-offset="0" max-vertical-offset="644">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.64285713" vertical-offset="0" max-vertical-offset="644">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -962,7 +957,11 @@
       <created>1403559498571</created>
       <updated>1403559498571</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Adicionados modelos de endereçamento;&#10;melhorada mensagem de erro&#10;otimização no processo de geração de email, com base no ultimo nome gerado&#10;adicionado icone para geração de arquivo do projeto atravez da grid de listagem de projetos&#10;adicionado quantidade de registros a ser gerado por tabela&#10;adicionado flag que indica se a tabela é populável&#10;">
+      <created>1404658763911</created>
+      <updated>1404658763911</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -987,11 +986,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31842387" sideWeight="0.5743146" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31842387" sideWeight="0.5743146" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24096386" sideWeight="0.49946752" order="2" side_tool="false" content_ui="tabs" />
@@ -1001,7 +1001,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31842387" sideWeight="0.42424244" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1025,7 +1024,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Adicionado arquivo csv com lista de nomes&#10;&#10;&#10;" />
     <MESSAGE value="Mudança da Estrutura em models.py&#10;&#10;Alteração de layout, adicionados imports do bootstrap&#10;&#10;" />
     <MESSAGE value="Alterações de Template&#10;" />
     <MESSAGE value="Adicionado Cadastro de Fields&#10;" />
@@ -1050,7 +1048,8 @@
     <MESSAGE value="Adicionado campo size_max;&#10;alterado destino do arquivo output.sql;&#10;Adicionado campo para relacionamento do foreign key utilizado para geração dos registros&#10;" />
     <MESSAGE value="Adicionado campo size_max;&#10;alterado destino do arquivo output.sql;&#10;Adicionado campo para relacionamento do foreign key utilizado para geração dos registros&#10;Implemetada funcionalidade de geração de dados para foreign key;&#10;" />
     <MESSAGE value="implementada funcionalidade de geração de email;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementada funcionalidade de geração de email;&#10;" />
+    <MESSAGE value="Adicionados modelos de endereçamento;&#10;melhorada mensagem de erro&#10;otimização no processo de geração de email, com base no ultimo nome gerado&#10;adicionado icone para geração de arquivo do projeto atravez da grid de listagem de projetos&#10;adicionado quantidade de registros a ser gerado por tabela&#10;adicionado flag que indica se a tabela é populável&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionados modelos de endereçamento;&#10;melhorada mensagem de erro&#10;otimização no processo de geração de email, com base no ultimo nome gerado&#10;adicionado icone para geração de arquivo do projeto atravez da grid de listagem de projetos&#10;adicionado quantidade de registros a ser gerado por tabela&#10;adicionado flag que indica se a tabela é populável&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1427,8 +1426,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1102" max-vertical-offset="1764">
           <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1404657927829" expanded="true" signature="612:643" placeholder="INSERT INTO ..." />
+            <marker date="1404658763541" expanded="true" signature="565:596" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1451,8 +1449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.083850935" vertical-offset="0" max-vertical-offset="644">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.64285713" vertical-offset="0" max-vertical-offset="644">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
