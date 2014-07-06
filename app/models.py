@@ -12,8 +12,8 @@ TYPE_CHOICES = (
     (7, 'Email')
 )
 #
-#GENDER_CHOICES = (
-#    (1, 'Masculino'),
+# GENDER_CHOICES = (
+# (1, 'Masculino'),
 #    (2, 'Feminino'),
 #)
 
@@ -34,6 +34,8 @@ class Table(models.Model):
     created = models.DateTimeField(auto_now_add=True, editable=False)
     edited = models.DateTimeField(null=True, editable=False, auto_now=True)
     active = models.BooleanField(default=True, editable=False)
+    insert = models.BooleanField(verbose_name='Populável', default=True)
+    quantity = models.IntegerField(verbose_name='Quantidade de registros', default=1000)
 
     def __unicode__(self):
         return self.name
@@ -57,6 +59,29 @@ class Field(models.Model):
         return '%s - %s' % (self.name, self.table)
 
 
-class ForeignKey(models.Model):
-    origin = models.ForeignKey(verbose_name='Campo Origem', to=Field, related_name='app_foreign_key_origin')
-    destiny = models.ForeignKey(verbose_name='Campo Destino', to=Field, related_name='app_foreign_key_destiny')
+# class ForeignKey(models.Model):
+# origin = models.ForeignKey(verbose_name='Campo Origem', to=Field, related_name='app_foreign_key_origin')
+#     destiny = models.ForeignKey(verbose_name='Campo Destino', to=Field, related_name='app_foreign_key_destiny')
+
+class Country(models.Model):
+    name = models.CharField(verbose_name='Nome do Páis', max_length=50)
+    created = models.DateTimeField(auto_now_add=True, editable=False)
+    edited = models.DateTimeField(null=True, editable=False, auto_now=True)
+    active = models.BooleanField(default=True, editable=False)
+
+
+class State(models.Model):
+    name = models.CharField(verbose_name='Nome do Estado', max_length=50)
+    uf = models.CharField(verbose_name='Sigla', max_length=2)
+    country = models.ForeignKey(verbose_name='Páis', to=Country, related_name='app_state_country')
+    created = models.DateTimeField(auto_now_add=True, editable=False)
+    edited = models.DateTimeField(null=True, editable=False, auto_now=True)
+    active = models.BooleanField(default=True, editable=False)
+
+
+class City(models.Model):
+    name = models.CharField(verbose_name='Nome da Cidade', max_length=50)
+    state = models.ForeignKey(verbose_name='Estado', to=State, related_name='app_city_state')
+    created = models.DateTimeField(auto_now_add=True, editable=False)
+    edited = models.DateTimeField(null=True, editable=False, auto_now=True)
+    active = models.BooleanField(default=True, editable=False)

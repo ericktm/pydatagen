@@ -136,7 +136,7 @@ $(document).ready(function () {
             $.get(url, function (retorno) {
                 debug(retorno);
                 if (retorno.success == true) {
-                    message('Sucesso', 'Registro removido com sucesso', 'success');
+                    message('Sucesso', retorno.message, 'success');
                     $('#' + update).trigger("reloadGrid");
                 } else {
                     message('Sucesso', retorno.error);
@@ -215,5 +215,12 @@ $(document).ready(function () {
                 primary: 'ui-icon-disk'
             }
         });
+
+        $('.btn-start').button({
+            icons: {
+                primary: 'ui-icon-play'
+            }
+        });
+
     }
 });

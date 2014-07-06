@@ -1,7 +1,7 @@
 from django import forms
 from django.forms.models import ModelForm
 
-from app.models import Project, Table, Field, ForeignKey
+from app.models import Project, Table, Field
 
 
 class FormProject(ModelForm):
@@ -25,7 +25,3 @@ class FormField(ModelForm):
     class Meta:
         model = Field
 
-
-class FormAssociate(ModelForm):
-    class Meta:
-        model = ForeignKey
