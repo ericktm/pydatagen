@@ -16,7 +16,9 @@ $(document).ready(function () {
             'data-height="300"' +
             'data-url="/app/project/record/' + rowObject.id + '.html"></button>';
         var trash = '<button class="btn-trash mini action" data-update="tab_project" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
-        return view + table + edit + trash;
+        var generate = '<button class="btn-start mini action"' +
+            'data-url="/app/generate/' + rowObject.id + '.html"></button>';
+        return view + table + edit + generate + trash;
     }
 
     $("#tab_project").jqGrid({
@@ -24,7 +26,7 @@ $(document).ready(function () {
         datatype: 'local',
         colNames: ['Ações', 'Código', 'Nome do Projeto', 'Quant. Tabelas', 'Data criação', 'Data Edição'],
         colModel: [
-            {name: 'actions', width: 50, formatter: actions, align: "center", sortable: false},
+            {name: 'actions', width: 100, formatter: actions, align: "center", sortable: false},
             {name: 'id', index: 'id', width: 90, key: true},
             {name: 'name', index: 'name', width: 200},
             {name: 'quant', index: 'quant', sortable: false},
