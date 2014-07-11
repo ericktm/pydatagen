@@ -47,7 +47,7 @@ class Generator(object):
         """
         return random.randint(min, max)
 
-    def get_date(self, start, end):
+    def get_date(self, start='01/01/1900', end='30/12/2000'):
         start = datetime.datetime.strptime(start, '%d/%m/%Y').date()
         end = datetime.datetime.strptime(end, '%d/%m/%Y').date()
         return start + timedelta(

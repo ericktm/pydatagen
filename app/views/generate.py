@@ -3,7 +3,6 @@ import json
 from django.contrib.auth.decorators import login_required
 from django.http.response import HttpResponse
 import exrex
-from faker.factory import Factory
 
 from app.core.generator.main import Generator
 from app.models import Project
@@ -12,7 +11,6 @@ from app.models import Project
 @login_required
 def index(request, project=None):
     retorno = {}
-    factory = Factory.create()
 
     sql = ''
 
@@ -29,7 +27,7 @@ def index(request, project=None):
             fabric = Generator()
 
             # get active fields
-            fields = table.app_field_table.filter(active=True, insert=True).all()
+            fields = table.app_field_table.filter(active=True, insert=True).order_by('type').all()
 
             columns_names = ''
             for column in fields:
@@ -41,6 +39,10 @@ def index(request, project=None):
             for i in range(table.quantity):
                 values = ''
                 for field in fields:
+                    if field.options:
+                        options = json.loads("""%s""" % field.options)
+                    else:
+                        options = dict()
 
                     value = 'teste'
                     # Case Integer
@@ -72,6 +74,12 @@ def index(request, project=None):
                             value = "'%s'" % fabric.get_email(fabric.get_name())
                         else:
                             value = "'%s'" % fabric.get_email(last_name)
+                    # Case Date
+                    elif field.type == 3:
+                        min = options.get('min', '01/01/1900')
+                        max = options.get('max', '30/12/2050')
+
+                        value = "'%s'" % fabric.get_date(min, max)
 
                     if values == '':
                         values += '%s' % value

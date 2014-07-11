@@ -50,6 +50,7 @@ class Field(models.Model):
     insert = models.BooleanField(verbose_name='Populável', default=True)
     size_max = models.IntegerField(verbose_name='Tamanho máximo', null=True, blank=True)
     to_field = models.ForeignKey(verbose_name='Campo Origem', blank=True, null=True, to='self')
+    options = models.CharField(verbose_name='Opções', max_length=500, null=True, blank=True)
     regex = models.CharField(verbose_name='Expressão regular', max_length=400, null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True, editable=False)
     edited = models.DateTimeField(null=True, editable=False, auto_now=True)
