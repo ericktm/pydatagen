@@ -21,7 +21,7 @@ class FormField(ModelForm):
     table = forms.ModelChoiceField(queryset=Table.objects.all(),
                                    widget=forms.HiddenInput)
     to_field = forms.ModelChoiceField(queryset=Field.objects.filter(active=True), label='Campo Origem', required=False)
-    options = forms.CharField(widget=forms.Textarea)
+    options = forms.CharField(widget=forms.Textarea, required=False)
 
     class Meta:
         model = Field

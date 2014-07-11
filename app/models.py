@@ -3,7 +3,7 @@ from django.db import models
 
 
 TYPE_CHOICES = (
-    (1, 'Palavra Aleatória'),
+    (1, 'String'),
     (2, 'Nome de Pessoa'),
     (3, 'Data'),
     (4, 'Inteiro'),
@@ -14,8 +14,8 @@ TYPE_CHOICES = (
 #
 # GENDER_CHOICES = (
 # (1, 'Masculino'),
-#    (2, 'Feminino'),
-#)
+# (2, 'Feminino'),
+# )
 
 class Project(models.Model):
     name = models.CharField(verbose_name='Nome do Projeto', max_length=50)
@@ -50,8 +50,8 @@ class Field(models.Model):
     insert = models.BooleanField(verbose_name='Populável', default=True)
     size_max = models.IntegerField(verbose_name='Tamanho máximo', null=True, blank=True)
     to_field = models.ForeignKey(verbose_name='Campo Origem', blank=True, null=True, to='self')
-    options = models.CharField(verbose_name='Opções', max_length=500, null=True, blank=True)
-    regex = models.CharField(verbose_name='Expressão regular', max_length=400, null=True, blank=True)
+    options = models.CharField(verbose_name='Opções', max_length=500, null=True, blank=True, default="{}")
+    # regex = models.CharField(verbose_name='Expressão regular', max_length=400, null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True, editable=False)
     edited = models.DateTimeField(null=True, editable=False, auto_now=True)
     active = models.BooleanField(default=True, editable=False)
@@ -62,7 +62,7 @@ class Field(models.Model):
 
 # class ForeignKey(models.Model):
 # origin = models.ForeignKey(verbose_name='Campo Origem', to=Field, related_name='app_foreign_key_origin')
-#     destiny = models.ForeignKey(verbose_name='Campo Destino', to=Field, related_name='app_foreign_key_destiny')
+# destiny = models.ForeignKey(verbose_name='Campo Destino', to=Field, related_name='app_foreign_key_destiny')
 
 class Country(models.Model):
     name = models.CharField(verbose_name='Nome do Páis', max_length=50)

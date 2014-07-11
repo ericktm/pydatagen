@@ -69,7 +69,7 @@ class Generator(object):
         return choice(self.names)
 
 
-    def get_email(self, name="name sample"):
+    def get_email(self, name="name sample", provider="pydatagen.com"):
         # Caso seja informado o parâmero nome, o  mesmo será utilizado para geração do endereço de Email
         # Caso contrário, é gerado um Nome, que será convertido em endereço de Email
         if name:
@@ -78,7 +78,7 @@ class Generator(object):
             name = re.sub(r"[ -]", ".", name)
             name = re.sub(r"[\t\b\n]", "", name)
             name = re.sub(r"\.{2,}", "", name)
-            name = '%s@pydatagen.com' % name
+            name = '%s@%s' % (name, provider)
         return name
 
 

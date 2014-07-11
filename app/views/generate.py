@@ -1,8 +1,8 @@
 import json
+import random
 
 from django.contrib.auth.decorators import login_required
 from django.http.response import HttpResponse
-import exrex
 
 from app.core.generator.main import Generator
 from app.models import Project
@@ -47,33 +47,35 @@ def index(request, project=None):
                     value = 'teste'
                     # Case Integer
                     if field.type == 4:
-                        if field.regex == '':
-                            value = "%s" % fabric.get_regex('\d{2}')
-                        else:
-                            value = "%s" % fabric.get_regex(field.regex)
+                        value = "%s" % fabric.get_regex(options.get('regex', '\d{2}'))
+
                     # case string
                     elif field.type == 1:
-                        if field.regex == '':
-                            value = "'%s'" % 'String'
-                        else:
-                            value = "'%s'" % exrex.getone(field.regex)
+                        print(options)
+                        value = "'%s'" % fabric.get_regex(options.get('regex', 'String'))
+
                     # Person Name
                     elif field.type == 2:
                         last_name = fabric.get_name().replace("\n", "")
                         value = "'%s'" % last_name
+
                     # Country name
                     elif field.type == 6:
                         value = "'%s'" % fabric.get_country()
+
                     # Case Foreign Key
                     elif field.type == 5:
                         value = "(SELECT %s FROM %s ORDER BY RANDOM() LIMIT 1)"
                         value = value % (field.to_field.name, field.to_field.table.name)
+
                     # Case Email address
                     elif field.type == 7:
+
+                        provider = random.choice(options.get('providers', ['pydatagen.com']))
                         if last_name == '':
-                            value = "'%s'" % fabric.get_email(fabric.get_name())
+                            value = "'%s'" % fabric.get_email(fabric.get_name(), provider)
                         else:
-                            value = "'%s'" % fabric.get_email(last_name)
+                            value = "'%s'" % fabric.get_email(last_name, provider)
                     # Case Date
                     elif field.type == 3:
                         min = options.get('min', '01/01/1900')
