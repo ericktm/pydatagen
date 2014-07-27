@@ -9,13 +9,10 @@ TYPE_CHOICES = (
     (4, 'Inteiro'),
     (5, 'Chave Estrangeira'),
     (6, 'País'),
-    (7, 'Email')
+    (7, 'Email'),
+    (8, 'Username')
 )
-#
-# GENDER_CHOICES = (
-# (1, 'Masculino'),
-# (2, 'Feminino'),
-# )
+
 
 class Project(models.Model):
     name = models.CharField(verbose_name='Nome do Projeto', max_length=50)
@@ -59,10 +56,6 @@ class Field(models.Model):
     def __unicode__(self):
         return '%s - %s' % (self.name, self.table)
 
-
-# class ForeignKey(models.Model):
-# origin = models.ForeignKey(verbose_name='Campo Origem', to=Field, related_name='app_foreign_key_origin')
-# destiny = models.ForeignKey(verbose_name='Campo Destino', to=Field, related_name='app_foreign_key_destiny')
 
 class Country(models.Model):
     name = models.CharField(verbose_name='Nome do Páis', max_length=50)

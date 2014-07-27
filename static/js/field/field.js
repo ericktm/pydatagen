@@ -5,8 +5,8 @@ $(document).ready(function () {
         var edit = '<button class="btn-edit mini open"' +
             'data-div="dlg-field"' +
             'data-title="Editar Campo"' +
-            'data-width="500"' +
-            'data-height="300"' +
+            'data-width="600"' +
+            'data-height="600"' +
             'data-url="/app/field/record/' + $('#table').val() + '/' + rowObject.id + '.html"></button>';
         var trash = '<button class="btn-trash mini action" data-update="tab_field" title="Excluir Campo" data-url="/app/field/delete/' + rowObject.id + '.html"></button>';
         return view + edit + trash;

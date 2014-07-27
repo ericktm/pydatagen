@@ -68,6 +68,19 @@ class Generator(object):
         '''
         return choice(self.names)
 
+    def get_login(self, name='name sample'):
+        """
+        Metodo utilizadopara geração de usernames
+        @param name:
+        @return:
+        """
+        if name:
+            name = str(name)
+            name = name.lower()
+            name = re.sub(r"[ -]", ".", name)
+            name = re.sub(r"[\t\b\n]", "", name)
+            name = re.sub(r"\.{2}", "", name)
+        return name
 
     def get_email(self, name="name sample", provider="pydatagen.com"):
         # Caso seja informado o parâmero nome, o  mesmo será utilizado para geração do endereço de Email

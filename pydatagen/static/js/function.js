@@ -130,8 +130,6 @@ $(document).ready(function () {
 
         var url = $(this).attr('data-url');
         var update = $(this).attr('data-update');
-
-
         if (url != '#') {
             $.get(url, function (retorno) {
                 debug(retorno);
@@ -143,8 +141,48 @@ $(document).ready(function () {
                 }
             });
         }
+    });
 
+    $(document).on('click', '.btn_trash', function (e) {
+        e.preventDefault();
 
+        var div = '<div id="confirm" title="Confirmar Exclusão">' +
+            '<p>' +
+            '<span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>' +
+            'Your files have downloaded successfully into the My Downloads folder.' +
+            '</p><p>Currently using <b>36% of your storage space</b>.</p>' +
+            '</div>';
+
+        $(div).appendTo('body');
+
+        $(div).dialog({
+            resizable: false,
+            height: 140,
+            modal: true,
+            buttons: {
+                "Excluir registro": function () {
+                    $(this).dialog("close");
+                },
+                Cancel: function () {
+                    $(this).dialog("close");
+                }
+            }
+        });
+        message('Sucesso', retorno.message, 'success');
+
+        var url = $(this).attr('data-url');
+        var update = $(this).attr('data-update');
+        if (url == '#') {
+            $.get(url, function (retorno) {
+                debug(retorno);
+                if (retorno.success == true) {
+                    message('Sucesso', retorno.message, 'success');
+                    $('#' + update).trigger("reloadGrid");
+                } else {
+                    message('Sucesso', retorno.error);
+                }
+            });
+        }
     });
 
     $(document).on('click', '.btn-clean', function (e) {
@@ -152,11 +190,10 @@ $(document).ready(function () {
         $("#" + update).jqGrid('setGridParam', {
             datatype: 'local'
         }).trigger('reloadGrid');
+        message('Sucesso', 'Parâmetros de busca limpos!', 'success');
     });
 
     function updateScreen() {
-
-        debug('Atualizando tela');
 
         $('.accordion').accordion({
             collapsible: true

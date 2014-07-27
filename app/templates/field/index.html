@@ -7,19 +7,19 @@
 
             <input type="hidden" name="table" id="table" value="{{ table }}"/>
 
-            <label for="codigo_tabela">Nome:</label>
-            <input type="text" name="codigo_tabela" id="codigo_tabela"/>
+            <label for="codigo_campo">Nome:</label>
+            <input type="text" name="codigo_campo" id="codigo_campo"/>
 
-            <label for="nome_tabela">Nome:</label>
-            <input type="text" name="nome_tabela" id="nome_tabela"/>
+            <label for="nome_campo">Nome:</label>
+            <input type="text" name="nome_campo" id="nome_campo"/>
 
             <div class="actions center tam300">
                 <button type="submit" class="btn-search">Pesquisar</button>
                 <button type="reset" class="btn-clean" data-update="tab_field">Limpar</button>
                 <button type="button" class="btn-add open"
                         data-div="dlg-field"
-                        data-width="500"
-                        data-height="300"
+                        data-width="600"
+                        data-height="600"
                         data-title="Cadastro de Campo"
                         data-url="/app/field/record/{{ table }}.html"
                         >Adicionar

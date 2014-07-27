@@ -8,8 +8,8 @@ $(document).ready(function () {
             'data-width="600"' +
             'data-height="600"' +
             'data-url="/app/field/record/' + $('#table').val() + '/' + rowObject.id + '.html"></button>';
-        var trash = '<button class="btn-trash mini action" data-update="tab_field" title="Excluir Campo" data-url="/app/field/delete/' + rowObject.id + '.html"></button>';
-        return view + edit + trash;
+        var trash = '<button class="btn-trash mini" data-update="tab_field" title="Excluir Campo" data-url="/app/field/delete/' + rowObject.id + '.html"></button>';
+        return edit + trash;
     }
 
     $("#tab_field").jqGrid({
@@ -43,9 +43,8 @@ $(document).ready(function () {
         e.preventDefault();
         $("#tab_field").jqGrid('setGridParam', {
             postData: {
-                id: $('#codigo_tabela').val(),
-                project: $('#project').val(),
-                name: $('#nome_tabela').val()},
+                id: $('#codigo_campo').val(),
+                name: $('#nome_campo').val()},
             datatype: 'json'
         }).trigger('reloadGrid');
     });

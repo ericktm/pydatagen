@@ -40,7 +40,9 @@ def index(request, project=None):
                 values = ''
                 for field in fields:
                     if field.options:
-                        options = json.loads("""%s""" % field.options)
+                        options = field.options.replace('\\', '\\\\')
+                        print(options)
+                        options = json.loads("""%s""" % options)
                     else:
                         options = dict()
 
@@ -82,6 +84,9 @@ def index(request, project=None):
                         max = options.get('max', '30/12/2050')
 
                         value = "'%s'" % fabric.get_date(min, max)
+
+                    elif field.type == 8:
+                        value = "'%s'" % fabric.get_login(last_name)
 
                     if values == '':
                         values += '%s' % value

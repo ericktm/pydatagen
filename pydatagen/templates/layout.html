@@ -9,7 +9,7 @@
     {#    <link rel="shortcut icon" href="../../assets/ico/favicon.png">#}
     <title>Pydatagen - {% block title %} Gerador Automático de
         registros {% endblock %}</title>
-    <link href="{% static "css/default/jquery-ui.min.css" %}" rel="stylesheet" type="text/css">
+    <link href="{% static "css/cupertino/jquery-ui.min.css" %}" rel="stylesheet" type="text/css">
     <link href="{% static "css/style.css" %}" rel="stylesheet" type="text/css"/>
     <link href="{% static "css/ui.jqgrid.css" %}" rel="stylesheet" type="text/css"/>
     <link href="{% static "css/jquery.jgrowl.min.css" %}" rel="stylesheet" type="text/css"/>
@@ -20,58 +20,63 @@
 <body>
 {% block layout %}
     <div id="top">
-    <div class="menu ui-widget-header">
-        <li class="sub_menu">
-            <a href="#" class="btn-menu"> Cadastros</a>
-            <ul>
-                <li class="ui-widget-content"><a href="/app/project.html" class="load">Projetos</a></li>
-                <li class="ui-widget-content"><a href="/app/generate.html">Testes de geração</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-            </ul>
-        </li>
-        <li class="sub_menu">
-            <a href="#" class="btn-menu"> Agendamentos</a>
-            <ul>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-            </ul>
-        </li>
-        <li class="sub_menu">
-            <a href="#" class="btn-menu"> Configurações</a>
-            <ul>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>
-            </ul>
-        </li>
+        <div class="menu ui-widget-header">
+            <a href="/app/project.html" class="btn-menu load">Projetos</a>
+            <a href="/about.html" class="btn-menu">Sobre</a>
+            {#        <li class="sub_menu">#}
+            {#            <a href="#" class="btn-menu"> Cadastros</a>#}
+            {#            <ul>#}
+            {#                <li class="ui-widget-content"><a href="/app/project.html" class="load">Projetos</a></li>#}
+            {#                <li class="ui-widget-content"><a href="/app/generate.html">Testes de geração</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#            </ul>#}
+            {#        </li>#}
+            {#        <li class="sub_menu">#}
+            {#            <a href="#" class="btn-menu"> Agendamentos</a>#}
+            {#            <ul>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#            </ul>#}
+            {#        </li>#}
+            {#        <li class="sub_menu">#}
+            {#            <a href="#" class="btn-menu"> Configurações</a>#}
+            {#            <ul>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#                <li class="ui-widget-content"><a href="#">Itens do menu</a></li>#}
+            {#            </ul>#}
+            {#        </li>#}
 
-        <li class="sub_menu right">
-            <a href="#" class="btn-menu"> Usuário: {{ request.user.username }}</a>
-            <ul>
-                <li class="ui-widget-content"><a href="#">Perfil</a></li>
-                <li class="ui-widget-content"><a href="{% url "django.contrib.auth.views.logout" %}">Encerrar Sessão</a>
-                </li>
-            </ul>
-        </li>
+            <li class="sub_menu right">
+                <a href="#" class="btn-menu"> Usuário: {{ request.user.username }}</a>
+                <ul>
+                    <li class="ui-widget-content"><a href="#">Perfil</a></li>
+                    <li class="ui-widget-content"><a href="{% url "django.contrib.auth.views.logout" %}">Encerrar
+                        Sessão</a>
+                    </li>
+                </ul>
+            </li>
+        </div>
     </div>
-</div>
-<div id="center">
-    {% block content %}
-    {% endblock %}
-</div>
-<div id="footer">
+    <div id="center">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <div id="footer" class="ui-widget-header">
 
-</div>
+        <center>Pydatagen &copy - {% now 'Y' %} | Developed by Erick Roberto de Oliveira</center>
+
+    </div>
 {% endblock %}
 
 <!-- Bootstrap core JavaScript
