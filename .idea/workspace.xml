@@ -1069,7 +1069,11 @@
       <created>1408745784300</created>
       <updated>1408745784300</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
+      <created>1408745936074</created>
+      <updated>1408745936074</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
