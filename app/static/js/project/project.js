@@ -7,7 +7,7 @@ $(document).ready(function () {
             'data-url="/app/table/' + rowObject.id + '.html"' +
             'data-div="window-table"' +
             'data-width="700"' +
-            'data-height="600"' +
+            'data-height="560"' +
             '></button>';
         var edit = '<button class="btn-edit mini open"' +
             'data-div="dlg-project"' +

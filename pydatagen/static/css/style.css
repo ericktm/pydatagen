@@ -11,8 +11,13 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
-    font-size: 62.5%;
+    font-family: "Courier New" !important;
+    font-size: 70.5%;
+}
+
+form ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #top {
@@ -78,6 +83,10 @@ li a {
     margin: 0 auto;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .tam300 {
     width: 300px;
 }
@@ -118,6 +127,8 @@ form input {
 
 .actions {
     margin-top: 30px;
+    border-top: 1px solid #eeeeee;
+    padding-top: 10px;
 }
 
 .mini {

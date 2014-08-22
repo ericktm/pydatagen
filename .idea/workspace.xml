@@ -2,6 +2,445 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/static/css/login.css" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\accordion\collapsible.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\accordion\custom-icons.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\accordion\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\accordion\fillspace.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\accordion\hoverintent.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\accordion\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\accordion\no-auto-height.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\accordion\sortable.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\addClass\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\addClass\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\animate\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\animate\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\categories.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\combobox.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\custom-data.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\folding.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\images\jquery_32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\images\jqueryui_32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\images\sizzlejs_32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\images\transparent_1x1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\images\ui-anim_basic_16x16.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\london.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\maxheight.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\multiple-remote.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\multiple.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\remote-jsonp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\remote-with-cache.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\remote.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\search.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\autocomplete\xml.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\button\checkbox.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\button\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\button\icons.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\button\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\button\radio.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\button\splitbutton.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\button\toolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\alt-field.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\animation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\buttonbar.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\date-formats.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\date-range.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\dropdown-month-year.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\icon-trigger.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\images\calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\inline.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\jquery.ui.datepicker-ar.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\jquery.ui.datepicker-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\jquery.ui.datepicker-he.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\jquery.ui.datepicker-zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\localization.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\min-max.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\multiple-calendars.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\other-months.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\datepicker\show-week.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\demos.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\dialog\animated.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\dialog\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\dialog\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\dialog\modal-confirmation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\dialog\modal-form.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\dialog\modal-message.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\dialog\modal.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\constrain-movement.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\cursor-style.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\delay-start.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\events.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\handle.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\revert.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\snap-to.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\sortable.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\draggable\visual-feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\accepted-elements.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\images\high_tatras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\images\high_tatras2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\images\high_tatras2_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\images\high_tatras3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\images\high_tatras3_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\images\high_tatras4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\images\high_tatras4_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\images\high_tatras_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\photo-manager.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\propagation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\revert.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\shopping-cart.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\droppable\visual-feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\effect\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\effect\easing.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\effect\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\hide\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\hide\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\images\calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\images\demo-config-on-tile.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\images\demo-config-on.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\images\demo-spindown-closed.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\images\demo-spindown-open.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\images\icon-docs-info.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\images\pbar-ani.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\menu\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\menu\icons.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\menu\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\position\cycler.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\position\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\position\images\earth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\position\images\flight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\position\images\rocket.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\position\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\progressbar\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\progressbar\images\pbar-ani.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\progressbar\indeterminate.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\progressbar\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\progressbar\label.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\removeClass\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\removeClass\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\animate.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\aspect-ratio.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\constrain-area.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\delay-start.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\max-min.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\snap-to-grid.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\synchronous-resize.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\textarea.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\resizable\visual-feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\selectable\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\selectable\display-grid.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\selectable\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\selectable\serialize.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\show\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\show\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\colorpicker.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\hotelrooms.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\multiple-vertical.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\range-vertical.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\range.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\rangemax.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\rangemin.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\side-scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\slider-vertical.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\slider\steps.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\connect-lists-through-tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\connect-lists.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\delay-start.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\display-grid.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\empty-lists.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\items.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\placeholder.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\sortable\portlets.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\spinner\currency.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\spinner\decimal.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\spinner\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\spinner\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\spinner\latlong.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\spinner\overflow.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\spinner\time.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\switchClass\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\switchClass\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\ajax\content1.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\ajax\content2.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\ajax\content3-slow.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\ajax\content4-broken.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\bottom.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\collapsible.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\manipulation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\mouseover.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\sortable.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tabs\vertical.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\toggleClass\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\toggleClass\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\toggle\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\toggle\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\ajax\content1.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\ajax\content2.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\custom-animation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\custom-content.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\custom-style.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\forms.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\images\st-stephens.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\images\tower-bridge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\tooltip\video-player.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\widget\default.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\demos\widget\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery-ui-i18n.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-af.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ar-DZ.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ar.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-az.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-be.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-bg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-bs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-cs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-cy-GB.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-da.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-de.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-el.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-en-AU.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-en-GB.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-en-NZ.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-eo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-es.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-et.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-eu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-fa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-fi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-fo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-fr-CA.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-fr-CH.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-gl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-he.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-hi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-hr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-hu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-hy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-id.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-is.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-it.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ja.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ka.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-kk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-km.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ko.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ky.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-lb.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-lt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-lv.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-mk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ms.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-nb.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-nl-BE.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-nl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-nn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-no.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-pl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-pt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-rm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ro.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ru.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-sk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-sl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-sq.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-sr-SR.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-sr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-sv.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-ta.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-th.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-tj.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-tr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-uk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-vi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-zh-HK.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\i18n\jquery.ui.datepicker-zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.button.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.core.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.draggable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.droppable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-blind.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-bounce.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-clip.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-drop.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-explode.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-fade.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-fold.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-pulsate.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-scale.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-shake.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-slide.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect-transfer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.effect.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.menu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.mouse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.position.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.progressbar.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.resizable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.selectable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.slider.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.spinner.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\jquery.ui.widget.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery-ui-i18n.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-af.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ar-DZ.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-az.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-be.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-bg.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-bs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ca.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-cs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-cy-GB.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-da.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-de.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-el.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-en-AU.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-en-GB.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-en-NZ.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-eo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-es.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-et.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-eu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-fa.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-fi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-fo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-fr-CA.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-fr-CH.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-fr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-gl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-he.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-hi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-hr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-hu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-hy.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-id.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-is.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-it.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ja.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ka.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-kk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-km.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ko.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ky.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-lb.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-lt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-lv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-mk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ml.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ms.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-nb.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-nl-BE.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-nl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-nn.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-no.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-pl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-pt-BR.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-pt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-rm.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ru.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-sk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-sl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-sq.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-sr-SR.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-sr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-sv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-ta.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-th.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-tj.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-tr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-uk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-vi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-zh-CN.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-zh-HK.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\i18n\jquery.ui.datepicker-zh-TW.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.accordion.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.autocomplete.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.button.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.core.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.datepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.dialog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.draggable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.droppable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-blind.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-bounce.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-clip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-drop.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-explode.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-fade.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-fold.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-highlight.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-pulsate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-scale.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-shake.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-slide.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect-transfer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.effect.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.menu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.mouse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.position.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.progressbar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.resizable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.selectable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.slider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.sortable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.spinner.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.tabs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\jquery-ui-1.10.3\ui\minified\jquery.ui.widget.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/field/field.js" afterPath="$PROJECT_DIR$/app/static/js/field/field.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/templates/layout.html" afterPath="$PROJECT_DIR$/pydatagen/templates/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/templates/login.html" afterPath="$PROJECT_DIR$/pydatagen/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/project/project.js" afterPath="$PROJECT_DIR$/app/static/js/project/project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/table/record.html" afterPath="$PROJECT_DIR$/app/templates/table/record.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/style.css" afterPath="$PROJECT_DIR$/pydatagen/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/table/table.js" afterPath="$PROJECT_DIR$/app/static/js/table/table.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -28,61 +467,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="generate.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/generate.py">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydatagen/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1272" max-vertical-offset="1921">
-              <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2703">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/json/__init__.py">
+      <file leaf-file-name="record.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/table/record.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5423" max-vertical-offset="6069">
-              <caret line="319" column="0" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="357">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/core/generator/main.py">
+      <file leaf-file-name="field.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/js/field/field.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="1955">
-              <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydatagen/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="4556">
-              <caret line="187" column="33" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="33" />
+            <state vertical-scroll-proportion="-31.384615" vertical-offset="0" max-vertical-offset="935">
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
+      <file leaf-file-name="table.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/js/table/table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2278" max-vertical-offset="2380">
-              <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1207">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="project.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1105">
-              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.24324325" vertical-offset="0" max-vertical-offset="1105">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydatagen/static/css/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -91,38 +540,8 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pydatagen/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1734">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="field.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/static/js/field/field.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3783784" vertical-offset="51" max-vertical-offset="1088">
-              <caret line="17" column="100" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/field/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="680">
-              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1462">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1751">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -168,7 +587,6 @@
         <option value="$PROJECT_DIR$/app/templates/project/record.html" />
         <option value="$PROJECT_DIR$/app/templates/generate/index.html" />
         <option value="$PROJECT_DIR$/app/templates/project/index.html" />
-        <option value="$PROJECT_DIR$/app/templates/table/record.html" />
         <option value="C:/Python27/Lib/site-packages/django/forms/fields.py" />
         <option value="$PROJECT_DIR$/app/templates/table/index.html" />
         <option value="$PROJECT_DIR$/app/business/table/search.py" />
@@ -183,22 +601,24 @@
         <option value="$PROJECT_DIR$/app/views/project.py" />
         <option value="$PROJECT_DIR$/deploy.sh" />
         <option value="$PROJECT_DIR$/pydatagen-nginx.conf" />
-        <option value="$PROJECT_DIR$/pydatagen/templates/login.html" />
         <option value="$PROJECT_DIR$/pydatagen/urls.py" />
         <option value="$PROJECT_DIR$/app/views/user.py" />
         <option value="$PROJECT_DIR$/pydatagen/static/js/login.js" />
-        <option value="$PROJECT_DIR$/app/static/js/table/table.js" />
-        <option value="$PROJECT_DIR$/app/static/js/project/project.js" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app/forms.py" />
-        <option value="$PROJECT_DIR$/pydatagen/static/css/style.css" />
-        <option value="$PROJECT_DIR$/pydatagen/templates/layout.html" />
         <option value="$PROJECT_DIR$/app/core/generator/main.py" />
         <option value="$PROJECT_DIR$/app/views/generate.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/app/templates/field/index.html" />
-        <option value="$PROJECT_DIR$/app/static/js/field/field.js" />
         <option value="$PROJECT_DIR$/pydatagen/static/js/function.js" />
+        <option value="$PROJECT_DIR$/pydatagen/static/css/login.css" />
+        <option value="$PROJECT_DIR$/pydatagen/templates/layout.html" />
+        <option value="$PROJECT_DIR$/pydatagen/templates/login.html" />
+        <option value="$PROJECT_DIR$/app/static/js/table/table.js" />
+        <option value="$PROJECT_DIR$/app/templates/table/record.html" />
+        <option value="$PROJECT_DIR$/pydatagen/static/css/style.css" />
+        <option value="$PROJECT_DIR$/app/static/js/field/field.js" />
+        <option value="$PROJECT_DIR$/app/static/js/project/project.js" />
       </list>
     </option>
   </component>
@@ -367,7 +787,103 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery-ui-1.10.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery-ui-1.10.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,10 +898,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,6 +918,10 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -425,7 +941,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="field" />
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,6 +1000,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="table" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,46 +1056,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="field" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pydatagen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1077,7 +1575,11 @@
       <created>1408745944292</created>
       <updated>1408745944292</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
+      <created>1408746691157</created>
+      <updated>1408746691157</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1175,13 +1677,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/core/generator/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1854">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/business/field/search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="1278">
@@ -1291,13 +1786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/table/record.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="357">
-          <caret line="2" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/field/record.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="357">
@@ -1392,24 +1880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="810">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/static/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/table/table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1278">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1459,13 +1933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1868" max-vertical-offset="2516">
-          <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1512">
@@ -1489,17 +1956,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1734">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/field/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="680">
+        <state vertical-scroll-proportion="0.35157546" vertical-offset="77" max-vertical-offset="680">
           <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
           <folding />
         </state>
@@ -1529,14 +1988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1837" max-vertical-offset="2484">
@@ -1553,10 +2004,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1751">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.384615" vertical-offset="0" max-vertical-offset="935">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/table/table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1207">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/table/record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="357">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2703">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/field/field.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3783784" vertical-offset="51" max-vertical-offset="1088">
-          <caret line="17" column="100" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24324325" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>

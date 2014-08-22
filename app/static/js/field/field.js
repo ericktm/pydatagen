@@ -19,11 +19,11 @@ $(document).ready(function () {
         colModel: [
             {name: 'actions', formatter: actions, align: "center", sorfield: false},
             {name: 'id', index: 'id', width: 90, key: true},
-            {name: 'name', index: 'name', width: 100},
+            {name: 'name', index: 'name', width: 150},
             {name: 'type', index: 'type'},
             {name: 'insert', index: 'insert'},
-            {name: 'created', index: 'created', width: 80, align: "center"},
-            {name: 'edited', index: 'edited', width: 80, align: "center"}
+            {name: 'created', index: 'created', width: 90, align: "center"},
+            {name: 'edited', index: 'edited', width: 90, align: "center"}
         ],
         rowNum: 10,
         autowidth: true,
