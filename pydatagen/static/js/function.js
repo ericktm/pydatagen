@@ -22,6 +22,8 @@ $(document).ready(function () {
         }
     });
 
+    $('.btn-menu-simple').button();
+
     $(document).ajaxStart(function () {
         debug('Iniciando requisição ajax.');
         $.blockUI({
