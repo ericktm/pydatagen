@@ -1,3 +1,4 @@
+#!coding:utf-8
 from django.core.paginator import Paginator
 
 from app.models import Field
@@ -47,7 +48,7 @@ class FieldSearch(object):
             new = {'id': str(registro.id),
                    'name': registro.name,
                    'type': registro.get_type_display(),
-                   'insert': registro.insert,
+                   'insert': 'Sim' if registro.insert else 'Não',
                    'created': registro.created.strftime('%d/%m/%Y'),
                    'edited': registro.edited.strftime('%d/%m/%Y') if registro.edited else ' - '
             }
