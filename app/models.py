@@ -24,6 +24,11 @@ class Project(models.Model):
         return self.name.upper()
 
 
+class ProjectFile(models.Model):
+    project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_project_files_project')
+    created = models.DateTimeField(auto_now_add=True, editable=False)
+    file = models.FileField(upload_to='project_files')
+
 class Table(models.Model):
     project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_table_project')
     name = models.CharField(verbose_name='Nome da Tabela', max_length=50)

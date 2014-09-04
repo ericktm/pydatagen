@@ -1,11 +1,13 @@
 import json
 import random
+import datetime
 
 from django.contrib.auth.decorators import login_required
+from django.core.files.base import File
 from django.http.response import HttpResponse
 
 from app.core.generator.main import Generator
-from app.models import Project
+from app.models import Project, ProjectFile
 
 
 @login_required
@@ -41,7 +43,6 @@ def index(request, project=None):
                 for field in fields:
                     if field.options:
                         options = field.options.replace('\\', '\\\\')
-                        print(options)
                         options = json.loads("""%s""" % options)
                     else:
                         options = dict()
@@ -53,7 +54,6 @@ def index(request, project=None):
 
                     # case string
                     elif field.type == 1:
-                        print(options)
                         value = "'%s'" % fabric.get_regex(options.get('regex', 'String'))
 
                     # Person Name
@@ -99,8 +99,18 @@ def index(request, project=None):
         else:
             print('Table not used')
 
-    file = open('pydatagen/media/export.sql', 'w')
+    file = open('pydatagen/media/export.sql', 'w+')
     file.write(sql)
+
+    try:
+        file_name = '%s-%s.sql' % (project.id, datetime.datetime.now().strftime("%f"))
+        project_file = ProjectFile()
+        project_file.project = project
+        project_file.file.save(content=File(file),
+                               name=file_name)
+        project_file.save()
+    except Exception, e:
+        print(e)
 
     retorno['success'] = True
     retorno['message'] = 'Arquivo Gerado com sucesso!'
