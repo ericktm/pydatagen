@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
+    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="* Adicionada classe tam330 para utilização em formularios de busca">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/field/field.js" afterPath="$PROJECT_DIR$/app/static/js/field/field.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/field/index.html" afterPath="$PROJECT_DIR$/app/templates/field/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/project/index.html" afterPath="$PROJECT_DIR$/app/templates/project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/table/index.html" afterPath="$PROJECT_DIR$/app/templates/table/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/project/project.js" afterPath="$PROJECT_DIR$/app/static/js/project/project.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/css/style.css" afterPath="$PROJECT_DIR$/pydatagen/static/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -63,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="field.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="field.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/static/js/field/field.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1088">
+            <state vertical-scroll-proportion="0.2155309" vertical-offset="0" max-vertical-offset="1088">
               <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
@@ -93,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/field/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34158415" vertical-offset="48" max-vertical-offset="680">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state vertical-scroll-proportion="-11.884615" vertical-offset="48" max-vertical-offset="680">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -197,7 +194,6 @@
         <option value="$PROJECT_DIR$/app/business/field/search.py" />
         <option value="$PROJECT_DIR$/app/templates/field/record.html" />
         <option value="$PROJECT_DIR$/app/forms.py" />
-        <option value="$PROJECT_DIR$/app/static/js/field/field.js" />
         <option value="$PROJECT_DIR$/pydatagen/templates/layout.html" />
         <option value="$PROJECT_DIR$/pydatagen/static/js/function.js" />
         <option value="$PROJECT_DIR$/pydatagen/static/css/style.css" />
@@ -205,6 +201,7 @@
         <option value="$PROJECT_DIR$/app/static/js/project/project.js" />
         <option value="$PROJECT_DIR$/app/templates/table/index.html" />
         <option value="$PROJECT_DIR$/app/templates/field/index.html" />
+        <option value="$PROJECT_DIR$/app/static/js/field/field.js" />
       </list>
     </option>
   </component>
@@ -657,6 +654,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="field" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1191,7 +1214,11 @@
       <created>1409058973002</created>
       <updated>1409058973002</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="* Adicionada classe tam330 para utilização em formularios de busca">
+      <created>1409789198147</created>
+      <updated>1409789198147</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1218,6 +1245,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259177" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1227,13 +1255,12 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17217484" sideWeight="0.32104123" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.487208" sideWeight="0.5010661" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26585093" sideWeight="0.4989339" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.266147" sideWeight="0.4989339" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33679834" sideWeight="0.49945474" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1254,7 +1281,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Adicionado Cadastro de Fields&#10;" />
     <MESSAGE value="Atualização de url&#10;" />
     <MESSAGE value="Criado menu no topo da página principal&#10;" />
     <MESSAGE value="Adicionado view de busca e listagem de projtos" />
@@ -1279,7 +1305,8 @@
     <MESSAGE value="Adicionados modelos de endereçamento;&#10;melhorada mensagem de erro&#10;otimização no processo de geração de email, com base no ultimo nome gerado&#10;adicionado icone para geração de arquivo do projeto atravez da grid de listagem de projetos&#10;adicionado quantidade de registros a ser gerado por tabela&#10;adicionado flag que indica se a tabela é populável&#10;" />
     <MESSAGE value="* Adicionado método para geração de datas;&#10;* Adicionado campo options parqa customização dos dados a ser gerados, através de objeto json;&#10;* alterado tamanho do campo regex(o campo será removido no futuro(ou não));&#10;* removidos dependencias inuteis do proveto(factory)" />
     <MESSAGE value="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options" />
-    <option name="LAST_COMMIT_MESSAGE" value="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options" />
+    <MESSAGE value="* Adicionada classe tam330 para utilização em formularios de busca" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Adicionada classe tam330 para utilização em formularios de busca" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1618,14 +1645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/field/field.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4590">
@@ -1676,8 +1695,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/field/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34158415" vertical-offset="48" max-vertical-offset="680">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state vertical-scroll-proportion="-11.884615" vertical-offset="48" max-vertical-offset="680">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/field/field.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2155309" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>

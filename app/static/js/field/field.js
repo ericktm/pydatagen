@@ -6,7 +6,7 @@ $(document).ready(function () {
             'data-div="dlg-field"' +
             'data-title="Editar Campo"' +
             'data-width="600"' +
-            'data-height="550"' +
+            'data-height="560"' +
             'data-url="/app/field/record/' + $('#table').val() + '/' + rowObject.id + '.html"></button>';
         var trash = '<button class="btn-trash mini" data-update="tab_field" title="Excluir Campo" data-url="/app/field/delete/' + rowObject.id + '.html"></button>';
         return edit + trash;
