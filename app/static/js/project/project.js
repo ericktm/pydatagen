@@ -13,12 +13,12 @@ $(document).ready(function () {
             'data-div="dlg-project"' +
             'data-title="Editar Projeto"' +
             'data-width="500"' +
-            'data-height="150"' +
+            'data-height="160"' +
             'data-url="/app/project/record/' + rowObject.id + '.html"></button>';
         var trash = '<button class="btn-trash mini action" data-update="tab_project" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
         var generate = '<button class="btn-start mini action"' +
             'data-url="/app/generate/' + rowObject.id + '.html"></button>';
-        return view + table + edit + generate + trash;
+        return table + edit + generate + trash;
     }
 
     $("#tab_project").jqGrid({
