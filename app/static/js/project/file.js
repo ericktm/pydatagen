@@ -2,14 +2,15 @@ $(document).ready(function () {
 
     function file_actions(cellValue, options, rowObject) {
 
-        var files = '<button class="btn-files mini open" ' +
-            'title="Arquivos Gerados" ' +
-            'data-url="/app/project/files/.html"' +
-            'data-div="dlg-project"' +
-            'data-title="Arquivos Gerados"' +
-            'data-width="500"' +
-            'data-height="160"' +
-            '></button>'
+        var files = '';
+
+        if (rowObject.status == 'Concluído') {
+            files += '<a class="btn-files mini" ' +
+                'title="Arquivos Gerados"' +
+                'target="_blank" ' +
+                'href="/media/' + rowObject.file + '"' +
+                'disabled="true"></a>';
+        }
 
         return files;
     }

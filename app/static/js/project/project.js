@@ -25,7 +25,7 @@ $(document).ready(function () {
             'data-div="dlg-project"' +
             'data-title="Arquivos Gerados"' +
             'data-width="600"' +
-            'data-height="400"' +
+            'data-height="420"' +
             '></button>'
 
         return files + table + edit + generate + trash;
