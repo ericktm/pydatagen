@@ -72,6 +72,7 @@ $(document).ready(function () {
         var id = element.attr('id');
     });
 
+
     $('.load').on('click', function (e) {
         e.preventDefault();
         var href = $(this).attr('href');
@@ -260,6 +261,13 @@ $(document).ready(function () {
                 primary: 'ui-icon-play'
             }
         });
+
+        $('.btn-files').button({
+            icons: {
+                primary: 'ui-icon-arrowthickstop-1-s'
+            }
+        });
+
 
     }
 });

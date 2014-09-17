@@ -18,7 +18,17 @@ $(document).ready(function () {
         var trash = '<button class="btn-trash mini action" data-update="tab_project" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
         var generate = '<button class="btn-start mini action"' +
             'data-url="/app/generate/' + rowObject.id + '.html"></button>';
-        return table + edit + generate + trash;
+
+        var files = '<button class="btn-files mini open" ' +
+            'title="Arquivos Gerados" ' +
+            'data-url="/app/project/files/' + rowObject.id + '.html"' +
+            'data-div="dlg-project"' +
+            'data-title="Arquivos Gerados"' +
+            'data-width="600"' +
+            'data-height="400"' +
+            '></button>'
+
+        return files + table + edit + generate + trash;
     }
 
     $("#tab_project").jqGrid({

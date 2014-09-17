@@ -7,6 +7,7 @@ from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.views.decorators.csrf import csrf_exempt
 
+from app.business.file.search import FileSearch
 from app.business.project.search import ProjectSearch
 from app.forms import FormProject
 from app.models import Project
@@ -84,5 +85,38 @@ def delete(request, id=None):
         retorno['errors'] = 'Erro ao excluir registro!'
 
     return HttpResponse(json.dumps(retorno), content_type='text/json')
+
+
+@login_required()
+@csrf_exempt
+def file_search(request):
+    retorno = {}
+
+    try:
+        busca = FileSearch(request.GET)
+        retorno = busca.buscar()
+    except Exception, e:
+        print(e)
+
+    retorno = json.dumps(retorno)
+    return HttpResponse(retorno, content_type='text/json')
+
+
+@login_required()
+def files(request, id=None):
+    try:
+
+        if id:
+            files = Project.objects.get(pk=id).app_project_files_project.all()
+
+            return render_to_response('project/files.html')
+
+        else:
+            pass
+
+        pass
+
+    except Exception, e:
+        print(e)
 
 

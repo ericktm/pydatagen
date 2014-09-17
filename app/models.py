@@ -13,6 +13,13 @@ TYPE_CHOICES = (
     (8, 'Username')
 )
 
+FILE_STATUS = (
+    (0, 'Agendado'),
+    (1, 'Em execução'),
+    (2, 'Concluído'),
+    (3, 'Processado com erros')
+)
+
 
 class Project(models.Model):
     name = models.CharField(verbose_name='Nome do Projeto', max_length=50)
@@ -28,6 +35,8 @@ class ProjectFile(models.Model):
     project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_project_files_project')
     created = models.DateTimeField(auto_now_add=True, editable=False)
     file = models.FileField(upload_to='project_files')
+    status = models.SmallIntegerField(choices=FILE_STATUS, default=0)
+
 
 class Table(models.Model):
     project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_table_project')
