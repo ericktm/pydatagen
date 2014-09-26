@@ -18,12 +18,14 @@ $(document).ready(function () {
     $("#tab_files").jqGrid({
         url: '/app/project/files/search.html',
         datatype: 'json',
-        colNames: ['Ações', 'Código', 'Data criação', 'Situação'],
+        colNames: ['Ações', 'Código', 'Data criação', 'Situação', 'Log'],
         colModel: [
             {name: 'actions', width: 100, formatter: file_actions, align: "center", sortable: false},
             {name: 'id', index: 'id', width: 80, align: "center", key: true},
             {name: 'created', index: 'created', width: 80, align: "center", key: true},
-            {name: 'status', index: 'status', width: 80, align: "center"}
+            {name: 'status', index: 'status', width: 80, align: "center"},
+            {name: 'log', index: 'log', sortable: false}
+
         ],
         rowNum: 10,
         autowidth: true,

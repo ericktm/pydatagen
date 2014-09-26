@@ -42,6 +42,7 @@ class FileSearch(object):
             novo['created'] = registro.created.strftime('%d/%m/%Y')
             novo['status'] = registro.get_status_display()
             novo['file'] = registro.file.name
+            novo['log'] = registro.log
             self.registros.append(novo)
 
         retorno = {}

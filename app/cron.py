@@ -110,8 +110,10 @@ def do():
                 schedule.file.save(content=File(file),
                                    name=file_name)
                 schedule.status = 2
+                schedule.log = 'Gerado com Sucesso!'
                 schedule.save()
             except Exception, e:
                 schedule.status = 3
+                schedule.log = 'Erro: %s ' % e
                 schedule.save()
                 print(e)
