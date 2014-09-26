@@ -64,11 +64,10 @@
       <file leaf-file-name="cron.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/cron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34931508" vertical-offset="0" max-vertical-offset="2040">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.64041096" vertical-offset="0" max-vertical-offset="2091">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <element signature="e#16#29#0" expanded="true" />
-                <marker date="1411773779463" expanded="true" signature="659:690" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -1060,7 +1059,11 @@
       <created>1411772768865</created>
       <updated>1411772768865</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="* Implementado agendador de execuções. (crontab)">
+      <created>1411773797452</created>
+      <updated>1411773797452</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1540,11 +1543,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/cron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34931508" vertical-offset="0" max-vertical-offset="2040">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.64041096" vertical-offset="0" max-vertical-offset="2091">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="e#16#29#0" expanded="true" />
-            <marker date="1411773779463" expanded="true" signature="659:690" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
