@@ -10,7 +10,7 @@ from app.core.generator.main import Generator
 from app.models import ProjectFile
 
 
-@kronos.register('0 0 * * *')
+@kronos.register('*/1 * * * *')
 def do():
     # project = Project.objects.get(pk=project)
     schedules = ProjectFile.objects.filter(status=0).all()
