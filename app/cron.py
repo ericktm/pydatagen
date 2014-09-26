@@ -19,7 +19,7 @@ def do():
 
         updated_schedule = ProjectFile.objects.get(pk=schedule.id)
 
-        if updated_schedule == 0:
+        if updated_schedule.status == 0:
             schedule.status = 1
             schedule.save()
 
