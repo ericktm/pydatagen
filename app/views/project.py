@@ -107,7 +107,7 @@ def files(request, id=None):
     try:
 
         if id:
-            files = Project.objects.get(pk=id).app_project_files_project.all()
+            files = Project.objects.get(pk=id).app_project_files_project.order_by('-created').all()
 
             return render_to_response('project/files.html')
 
