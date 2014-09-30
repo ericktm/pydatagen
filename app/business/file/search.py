@@ -26,6 +26,8 @@ class FileSearch(object):
         if self.project:
             self.dados = self.dados.filter(project=self.project)
 
+        print(self.project)
+
         # Only active records
         # self.dados = self.dados.filter(active=True)
         return self.paginar()
@@ -43,6 +45,11 @@ class FileSearch(object):
             novo['status'] = registro.get_status_display()
             novo['file'] = registro.file.name
             novo['log'] = registro.log
+            novo['start_exec'] = registro.start_exec.strftime(
+                '%d/%m/%Y %H:%M:%S') if registro.start_exec else 'Não Iniciado'
+            novo['end_exec'] = registro.end_exec.strftime(
+                '%d/%m/%Y %H:%M:%S') if registro.end_exec else 'Não Finalizado'
+
             self.registros.append(novo)
 
         retorno = {}

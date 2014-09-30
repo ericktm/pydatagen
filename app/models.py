@@ -37,6 +37,8 @@ class ProjectFile(models.Model):
     file = models.FileField(upload_to='project_files')
     status = models.SmallIntegerField(choices=FILE_STATUS, default=0)
     log = models.CharField(max_length=2000, blank=True)
+    start_exec = models.DateTimeField(blank=True, null=True)
+    end_exec = models.DateTimeField(blank=True, null=True)
 
 
 class Table(models.Model):

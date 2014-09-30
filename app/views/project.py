@@ -105,17 +105,8 @@ def file_search(request):
 @login_required()
 def files(request, id=None):
     try:
-
         if id:
-            files = Project.objects.get(pk=id).app_project_files_project.order_by('-created').all()
-
-            return render_to_response('project/files.html')
-
-        else:
-            pass
-
-        pass
-
+            return render_to_response('project/files.html', {'project': id})
     except Exception, e:
         print(e)
 

@@ -17,13 +17,16 @@ $(document).ready(function () {
 
     $("#tab_files").jqGrid({
         url: '/app/project/files/search.html',
-        datatype: 'json',
-        colNames: ['Ações', 'Código', 'Data criação', 'Situação', 'Log'],
+        datatype: 'local',
+        colNames: ['Ações', 'Código', 'Data criação', 'Situação', 'Início', 'Fim', 'Log'],
+
         colModel: [
-            {name: 'actions', width: 100, formatter: file_actions, align: "center", sortable: false},
-            {name: 'id', index: 'id', width: 80, align: "center", key: true},
-            {name: 'created', index: 'created', width: 80, align: "center", key: true},
-            {name: 'status', index: 'status', width: 80, align: "center"},
+            {name: 'actions', width: 50, formatter: file_actions, align: "center", sortable: false},
+            {name: 'id', index: 'id', width: 50, align: "center", key: true},
+            {name: 'created', index: 'created', width: 80, align: "center"},
+            {name: 'status', index: 'status', align: "left", width: 90},
+            {name: 'start_exec', index: 'start_exec', width: 90, align: "left"},
+            {name: 'end_exec', index: 'end_exec', width: 90, align: "left"},
             {name: 'log', index: 'log', sortable: false}
 
         ],
@@ -34,12 +37,15 @@ $(document).ready(function () {
         minHeight: '270px',
         pager: '#pag_files',
         sortname: 'id',
-        sortorder: "asc",
+        sortorder: "desc",
         hidegrid: false,
         caption: "Arquivos gerados no Projeto",
         scrollOffset: 0
     });
     $("#tab_files").jqGrid('navGrid', '#pag_files', {edit: false, add: false, del: false, search: false});
 
-
+    $("#tab_files").jqGrid('setGridParam', {
+        postData: {project: $('#project_id').val()},
+        datatype: 'json'
+    }).trigger('reloadGrid');
 });

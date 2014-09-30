@@ -24,7 +24,7 @@ $(document).ready(function () {
             'data-url="/app/project/files/' + rowObject.id + '.html"' +
             'data-div="dlg-project"' +
             'data-title="Arquivos Gerados"' +
-            'data-width="600"' +
+            'data-width="850"' +
             'data-height="420"' +
             '></button>'
 

@@ -2,6 +2,7 @@
 import random
 import datetime
 import json
+import os
 
 from django.core.files.base import File
 import kronos
@@ -21,6 +22,7 @@ def do():
 
         if updated_schedule.status == 0:
             schedule.status = 1
+            schedule.start_exec = datetime.datetime.now()
             schedule.save()
 
             project = schedule.project
@@ -103,15 +105,20 @@ def do():
 
             try:
                 file_name = '%s-%s.sql' % (project.id, datetime.datetime.now().strftime("%f"))
+                path = 'pydatagen/media/%s' % file_name
 
-                file = open('pydatagen/media/tmp.sql', 'w+')
+                file = open(path, 'w+')
                 file.write(sql)
 
                 schedule.file.save(content=File(file),
                                    name=file_name)
                 schedule.status = 2
+                schedule.end_exec = datetime.datetime.now()
                 schedule.log = 'Gerado com Sucesso!'
                 schedule.save()
+
+                file.close()
+                os.remove(path)
             except Exception, e:
                 schedule.status = 3
                 schedule.log = 'Erro: %s ' % e
