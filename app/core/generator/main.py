@@ -8,10 +8,11 @@ import re
 
 import exrex
 
+from pydatagen.settings import PROJECT_PATH
+
 
 class Generator(object):
     def __init__(self):
-        print(os.getcwd())
         super(Generator, self).__init__()
         self.names = self.get_names()
         self.countries = self.get_countries()
@@ -19,17 +20,19 @@ class Generator(object):
     @staticmethod
     def get_names():
         names = []
-        arquivo = open('pydatagen/res/names.csv', 'r')
+        file_dir = os.path.join(PROJECT_PATH, 'res/')
+        arquivo = open(file_dir + 'names.csv', 'r')
         for linha in arquivo:
             names.append(linha)
-        print len(names)
         return names
 
     @staticmethod
     def get_countries():
         countries = []
 
-        arquivo = open('pydatagen/res/country_list.txt', 'r')
+        file_dir = os.path.join(PROJECT_PATH, 'res/')
+        arquivo = open(file_dir + 'country_list.txt', 'r')
+
         for line in arquivo:
             countries.append(line.replace('\n', '').replace("'", "''"))
 
