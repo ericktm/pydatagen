@@ -107,7 +107,7 @@ def do():
                 file_name = '%s-%s.sql' % (project.id, datetime.datetime.now().strftime("%f"))
                 path = 'pydatagen/media/%s' % file_name
 
-                file = open(path, 'w+')
+                file = open(path, 'a+')
                 file.write(sql)
 
                 schedule.file.save(content=File(file),
@@ -122,5 +122,6 @@ def do():
             except Exception, e:
                 schedule.status = 3
                 schedule.log = 'Erro: %s ' % e
+                schedule.end_exec = datetime.datetime.now()
                 schedule.save()
                 print(e)

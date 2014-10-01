@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="* Adicionado start_exec e end_exec para temporizar o tempo de geração do arquivo&#10;* melhoria nas operções de I/O na geração de arquivos&#10;* alteração da grid de acomapnmhamento de execuçõies&#10;* melhorias no filtro de acompanhamento de execuções">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-180000.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-211000.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-288000.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-327000.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-401000.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-419000.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-551000.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-655000.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-922000.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/core/generator/main.py" afterPath="$PROJECT_DIR$/app/core/generator/main.py" />
+    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="* correção do metodo open ao abrir arquivos em sistemas *nix">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-048000.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-163000.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-359000.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-791000.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/media/project_files/1-906000.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cron.py" afterPath="$PROJECT_DIR$/app/cron.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -80,11 +76,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cron.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/cron.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.6404109" vertical-offset="997" max-vertical-offset="2108">
+              <caret line="124" column="59" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
+              <folding>
+                <marker date="1412129253914" expanded="true" signature="868:899" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/core/generator/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34931508" vertical-offset="0" max-vertical-offset="1989">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2006">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="e#17#26#0" expanded="true" />
               </folding>
@@ -97,16 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="680">
               <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1275">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -211,11 +209,11 @@
         <option value="$PROJECT_DIR$/app/views/project.py" />
         <option value="$PROJECT_DIR$/app/business/file/search.py" />
         <option value="$PROJECT_DIR$/app/templates/project/files.html" />
-        <option value="$PROJECT_DIR$/app/cron.py" />
         <option value="$PROJECT_DIR$/app/static/js/project/project.js" />
         <option value="$PROJECT_DIR$/app/static/js/project/file.js" />
         <option value="$PROJECT_DIR$/pydatagen/res/names.csv" />
         <option value="$PROJECT_DIR$/app/core/generator/main.py" />
+        <option value="$PROJECT_DIR$/app/cron.py" />
       </list>
     </option>
   </component>
@@ -350,6 +348,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -936,7 +948,11 @@
       <created>1412121341192</created>
       <updated>1412121341192</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
+      <created>1412122383852</created>
+      <updated>1412122383852</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -999,7 +1015,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Implementadas views simples para testes de geração de strings randomicas" />
     <MESSAGE value="Adicionada estrutura básica de cadastro de tabelas." />
     <MESSAGE value="Implementado login obirgatorio para todas as views" />
     <MESSAGE value="Adicionado tipo de preenchiumento País;&#10;Implementado arquivo com lista de países do mundo todo(em ingles);&#10;Implementados metódos para busca e retorno de nomes de países válidos;" />
@@ -1024,7 +1039,8 @@
     <MESSAGE value="* Implementado agendador de execuções. (crontab)" />
     <MESSAGE value="* Adicionado controle transacional na execução de agendamentos;" />
     <MESSAGE value="* Adicionado start_exec e end_exec para temporizar o tempo de geração do arquivo&#10;* melhoria nas operções de I/O na geração de arquivos&#10;* alteração da grid de acomapnmhamento de execuçõies&#10;* melhorias no filtro de acompanhamento de execuções" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Adicionado start_exec e end_exec para temporizar o tempo de geração do arquivo&#10;* melhoria nas operções de I/O na geração de arquivos&#10;* alteração da grid de acomapnmhamento de execuçõies&#10;* melhorias no filtro de acompanhamento de execuções" />
+    <MESSAGE value="* correção do metodo open ao abrir arquivos em sistemas *nix" />
+    <option name="LAST_COMMIT_MESSAGE" value="* correção do metodo open ao abrir arquivos em sistemas *nix" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1332,16 +1348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/cron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1557" max-vertical-offset="2244">
-          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
-          <folding>
-            <marker date="1412120440648" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="1836">
@@ -1426,10 +1432,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/core/generator/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34931508" vertical-offset="0" max-vertical-offset="1989">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2006">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6404109" vertical-offset="997" max-vertical-offset="2108">
+          <caret line="124" column="59" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
+          <folding>
+            <marker date="1412129253914" expanded="true" signature="868:899" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
