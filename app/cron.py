@@ -107,7 +107,7 @@ def do():
                 file_name = '%s-%s.sql' % (project.id, datetime.datetime.now().strftime("%f"))
                 path = 'pydatagen/media/%s' % file_name
 
-                file = open(path, 'rw')
+                file = open(path, 'a+')
 
                 file.write(sql)
 
