@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="* correção do metodo open ao abrir arquivos em sistemas *nix">
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-048000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-163000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-180000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-211000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-288000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-327000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-359000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-401000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-419000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-551000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-611000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-655000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-677000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-791000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-906000.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\pydatagen\pydatagen\media\project_files\1-922000.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cron.py" afterPath="$PROJECT_DIR$/app/cron.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -90,11 +74,11 @@
       <file leaf-file-name="cron.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/cron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53424656" vertical-offset="1507" max-vertical-offset="2346">
-              <caret line="107" column="55" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.62157536" vertical-offset="1490" max-vertical-offset="2278">
+              <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
               <folding>
                 <element signature="e#16#29#0" expanded="true" />
-                <marker date="1412129893859" expanded="true" signature="868:899" placeholder="INSERT INTO ..." />
+                <marker date="1412130313199" expanded="true" signature="868:899" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -968,7 +952,11 @@
       <created>1412129425841</created>
       <updated>1412129425841</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
+      <created>1412129959877</created>
+      <updated>1412129959877</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1458,11 +1446,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/cron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53424656" vertical-offset="1507" max-vertical-offset="2346">
-          <caret line="107" column="55" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.62157536" vertical-offset="1490" max-vertical-offset="2278">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
           <folding>
             <element signature="e#16#29#0" expanded="true" />
-            <marker date="1412129893859" expanded="true" signature="868:899" placeholder="INSERT INTO ..." />
+            <marker date="1412130313199" expanded="true" signature="868:899" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

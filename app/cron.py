@@ -107,11 +107,7 @@ def do():
                 file_name = '%s-%s.sql' % (project.id, datetime.datetime.now().strftime("%f"))
                 path = 'pydatagen/media/%s' % file_name
 
-                try:
-                    file = open(path)
-                except IOError:
-                    file = open(path, 'a+')
-
+                file = open(path, 'w')
 
                 file.write(sql)
 
