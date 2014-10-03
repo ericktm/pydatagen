@@ -2,3 +2,4 @@
 #Ignora bytecodes python
 *.pyc
 *.pyo
+*.sql

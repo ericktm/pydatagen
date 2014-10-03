@@ -1,12 +1,11 @@
 #! coding:utf-8
-from __future__ import unicode_literals
 import random
 import datetime
 import json
 import os
-from tempfile import NamedTemporaryFile
 
 from django.core.files.base import File
+from django.utils import timezone
 import kronos
 
 from app.core.generator.main import Generator
@@ -24,7 +23,7 @@ def do():
 
         if updated_schedule.status == 0:
             schedule.status = 1
-            schedule.start_exec = datetime.datetime.now()
+            schedule.start_exec = timezone.now()
             schedule.save()
 
             project = schedule.project
@@ -109,23 +108,20 @@ def do():
                 file_name = '%s-%s.sql' % (project.id, datetime.datetime.now().strftime("%f"))
                 path = 'pydatagen/media/%s' % file_name
 
-                file = NamedTemporaryFile(delete=False)
+                with open(path, 'w+') as f:
+                    f.write(sql)
+                    schedule.file.save(content=File(f),
+                                       name=file_name)
+                    schedule.status = 2
+                    schedule.end_exec = timezone.now()
+                    schedule.log = 'Gerado com Sucesso!'
+                    schedule.save()
 
-                print(file.name)
-                file.write(unicode(sql))
-
-                schedule.file.save(content=File(file),
-                                   name=file_name)
-                schedule.status = 2
-                schedule.end_exec = datetime.datetime.now()
-                schedule.log = 'Gerado com Sucesso!'
-                schedule.save()
-
-                file.close()
                 os.remove(path)
+                print('SUCCESS')
             except Exception, e:
                 schedule.status = 3
-                schedule.log = 'Erro: %s ' % e
+                schedule.log = 'Erro: %s ' % str(e)
                 schedule.end_exec = datetime.datetime.now()
                 schedule.save()
                 print(e)
