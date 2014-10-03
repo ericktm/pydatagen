@@ -1,8 +1,10 @@
 #! coding:utf-8
+from __future__ import unicode_literals
 import random
 import datetime
 import json
 import os
+from tempfile import NamedTemporaryFile
 
 from django.core.files.base import File
 import kronos
@@ -107,9 +109,10 @@ def do():
                 file_name = '%s-%s.sql' % (project.id, datetime.datetime.now().strftime("%f"))
                 path = 'pydatagen/media/%s' % file_name
 
-                file = open(path, 'a+')
+                file = NamedTemporaryFile(delete=False)
 
-                file.write(sql)
+                print(file.name)
+                file.write(unicode(sql))
 
                 schedule.file.save(content=File(file),
                                    name=file_name)
