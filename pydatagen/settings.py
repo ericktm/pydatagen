@@ -116,7 +116,7 @@ ROOT_URLCONF = 'pydatagen.urls'
 WSGI_APPLICATION = 'pydatagen.wsgi.application'
 
 TEMPLATE_DIRS = (
-    PROJECT_PATH + '/templates/'
+    PROJECT_PATH + '/templates/',
 )
 
 INSTALLED_APPS = (
@@ -126,7 +126,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'kronos',
-    'south',
+    # 'south',
     'app',
     'gunicorn',
 )

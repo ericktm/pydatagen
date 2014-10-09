@@ -1,8 +1,8 @@
-Django==1.6.5
-South==0.8.4
-argparse==1.2.1
-exrex==0.9.2
-gunicorn==18.0
-psycopg2==2.5.3
-wsgiref==0.1.2
+Django
+South
+exrex
+gunicorn
+psycopg2
 fake-factory
+django-kronos
+sqlalchemy

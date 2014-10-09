@@ -2,7 +2,7 @@
 import random
 import datetime
 import json
-import os
+import tempfile
 
 from django.core.files.base import File
 from django.utils import timezone
@@ -108,16 +108,17 @@ def do():
                 file_name = '%s-%s.sql' % (project.id, datetime.datetime.now().strftime("%f"))
                 path = 'pydatagen/media/%s' % file_name
 
-                with open(path, 'w+') as f:
-                    f.write(sql)
-                    schedule.file.save(content=File(f),
-                                       name=file_name)
-                    schedule.status = 2
-                    schedule.end_exec = timezone.now()
-                    schedule.log = 'Gerado com Sucesso!'
-                    schedule.save()
+                f = tempfile.NamedTemporaryFile(delete=False)
 
-                os.remove(path)
+                f.write(sql)
+                schedule.file.save(content=File(f.file),
+                                   name=file_name)
+                schedule.status = 2
+                schedule.end_exec = timezone.now()
+                schedule.log = 'Gerado com Sucesso!'
+                schedule.save()
+
+                # os.remove(path)
                 print('SUCCESS')
             except Exception, e:
                 schedule.status = 3
