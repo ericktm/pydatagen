@@ -2,7 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="* correção do metodo open ao abrir arquivos em sistemas *nix">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_2694e8_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_3d80b3_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_72a7cf_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_0_eeeeee_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_55_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_0073ea_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_666666_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_ff0084_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/jquery-ui-1.10.4.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/jquery.jgrowl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/ui.jqgrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/generic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/field/field.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/grid.locale-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/grid.locale-pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery-ui-i18n.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-en-AU.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-en-GB.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-en-NZ.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-pt-BR.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery-1.9.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.blockUI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.jgrowl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.jqGrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/project/project.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/table/table.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -939,7 +1006,11 @@
       <created>1412895707494</created>
       <updated>1412895707494</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
+      <created>1412895897246</created>
+      <updated>1412895897246</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
