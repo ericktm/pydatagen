@@ -96,3 +96,8 @@ class City(models.Model):
     created = models.DateTimeField(auto_now_add=True, editable=False)
     edited = models.DateTimeField(null=True, editable=False, auto_now=True)
     active = models.BooleanField(default=True, editable=False)
+
+
+class FirstName(models.Model):
+    name = models.CharField(max_length=60)
+    gender = models.CharField(max_length=1)

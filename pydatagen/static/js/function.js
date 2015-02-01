@@ -146,14 +146,16 @@ $(document).ready(function () {
         }
     });
 
-    $(document).on('click', '.btn_trash', function (e) {
+    $('body').on('click', '.btn-trash', function (e) {
         e.preventDefault();
 
-        var div = '<div id="confirm" title="Confirmar Exclusão">' +
+        var url = $(this).attr('data-url');
+        var update = $(this).attr('data-update');
+
+        var div = '<div id="confirm" title="Confirmar exclusão">' +
             '<p>' +
-            '<span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>' +
-            'Your files have downloaded successfully into the My Downloads folder.' +
-            '</p><p>Currently using <b>36% of your storage space</b>.</p>' +
+            '<span class="ui-icon ui-icon-help" style="float:left; margin:0 7px 50px 0;"></span>' +
+            'Deseja inativar o registro?' +
             '</div>';
 
         $(div).appendTo('body');
@@ -164,6 +166,22 @@ $(document).ready(function () {
             modal: true,
             buttons: {
                 "Excluir registro": function () {
+
+                    console.log(url);
+
+                    if (url != '#') {
+                        $.get(url, function (retorno) {
+                            debug(retorno);
+                            if (retorno.success == true) {
+                                message('Sucesso', retorno.message, 'success');
+                                $('#' + update).trigger("reloadGrid");
+                            } else {
+                                message('Sucesso', retorno.error);
+                            }
+                        });
+                    }
+
+
                     $(this).dialog("close");
                 },
                 Cancel: function () {
@@ -171,21 +189,6 @@ $(document).ready(function () {
                 }
             }
         });
-        message('Sucesso', retorno.message, 'success');
-
-        var url = $(this).attr('data-url');
-        var update = $(this).attr('data-update');
-        if (url == '#') {
-            $.get(url, function (retorno) {
-                debug(retorno);
-                if (retorno.success == true) {
-                    message('Sucesso', retorno.message, 'success');
-                    $('#' + update).trigger("reloadGrid");
-                } else {
-                    message('Sucesso', retorno.error);
-                }
-            });
-        }
     });
 
     $(document).on('click', '.btn-clean', function (e) {

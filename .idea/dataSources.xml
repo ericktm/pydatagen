@@ -6,18 +6,13 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/pydatagen</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Django default" uuid="c0680ac1-9207-4fe5-ae2b-9d3bd37e3add">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/pydatagen</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
       <libraries />
     </data-source>
   </component>
 </project>
-

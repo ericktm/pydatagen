@@ -15,7 +15,7 @@ $(document).ready(function () {
             'data-width="500"' +
             'data-height="160"' +
             'data-url="/app/project/record/' + rowObject.id + '.html"></button>';
-        var trash = '<button class="btn-trash mini action" data-update="tab_project" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
+        var trash = '<button class="btn-trash mini" data-update="tab_project" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
         var generate = '<button class="btn-start mini action"' +
             'data-url="/app/generate/' + rowObject.id + '.html"></button>';
 

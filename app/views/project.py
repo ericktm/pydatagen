@@ -80,6 +80,7 @@ def delete(request, id=None):
         project.active = False
         project.save()
         retorno['success'] = True
+        retorno['message'] = 'Registro excluído com sucesso!'
     except Exception as error:
         retorno['success'] = False
         retorno['errors'] = 'Erro ao excluir registro!'

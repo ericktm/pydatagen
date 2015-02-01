@@ -25,4 +25,5 @@ urlpatterns = patterns('app.views',
                        url(r'^field/delete/?(?P<id>\d*)?\.html', 'field.delete'),
 
                        url(r'^generate/(?P<project>\d*)\.html$', 'generate.index'),
+                       url(r'^extrair\.html$', 'generate.extrair_nome'),
 )

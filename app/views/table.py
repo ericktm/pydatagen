@@ -65,7 +65,7 @@ def save(data, id=None):
             return_data['success'] = True
         else:
             return_data['success'] = False
-            return_data['error'] = 'ERRO'
+            return_data['error'] = 'Erro na validação do formulário!'
             print(form.errors)
     except Exception as erro:
         return_data['success'] = False

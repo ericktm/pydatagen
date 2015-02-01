@@ -2,78 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="* correção do metodo open ao abrir arquivos em sistemas *nix">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_2694e8_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_3d80b3_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_72a7cf_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/cupertino/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/default/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_0_eeeeee_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_55_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_0073ea_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_666666_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_ff0084_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/flick/jquery-ui-1.10.4.custom.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/jquery.jgrowl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/ui.jqgrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/generic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/field/field.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/grid.locale-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/grid.locale-pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery-ui-i18n.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-en-AU.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-en-GB.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-en-NZ.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/i18n/jquery.ui.datepicker-pt-BR.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery-1.9.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.blockUI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.jgrowl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.jqGrid.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/project/project.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/table/table.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pydatagen/res/TB_Nomes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/project/file.js" afterPath="$PROJECT_DIR$/app/static/js/project/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/function.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/function.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/generate.py" afterPath="$PROJECT_DIR$/app/views/generate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/project/project.js" afterPath="$PROJECT_DIR$/app/static/js/project/project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/project.py" afterPath="$PROJECT_DIR$/app/views/project.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pydatagen.iml" afterPath="$PROJECT_DIR$/.idea/pydatagen.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/settings.py" afterPath="$PROJECT_DIR$/pydatagen/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/table/table.js" afterPath="$PROJECT_DIR$/app/static/js/table/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/table.py" afterPath="$PROJECT_DIR$/app/views/table.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/urls.py" afterPath="$PROJECT_DIR$/app/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,109 +41,112 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="pydatagen" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1926">
+              <caret line="45" column="72" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26003212" vertical-offset="0" max-vertical-offset="623">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="1962">
+              <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cron.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/cron.py">
+      <file leaf-file-name="generate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1603" max-vertical-offset="2412">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="2502">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
-                <marker date="1412895694229" expanded="true" signature="899:930" placeholder="INSERT INTO ..." />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="project.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../local/lib/python2.7/site-packages/django/core/files/base.py">
+      <file leaf-file-name="file.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/js/project/file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1677" max-vertical-offset="2988">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="990">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
+      <file leaf-file-name="generic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/generic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1854">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
+      <file leaf-file-name="table.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/js/table/table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2124" max-vertical-offset="2538">
-              <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="1278">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="630">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/project.py">
+      <file leaf-file-name="table.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/table.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1944" max-vertical-offset="2142">
-              <caret line="108" column="69" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1566">
+              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/generate.py">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2052" max-vertical-offset="2178">
-              <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -219,67 +173,31 @@
     </option>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pydatagen/templates/app/field/index.html" />
-        <option value="$PROJECT_DIR$/pydatagen/templates/sobre.html" />
-        <option value="$PROJECT_DIR$/deploy" />
-        <option value="$PROJECT_DIR$/static/js/function.js" />
-        <option value="$PROJECT_DIR$/app/views.py" />
-        <option value="$PROJECT_DIR$/app/static/generic.js" />
-        <option value="$PROJECT_DIR$/pydatagen/util/pagination.py" />
-        <option value="db-console:/947a1083/ce2d4e37-192a-43e9-8ae3-43de4df30885/" />
-        <option value="$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/__builtin__.py" />
-        <option value="$PROJECT_DIR$/app/templates/generate/index.html" />
-        <option value="C:/Python27/Lib/site-packages/django/forms/fields.py" />
-        <option value="$PROJECT_DIR$/app/business/table/search.py" />
-        <option value="$PROJECT_DIR$/app/business/project/search.py" />
-        <option value="$PROJECT_DIR$/app/views/field.py" />
-        <option value="$PROJECT_DIR$/app/views/table.py" />
-        <option value="$PROJECT_DIR$/pydatagen.conf" />
-        <option value="$PROJECT_DIR$/deploy.sh" />
-        <option value="$PROJECT_DIR$/pydatagen-nginx.conf" />
-        <option value="$PROJECT_DIR$/pydatagen/static/js/login.js" />
-        <option value="$PROJECT_DIR$/pydatagen/static/css/login.css" />
-        <option value="$PROJECT_DIR$/pydatagen/templates/login.html" />
-        <option value="$PROJECT_DIR$/app/static/js/table/table.js" />
-        <option value="$PROJECT_DIR$/app/templates/table/record.html" />
-        <option value="$PROJECT_DIR$/app/templates/project/record.html" />
-        <option value="$PROJECT_DIR$/app/business/field/search.py" />
-        <option value="$PROJECT_DIR$/app/templates/field/record.html" />
-        <option value="$PROJECT_DIR$/app/forms.py" />
-        <option value="$PROJECT_DIR$/pydatagen/templates/layout.html" />
-        <option value="$PROJECT_DIR$/pydatagen/static/css/style.css" />
-        <option value="$PROJECT_DIR$/app/templates/project/index.html" />
-        <option value="$PROJECT_DIR$/app/templates/table/index.html" />
-        <option value="$PROJECT_DIR$/app/templates/field/index.html" />
-        <option value="$PROJECT_DIR$/app/static/js/field/field.js" />
-        <option value="$PROJECT_DIR$/pydatagen/static/js/function.js" />
-        <option value="$PROJECT_DIR$/app/urls.py" />
-        <option value="$PROJECT_DIR$/pydatagen/cron.py" />
-        <option value="$PROJECT_DIR$/pydatagen/urls.py" />
-        <option value="$PROJECT_DIR$/app/views/generate.py" />
-        <option value="$PROJECT_DIR$/app/models.py" />
-        <option value="$PROJECT_DIR$/app/views/project.py" />
-        <option value="$PROJECT_DIR$/app/business/file/search.py" />
-        <option value="$PROJECT_DIR$/app/templates/project/files.html" />
-        <option value="$PROJECT_DIR$/app/static/js/project/project.js" />
-        <option value="$PROJECT_DIR$/app/static/js/project/file.js" />
-        <option value="$PROJECT_DIR$/pydatagen/res/names.csv" />
-        <option value="$PROJECT_DIR$/app/core/generator/main.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/pydatagen/settings.py" />
-        <option value="$PROJECT_DIR$/app/views/user.py" />
-        <option value="$PROJECT_DIR$/app/cron.py" />
+        <option value="$PROJECT_DIR$/app/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/app/views/generate.py" />
+        <option value="$PROJECT_DIR$/app/static/js/project/project.js" />
+        <option value="$PROJECT_DIR$/pydatagen/static/js/function.js" />
+        <option value="$PROJECT_DIR$/app/views/project.py" />
+        <option value="$PROJECT_DIR$/app/static/js/project/file.js" />
+        <option value="$PROJECT_DIR$/app/views/table.py" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/static/js/table/table.js" />
       </list>
     </option>
   </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1" />
+    <option name="y" value="27" />
+    <option name="width" value="1922" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -326,7 +244,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -373,7 +290,99 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="execution" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,13 +400,174 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../envs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bin/python2.7" />
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.searchVisible" value="true" />
@@ -464,6 +634,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/core/mapper.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -483,13 +654,14 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/core/generator/main.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -502,11 +674,69 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pydatagen" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pydatagen" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pydatagen" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pydatagen" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -534,7 +764,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -545,101 +775,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pydatagen" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pydatagen" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pydatagen" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pydatagen" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pydatagen" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -662,10 +801,69 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pydatagen" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pydatagen" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pydatagen" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
     <configuration default="false" name="pydatagen" type="Python.DjangoServer" factoryName="Django server">
@@ -675,7 +873,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="pydatagen.settings" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../bin/python" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../bin/python2.7" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -716,298 +914,301 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="" />
       <created>1376100926870</created>
+      <option name="number" value="Default" />
       <updated>1376100926870</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Adicionado paginação simples de conexões">
-      <created>1378053126490</created>
-      <updated>1378053126490</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Mudança do core">
-      <created>1378054824979</created>
-      <updated>1378054824979</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Mudança do core. Adicionados métodos de retornos para tipos de campos simples">
-      <created>1378071174900</created>
-      <updated>1378071174900</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Adição dos tipos de campos nos models.&#10;Campos Adicionados:&#10;Nome&#10;SObrenome&#10;Cidade&#10;Estado&#10;País&#10;">
-      <created>1378253626322</created>
-      <updated>1378253626322</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Adição dos tipos de campos nos models.&#10;Campos Adicionados:&#10;Nome&#10;SObrenome&#10;Cidade&#10;Estado&#10;País&#10;&#10;&#10;&#10;">
-      <created>1379264342315</created>
-      <updated>1379264342315</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Adicionado arquivo csv com lista de nomes&#10;&#10;&#10;">
-      <created>1379988241193</created>
-      <updated>1379988241193</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Mudança da Estrutura em models.py&#10;&#10;Alteração de layout, adicionados imports do bootstrap&#10;&#10;">
-      <created>1381598804585</created>
-      <updated>1381598804585</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Alterações de Template&#10;">
-      <created>1381616696098</created>
-      <updated>1381616696098</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Adicionado Cadastro de Fields&#10;">
-      <created>1381694229415</created>
-      <updated>1381694229416</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Atualização de url&#10;">
-      <created>1381697352851</created>
-      <updated>1381697352851</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Criado menu no topo da página principal&#10;">
-      <created>1391886475634</created>
-      <updated>1391886475634</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Adicionado view de busca e listagem de projtos">
-      <created>1394900849297</created>
-      <updated>1394900849297</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Adicionado JQgrid para paginação de registros">
-      <created>1394980327793</created>
-      <updated>1394980327793</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Visualizaçao de projetos funcionando">
-      <created>1394993576619</created>
-      <updated>1394993576619</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Visualizaçao de projetos funcionando">
-      <created>1394998603024</created>
-      <updated>1394998603024</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Visualizaçao de projetos funcionando">
-      <created>1396659458092</created>
-      <updated>1396659458092</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Implamentadda funcionalidade de edição de projetos">
-      <created>1396971900720</created>
-      <updated>1396971900720</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Implementada funcionalidade de busca de projetos, integrada com a grid">
-      <created>1396974012189</created>
-      <updated>1396974012189</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Implementadas views simples para testes de geração de strings randomicas">
-      <created>1396974762873</created>
-      <updated>1396974762873</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Adicionada estrutura básica de cadastro de tabelas.">
-      <created>1397167471814</created>
-      <updated>1397167471814</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Adicionada estrutura básica de cadastro de tabelas.">
-      <created>1397172314492</created>
-      <updated>1397172314492</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Adicionada estrutura básica de cadastro de tabelas.">
-      <created>1397310173961</created>
-      <updated>1397310173961</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Adicionada estrutura básica de cadastro de tabelas.">
-      <created>1397338987097</created>
-      <updated>1397338987097</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Implementado login obirgatorio para todas as views">
-      <created>1401928880634</created>
-      <updated>1401928880634</updated>
     </task>
     <task id="LOCAL-00025" summary="Implementado login obirgatorio para todas as views">
       <created>1402009290036</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
       <updated>1402009290036</updated>
     </task>
     <task id="LOCAL-00026" summary="Adicionado tipo de preenchiumento País;&#10;Implementado arquivo com lista de países do mundo todo(em ingles);&#10;Implementados metódos para busca e retorno de nomes de países válidos;">
       <created>1402100419940</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
       <updated>1402100419940</updated>
     </task>
     <task id="LOCAL-00027" summary="Adicionado PIP&#10;">
       <created>1402241335184</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
       <updated>1402241335184</updated>
     </task>
     <task id="LOCAL-00028" summary="Adicionado PIP&#10;">
       <created>1402241353015</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
       <updated>1402241353015</updated>
     </task>
     <task id="LOCAL-00029" summary="aLterado arquivo de automação de deploy">
       <created>1402443521325</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
       <updated>1402443521325</updated>
     </task>
     <task id="LOCAL-00030" summary="Alterado user do nginx">
       <created>1402669510742</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
       <updated>1402669510742</updated>
     </task>
     <task id="LOCAL-00031" summary="Alterado user do nginx">
       <created>1402967111212</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
       <updated>1402967111212</updated>
     </task>
     <task id="LOCAL-00032" summary="Modificados metodos de login via js;&#10;alterado loading ajax da aplicação;">
       <created>1403192354821</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
       <updated>1403192354821</updated>
     </task>
     <task id="LOCAL-00033" summary="Corrigido bug na geração da lista de nomes;">
       <created>1403207684023</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
       <updated>1403207684023</updated>
     </task>
     <task id="LOCAL-00034" summary="Corrigido bug na geração da lista de nomes;">
       <created>1403207783780</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
       <updated>1403207783780</updated>
     </task>
     <task id="LOCAL-00035" summary="Adicionado campo size_max;">
       <created>1403444972381</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
       <updated>1403444972381</updated>
     </task>
     <task id="LOCAL-00036" summary="Adicionado campo size_max;&#10;alterado destino do arquivo output.sql&#10;">
       <created>1403446014744</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
       <updated>1403446014744</updated>
     </task>
     <task id="LOCAL-00037" summary="Adicionado campo size_max;&#10;alterado destino do arquivo output.sql;&#10;Adicionado campo para relacionamento do foreign key utilizado para geração dos registros&#10;">
       <created>1403447662888</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
       <updated>1403447662888</updated>
     </task>
     <task id="LOCAL-00038" summary="Adicionado campo size_max;&#10;alterado destino do arquivo output.sql;&#10;Adicionado campo para relacionamento do foreign key utilizado para geração dos registros&#10;Implemetada funcionalidade de geração de dados para foreign key;&#10;">
       <created>1403449287491</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
       <updated>1403449287491</updated>
     </task>
     <task id="LOCAL-00039" summary="implementada funcionalidade de geração de email;&#10;">
       <created>1403559498571</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
       <updated>1403559498571</updated>
     </task>
     <task id="LOCAL-00040" summary="Adicionados modelos de endereçamento;&#10;melhorada mensagem de erro&#10;otimização no processo de geração de email, com base no ultimo nome gerado&#10;adicionado icone para geração de arquivo do projeto atravez da grid de listagem de projetos&#10;adicionado quantidade de registros a ser gerado por tabela&#10;adicionado flag que indica se a tabela é populável&#10;">
       <created>1404658763911</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
       <updated>1404658763911</updated>
     </task>
     <task id="LOCAL-00041" summary="Adicionados modelos de endereçamento;&#10;melhorada mensagem de erro&#10;otimização no processo de geração de email, com base no ultimo nome gerado&#10;adicionado icone para geração de arquivo do projeto atravez da grid de listagem de projetos&#10;adicionado quantidade de registros a ser gerado por tabela&#10;adicionado flag que indica se a tabela é populável&#10;">
       <created>1404658906041</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
       <updated>1404658906041</updated>
     </task>
     <task id="LOCAL-00042" summary="* Adicionado método para geração de datas;&#10;* Adicionado campo options parqa customização dos dados a ser gerados, através de objeto json;&#10;* alterado tamanho do campo regex(o campo será removido no futuro(ou não));&#10;* removidos dependencias inuteis do proveto(factory)">
       <created>1405120445463</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
       <updated>1405120445463</updated>
     </task>
     <task id="LOCAL-00043" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1405123065554</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
       <updated>1405123065554</updated>
     </task>
     <task id="LOCAL-00044" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1406468552819</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
       <updated>1406468552819</updated>
     </task>
     <task id="LOCAL-00045" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1408745784300</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
       <updated>1408745784300</updated>
     </task>
     <task id="LOCAL-00046" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1408745936074</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
       <updated>1408745936074</updated>
     </task>
     <task id="LOCAL-00047" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1408745944292</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
       <updated>1408745944292</updated>
     </task>
     <task id="LOCAL-00048" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1408746691157</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
       <updated>1408746691157</updated>
     </task>
     <task id="LOCAL-00049" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1408749287969</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
       <updated>1408749287969</updated>
     </task>
     <task id="LOCAL-00050" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1409058497125</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
       <updated>1409058497125</updated>
     </task>
     <task id="LOCAL-00051" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1409058973002</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
       <updated>1409058973002</updated>
     </task>
     <task id="LOCAL-00052" summary="* Adicionada classe tam330 para utilização em formularios de busca">
       <created>1409789198147</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
       <updated>1409789198147</updated>
     </task>
     <task id="LOCAL-00053" summary="* Removido Scroll Vertical no cadastro de campos">
       <created>1409789336218</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
       <updated>1409789336218</updated>
     </task>
     <task id="LOCAL-00054" summary="* Removido Scroll Vertical no cadastro de campos&#10;* adicionado geração de arquivos por execução.. Novo modelo ProjectFile">
       <created>1409793445841</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
       <updated>1409793445841</updated>
     </task>
     <task id="LOCAL-00055" summary="Adicionada Tela de arquivos do projeto">
       <created>1410915830820</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
       <updated>1410915830820</updated>
     </task>
     <task id="LOCAL-00056" summary="adicionado botão de download de arquivo">
       <created>1410916752040</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
       <updated>1410916752040</updated>
     </task>
     <task id="LOCAL-00057" summary="* Implementado agendador de execuções. (crontab)">
       <created>1411772718892</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
       <updated>1411772718892</updated>
     </task>
     <task id="LOCAL-00058" summary="* Implementado agendador de execuções. (crontab)">
       <created>1411772768865</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
       <updated>1411772768865</updated>
     </task>
     <task id="LOCAL-00059" summary="* Implementado agendador de execuções. (crontab)">
       <created>1411773797452</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
       <updated>1411773797452</updated>
     </task>
     <task id="LOCAL-00060" summary="* Adicionado controle transacional na execução de agendamentos;">
       <created>1411774282430</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
       <updated>1411774282430</updated>
     </task>
     <task id="LOCAL-00061" summary="* Adicionado controle transacional na execução de agendamentos;">
       <created>1411774446179</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
       <updated>1411774446179</updated>
     </task>
     <task id="LOCAL-00062" summary="* Adicionado controle transacional na execução de agendamentos;">
       <created>1411775038065</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
       <updated>1411775038065</updated>
     </task>
     <task id="LOCAL-00063" summary="* Adicionado start_exec e end_exec para temporizar o tempo de geração do arquivo&#10;* melhoria nas operções de I/O na geração de arquivos&#10;* alteração da grid de acomapnmhamento de execuçõies&#10;* melhorias no filtro de acompanhamento de execuções">
       <created>1412120441960</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
       <updated>1412120441960</updated>
     </task>
     <task id="LOCAL-00064" summary="* Adicionado start_exec e end_exec para temporizar o tempo de geração do arquivo&#10;* melhoria nas operções de I/O na geração de arquivos&#10;* alteração da grid de acomapnmhamento de execuçõies&#10;* melhorias no filtro de acompanhamento de execuções">
       <created>1412121341192</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
       <updated>1412121341192</updated>
     </task>
     <task id="LOCAL-00065" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
       <created>1412122383852</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
       <updated>1412122383852</updated>
     </task>
     <task id="LOCAL-00066" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
       <created>1412129425841</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
       <updated>1412129425841</updated>
     </task>
     <task id="LOCAL-00067" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
       <created>1412129959877</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
       <updated>1412129959877</updated>
     </task>
     <task id="LOCAL-00068" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
       <created>1412130367975</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
       <updated>1412130367975</updated>
     </task>
     <task id="LOCAL-00069" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
       <created>1412130524050</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
       <updated>1412130524050</updated>
     </task>
     <task id="LOCAL-00070" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
       <created>1412131191510</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
       <updated>1412131191510</updated>
     </task>
     <task id="LOCAL-00071" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
       <created>1412371619584</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
       <updated>1412371619584</updated>
     </task>
     <task id="LOCAL-00072" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
       <created>1412895707494</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
       <updated>1412895707494</updated>
     </task>
     <task id="LOCAL-00073" summary="* correção do metodo open ao abrir arquivos em sistemas *nix">
       <created>1412895897246</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
       <updated>1412895897246</updated>
     </task>
     <option name="localTasksCounter" value="74" />
@@ -1034,29 +1235,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="-1" y="27" width="1922" height="1024" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.335707" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2603939" sideWeight="0.50104165" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33679834" sideWeight="0.49945474" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2603939" sideWeight="0.49895832" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33479214" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17864583" sideWeight="0.6767896" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946696" sideWeight="0.6853377" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18544474" sideWeight="0.6767896" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17217484" sideWeight="0.32104123" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31959912" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26042727" sideWeight="0.49840087" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33679834" sideWeight="0.49945474" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1105,8 +1308,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <option name="time" value="8" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pydatagen/res/names.csv">
@@ -1120,7 +1327,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="2538">
           <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1128,7 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,9 +1374,6 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/static/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1205,20 +1410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/table/table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1207">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1479">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/table/record.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="357">
@@ -1233,24 +1424,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/generic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="1173">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1282,13 +1459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3975" max-vertical-offset="4726">
-          <caret line="246" column="31" selection-start-line="246" selection-start-column="31" selection-end-line="246" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/field.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1479">
@@ -1303,24 +1473,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="425">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1335,20 +1491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="204">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1275">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project/file.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1373,13 +1515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/core/generator/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2006">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/core/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="2988">
@@ -1391,7 +1526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,65 +1533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
           <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1697" max-vertical-offset="2502">
-          <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="630">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1247" max-vertical-offset="1944">
-          <caret line="108" column="69" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/generate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2088">
-          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1854">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../local/lib/python2.7/site-packages/django/core/files/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1677" max-vertical-offset="2988">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/cron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1603" max-vertical-offset="2412">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <marker date="1412895694229" expanded="true" signature="899:930" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1465,7 +1540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1473,18 +1547,159 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="623">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26003212" vertical-offset="0" max-vertical-offset="623">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1908">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2412">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding>
+            <element signature="e#16#29#0" expanded="true" />
+            <marker date="1422400287517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/generator/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1962">
+          <caret line="26" column="20" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2736" max-vertical-offset="5058">
+          <caret line="171" column="30" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1962">
+          <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1566">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1926">
+          <caret line="45" column="72" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2502">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/project/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="990">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/generic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/table/table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="1278">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

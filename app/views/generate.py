@@ -1,9 +1,26 @@
 import json
 
+import os
 from django.contrib.auth.decorators import login_required
 from django.http.response import HttpResponse
 
-from app.models import Project, ProjectFile
+from app.models import Project, ProjectFile, FirstName
+from pydatagen.settings import PROJECT_PATH
+
+
+def extrair_nome(request):
+    file_dir = os.path.join(PROJECT_PATH, 'res/')
+    arquivo = open(file_dir + 'TB_Nomes.csv', 'r')
+    for linha in arquivo:
+        nome = FirstName()
+        registro = linha.split(',')
+        nome.name = registro[1]
+        nome.gender = registro[2].replace('"', '')
+        # print(registro[2])
+
+        nome.save()
+
+    return HttpResponse('teste')
 
 
 @login_required
@@ -30,7 +47,7 @@ def index(request, project=None):
     #
     # project = Project.objects.get(pk=project)
     #
-    #    tables = project.app_table_project.filter(active=True).order_by('order').all()
+    # tables = project.app_table_project.filter(active=True).order_by('order').all()
     #
     #    for table in tables:
     #
