@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     $("#tab_project").jqGrid({
         url: '/app/project/search.html',
-        datatype: 'local',
+        datatype: 'json',
         colNames: ['Ações', 'Código', 'Nome do Projeto', 'Quant. Tabelas', 'Data criação', 'Data Edição'],
         colModel: [
             {name: 'actions', width: 100, formatter: actions, align: "center", sortable: false},
@@ -46,8 +46,7 @@ $(document).ready(function () {
         rowNum: 10,
         autowidth: true,
         rowList: [10, 15, 20],
-        height: 'auto',
-        minHeight: '270px',
+        height: '270px',
         pager: '#pag_project',
         sortname: 'id',
         viewrecords: true,
@@ -62,8 +61,7 @@ $(document).ready(function () {
     $(document).on('submit', '.busca_projeto', function (e) {
         e.preventDefault();
         $("#tab_project").jqGrid('setGridParam', {
-            postData: {id: $('#codigo').val(), name: $('#nome').val()},
-            datatype: 'json'
+            postData: {id: $('#codigo').val(), name: $('#nome').val()}
         }).trigger('reloadGrid');
     });
 });

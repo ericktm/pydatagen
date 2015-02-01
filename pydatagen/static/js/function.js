@@ -162,13 +162,16 @@ $(document).ready(function () {
 
         $(div).dialog({
             resizable: false,
-            height: 140,
+            height: 170,
             modal: true,
+            closeOnEscape: true,
+            close: function (event, ui) {
+
+                $(this).destroy().remove();
+            },
             buttons: {
                 "Excluir registro": function () {
-
                     console.log(url);
-
                     if (url != '#') {
                         $.get(url, function (retorno) {
                             debug(retorno);
@@ -180,8 +183,6 @@ $(document).ready(function () {
                             }
                         });
                     }
-
-
                     $(this).dialog("close");
                 },
                 Cancel: function () {
