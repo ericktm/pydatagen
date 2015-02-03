@@ -2,24 +2,28 @@
 import random
 import datetime
 import json
-import tempfile
 
-from django.core.files.base import File
 from django.utils import timezone
 import kronos
 
 from app.core.generator.main import Generator
 from app.models import ProjectFile
+from pydatagen.settings import SQL_DIR
 
 
 @kronos.register('*/1 * * * *')
 def do():
+    BUFFER_COUNT = 0
+
+    print('starting...')
+
     # project = Project.objects.get(pk=project)
     schedules = ProjectFile.objects.filter(status=0).all()
 
     for schedule in schedules:
 
         updated_schedule = ProjectFile.objects.get(pk=schedule.id)
+        w = Writter('%s.sql' % schedule.id)
 
         if updated_schedule.status == 0:
             schedule.status = 1
@@ -48,7 +52,14 @@ def do():
                         for field in fields:
                             if field.options:
                                 options = field.options.replace('\\', '\\\\')
-                                options = json.loads("""%s""" % options)
+
+                                try:
+                                    options = json.loads("""%s""" % options)
+                                except Exception as e:
+                                    schedule.status = 3
+                                    schedule.log = 'Erro: %s ' % e.message
+                                    schedule.save()
+
                             else:
                                 options = dict()
 
@@ -100,19 +111,19 @@ def do():
 
                         # After generate all fields
                         sql += sql_insert % (table.name, columns_names, values)
+                        BUFFER_COUNT += 1
+
+                        if BUFFER_COUNT >= 500:
+                            w.write(sql)
+                            BUFFER_COUNT = 0
+                            sql = ''
 
                 else:
                     print('Table not used')
 
             try:
-                file_name = '%s-%s.sql' % (project.id, datetime.datetime.now().strftime("%f"))
-                path = 'pydatagen/media/%s' % file_name
 
-                f = tempfile.NamedTemporaryFile(delete=False)
-
-                f.write(sql)
-                schedule.file.save(content=File(f.file),
-                                   name=file_name)
+                w.write(sql)
                 schedule.status = 2
                 schedule.end_exec = timezone.now()
                 schedule.log = 'Gerado com Sucesso!'
@@ -120,9 +131,25 @@ def do():
 
                 # os.remove(path)
                 print('SUCCESS')
+
+                w.close()
+
             except Exception, e:
                 schedule.status = 3
                 schedule.log = 'Erro: %s ' % str(e)
                 schedule.end_exec = datetime.datetime.now()
                 schedule.save()
                 print(e)
+
+
+class Writter(object):
+    def __init__(self, file_name='file.txt'):
+        print('again')
+        self.file = open('%s/%s' % (SQL_DIR, file_name), 'w+')
+
+    def write(self, text='content'):
+        self.file.write(text)
+
+    def close(self):
+        print('closing file..')
+        self.file.close()

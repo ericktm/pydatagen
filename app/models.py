@@ -55,6 +55,13 @@ class Table(models.Model):
         return self.name
 
 
+class TableFile(models.Model):
+    project_file = models.ForeignKey(ProjectFile)
+    table = models.ForeignKey(Table)
+    order = models.SmallIntegerField(verbose_name='Ordem')
+    quantity = models.IntegerField(verbose_name='Quantidade de registros', default=1000)
+
+
 class Field(models.Model):
     table = models.ForeignKey(verbose_name='Nome da Tabela', to=Table, related_name='app_field_table')
     name = models.CharField(verbose_name='Nome do Campo', max_length=50)

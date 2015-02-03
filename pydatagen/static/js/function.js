@@ -148,12 +148,12 @@ $(document).ready(function () {
 
     $('body').on('click', '.btn-trash', function (e) {
         e.preventDefault();
+        $('#confirm').remove();
 
         var url = $(this).attr('data-url');
         var update = $(this).attr('data-update');
 
-        var div = '<div id="confirm" title="Confirmar exclusão">' +
-            '<p>' +
+        var div = '<div id="confirm" class="hidden" title="Confirmar exclusão">' +
             '<span class="ui-icon ui-icon-help" style="float:left; margin:0 7px 50px 0;"></span>' +
             'Deseja inativar o registro?' +
             '</div>';
@@ -162,12 +162,11 @@ $(document).ready(function () {
 
         $(div).dialog({
             resizable: false,
-            height: 170,
+            height: 180,
             modal: true,
             closeOnEscape: true,
             close: function (event, ui) {
-
-                $(this).destroy().remove();
+                $('#confirm').remove();
             },
             buttons: {
                 "Excluir registro": function () {
@@ -194,9 +193,9 @@ $(document).ready(function () {
 
     $(document).on('click', '.btn-clean', function (e) {
         var update = $(this).attr('data-update');
-        $("#" + update).jqGrid('setGridParam', {
-            datatype: 'local'
-        }).trigger('reloadGrid');
+
+        $("#" + update).jqGrid('setGridParam', {postData: {}}).trigger('reloadGrid');
+
         message('Sucesso', 'Parâmetros de busca limpos!', 'success');
     });
 
