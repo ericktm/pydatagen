@@ -6,10 +6,10 @@ $(document).ready(function () {
 
         if (rowObject.status == 'Concluído') {
             files += '<a class="btn-files mini" ' +
-                'title="Arquivos Gerados"' +
-                'target="_blank" ' +
-                'href="/media/' + rowObject.file + '"' +
-                'disabled="true"></a>';
+            'title="Arquivos Gerados"' +
+            'target="_blank" ' +
+            'href="/media/project_files/' + rowObject.id + '.sql"' +
+            'disabled="true"></a>';
         }
 
         return files;
@@ -18,13 +18,14 @@ $(document).ready(function () {
     $("#tab_files").jqGrid({
         url: '/app/project/files/search.html',
         datatype: 'local',
-        colNames: ['Ações', 'Código', 'Data criação', 'Situação', 'Início', 'Fim', 'Log'],
+        colNames: ['Ações', 'Código', 'Data criação', 'Situação', 'Quant. Gerada', 'Início', 'Fim', 'Log'],
 
         colModel: [
             {name: 'actions', width: 50, formatter: file_actions, align: "center", sortable: false},
             {name: 'id', index: 'id', width: 50, align: "center", key: true},
             {name: 'created', index: 'created', width: 80, align: "center"},
             {name: 'status', index: 'status', align: "left", width: 90},
+            {name: 'quantity', index: 'quantity', align: "center", width: 90},
             {name: 'start_exec', index: 'start_exec', width: 90, align: "left"},
             {name: 'end_exec', index: 'end_exec', width: 90, align: "left"},
             {name: 'log', index: 'log', sortable: false}

@@ -33,8 +33,9 @@ class Project(models.Model):
 
 class ProjectFile(models.Model):
     project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_project_files_project')
+    quantity = models.IntegerField(verbose_name='Quantidade de registros', default=0)
     created = models.DateTimeField(auto_now_add=True, editable=False)
-    file = models.FileField(upload_to='project_files')
+    # file = models.
     status = models.SmallIntegerField(choices=FILE_STATUS, default=0)
     log = models.CharField(max_length=2000, blank=True)
     start_exec = models.DateTimeField(blank=True, null=True)

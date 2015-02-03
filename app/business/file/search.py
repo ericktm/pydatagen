@@ -43,8 +43,8 @@ class FileSearch(object):
             novo['project'] = registro.project.id
             novo['created'] = registro.created.strftime('%d/%m/%Y')
             novo['status'] = registro.get_status_display()
-            novo['file'] = registro.file.name
             novo['log'] = registro.log
+            novo['quantity'] = registro.quantity
             novo['start_exec'] = registro.start_exec.strftime(
                 '%d/%m/%Y %H:%M:%S') if registro.start_exec else 'Não Iniciado'
             novo['end_exec'] = registro.end_exec.strftime(

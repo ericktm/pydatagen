@@ -13,8 +13,6 @@ from pydatagen.settings import SQL_DIR
 
 @kronos.register('*/1 * * * *')
 def do():
-    BUFFER_COUNT = 0
-
     print('starting...')
 
     # project = Project.objects.get(pk=project)
@@ -22,6 +20,8 @@ def do():
 
     for schedule in schedules:
 
+        buffer_count = 0
+        quant = 0
         updated_schedule = ProjectFile.objects.get(pk=schedule.id)
         w = Writter('%s.sql' % schedule.id)
 
@@ -111,11 +111,12 @@ def do():
 
                         # After generate all fields
                         sql += sql_insert % (table.name, columns_names, values)
-                        BUFFER_COUNT += 1
+                        buffer_count += 1
+                        quant += 1
 
-                        if BUFFER_COUNT >= 500:
+                        if buffer_count >= 500:
                             w.write(sql)
-                            BUFFER_COUNT = 0
+                            buffer_count = 0
                             sql = ''
 
                 else:
@@ -127,6 +128,7 @@ def do():
                 schedule.status = 2
                 schedule.end_exec = timezone.now()
                 schedule.log = 'Gerado com Sucesso!'
+                schedule.quantity = quant
                 schedule.save()
 
                 # os.remove(path)
