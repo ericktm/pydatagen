@@ -1,0 +1,13 @@
+{% load staticfiles %}
+
+<table id="tab_schedules" class="table"></table>
+<div id="pag_schedules"></div>
+
+<div class="actions center tam400 text-center">
+    <button type="submit" class="btn-save">
+        Agendar!
+    </button>
+</div>
+
+<input type="hidden" value="{{ project }}" id="project_id"/>
+<script type="text/javascript" src="{% static 'js/schedule/schedule.js' %}"></script>

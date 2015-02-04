@@ -17,7 +17,8 @@ FILE_STATUS = (
     (0, 'Agendado'),
     (1, 'Em execução'),
     (2, 'Concluído'),
-    (3, 'Processado com erros')
+    (3, 'Processado com erros'),
+    (4, 'Rascunho')
 )
 
 
@@ -36,7 +37,7 @@ class ProjectFile(models.Model):
     quantity = models.IntegerField(verbose_name='Quantidade de registros', default=0)
     created = models.DateTimeField(auto_now_add=True, editable=False)
     # file = models.
-    status = models.SmallIntegerField(choices=FILE_STATUS, default=0)
+    status = models.SmallIntegerField(choices=FILE_STATUS, default=4)
     log = models.CharField(max_length=2000, blank=True)
     start_exec = models.DateTimeField(blank=True, null=True)
     end_exec = models.DateTimeField(blank=True, null=True)

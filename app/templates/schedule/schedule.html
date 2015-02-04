@@ -1,0 +1,22 @@
+<form method="post" name="form_project" class="center tam400 form_post"
+      action="/app/project/schedule/{{ scheduler.id }}.html"
+      data-update="tab_project" data-close="dlg-project">
+
+    <ul>
+
+    </ul>
+
+    {% for foo in scheduler.tablefile_set %}
+        {{ foo.quantity }}
+    {% endfor %}
+
+
+
+    <div class="actions center tam400 text-center">
+        <button type="submit" class="btn-save">
+            Salvar
+        </button>
+    </div>
+</form>
+
+

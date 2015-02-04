@@ -30,16 +30,15 @@ def do():
             schedule.start_exec = timezone.now()
             schedule.save()
 
-            project = schedule.project
             sql = ''
-            tables = project.app_table_project.filter(active=True).order_by('order').all()
-            for table in tables:
-                if table.insert:
+            print(vars(ProjectFile))
+            for table in updated_schedule.tablefile_set.filter(active=True).all():
+                if table.quantity > 0:
                     sql_insert = 'INSERT INTO %s (%s) VALUES (%s);\n'
                     last_name = ''
                     fabric = Generator()
                     # get active fields
-                    fields = table.app_field_table.filter(active=True, insert=True).order_by('type').all()
+                    fields = table.table.app_field_table.filter(active=True, insert=True).order_by('type').all()
                     columns_names = ''
                     for column in fields:
                         if columns_names == '':
@@ -110,7 +109,7 @@ def do():
                                 values += ', %s' % value
 
                         # After generate all fields
-                        sql += sql_insert % (table.name, columns_names, values)
+                        sql += sql_insert % (table.table.name, columns_names, values)
                         buffer_count += 1
                         quant += 1
 
@@ -120,7 +119,7 @@ def do():
                             sql = ''
 
                 else:
-                    print('Table not used')
+                    schedule.log = 'Table not used'
 
             try:
 

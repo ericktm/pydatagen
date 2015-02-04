@@ -9,14 +9,14 @@ from django.template.context import RequestContext
 from django.views.decorators.csrf import csrf_exempt
 
 from app.business.file.search import FileSearch
-from app.business.project.search import ProjectSearch
+from app.business.schedule.search import ScheduleSearch
 from app.forms import FormProject
 from app.models import Project, ProjectFile, TableFile
 
 
 @login_required
-def index(request):
-    return render_to_response('project/index.html', RequestContext(request))
+def index(request, id=None):
+    return render_to_response('schedule/schedules.html', {'project': id}, RequestContext(request))
 
 
 @login_required
@@ -24,7 +24,7 @@ def search(request):
     retorno = {}
 
     try:
-        busca = ProjectSearch(request.GET)
+        busca = ScheduleSearch(request.GET)
         retorno = busca.buscar()
     except Exception, e:
         print(e)
@@ -121,7 +121,7 @@ def schedule(request, id=None):
             project = Project.objects.get(pk=id)
             scheduler, created = ProjectFile.objects.get_or_create(project=project, status=4)
             if created:
-                for table in project.app_table_project.filter(active=True).all():
+                for table in project.app_table_project.all():
                     new = TableFile()
                     new.project_file = scheduler
                     new.order = 0
