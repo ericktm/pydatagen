@@ -46,12 +46,12 @@ class ProjectFile(models.Model):
 class Table(models.Model):
     project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_table_project')
     name = models.CharField(verbose_name='Nome da Tabela', max_length=50)
-    order = models.SmallIntegerField(verbose_name='Ordem')
+    # order = models.SmallIntegerField(verbose_name='Ordem')
     created = models.DateTimeField(auto_now_add=True, editable=False)
     edited = models.DateTimeField(null=True, editable=False, auto_now=True)
     active = models.BooleanField(default=True, editable=False)
-    insert = models.BooleanField(verbose_name='Populável', default=True)
-    quantity = models.IntegerField(verbose_name='Quantidade de registros', default=1000)
+    # insert = models.BooleanField(verbose_name='Populável', default=True)
+    # quantity = models.IntegerField(verbose_name='Quantidade de registros', default=1000)
 
     def __unicode__(self):
         return self.name

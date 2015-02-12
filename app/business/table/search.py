@@ -46,7 +46,6 @@ class TableSearch(object):
         for registro in page_records:
             new = {'id': str(registro.id),
                    'name': registro.name,
-                   'order': registro.order,
                    'created': registro.created.strftime('%d/%m/%Y'),
                    'edited': registro.edited.strftime('%d/%m/%Y') if registro.edited else ' - '
             }

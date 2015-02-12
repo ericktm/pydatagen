@@ -22,12 +22,11 @@ $(document).ready(function () {
     $("#tab_table").jqGrid({
         url: '/app/table/search.html',
         datatype: 'local',
-        colNames: ['Ações', 'Código', 'Nome da Tabela', 'Ordem', 'Data criação', 'Data Edição'],
+        colNames: ['Ações', 'Código', 'Nome da Tabela', 'Data criação', 'Data Edição'],
         colModel: [
             {name: 'actions', formatter: actions, align: "center", sortable: false},
             {name: 'id', index: 'id', width: 90, key: true},
             {name: 'name', index: 'name', width: 150},
-            {name: 'order', index: 'order'},
             {name: 'created', index: 'created', width: 80, align: "center"},
             {name: 'edited', index: 'edited', width: 80, align: "center"}
         ],
@@ -35,7 +34,7 @@ $(document).ready(function () {
         autowidth: true,
         height: '270',
         pager: '#pag_table',
-        sortname: 'order',
+        sortname: 'name',
         viewrecords: true,
         sortorder: "asc",
         hidegrid: false,

@@ -15,7 +15,7 @@ class FormProject(forms.ModelForm):
 class FormTable(forms.ModelForm):
     project = forms.ModelChoiceField(queryset=Project.objects.all(),
                                      widget=forms.HiddenInput)
-    name = forms.CharField(widget=forms.TextInput(attrs={
+    name = forms.CharField(label='Nome', widget=forms.TextInput(attrs={
         'required': ''
     }))
 
@@ -24,7 +24,7 @@ class FormTable(forms.ModelForm):
 
 
 class FormField(forms.ModelForm):
-    name = forms.CharField(widget=forms.TextInput(attrs={
+    name = forms.CharField(label='Nome:', widget=forms.TextInput(attrs={
         'required': ''
     }))
     table = forms.ModelChoiceField(queryset=Table.objects.all(),
