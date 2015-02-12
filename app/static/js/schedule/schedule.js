@@ -7,8 +7,10 @@ $(document).ready(function () {
             'data-title="Opções de geração"' +
             'data-width="500"' +
             'data-height="360"' +
-            'data-url="/app/schedule/record/' + rowObject.id + '.html"></button>';
-        var trash = '<button class="btn-trash mini" data-update="tab_project" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
+            'data-url="/app/schedule/record/' + rowObject.schedule + '/' + rowObject.id + '.html"></button>';
+        var trash = '<button class="btn-trash mini" data-update="tab_project" title="Excluir Projeto" ' +
+            'data-url="/app/project/delete/' + rowObject.id + '.html">' +
+            '</button>';
 
         return edit + trash;
     }

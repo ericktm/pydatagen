@@ -61,26 +61,28 @@ def search(request):
 
 @csrf_exempt
 @login_required
-def record(request, id=None):
+def record(request, schedule_id=None, id=None):
     if request.method == 'POST':
         return save(request.POST, id)
     else:
+
+        print(schedule_id)
         retorno = {}
         if id:
 
             table_file = TableFile.objects.get(pk=id)
             form = FormTableFile(instance=table_file)
-            form.fields['table'].widget.attrs = {'disabled': ''}
             project = TableFile.objects.get(pk=id).project_file.project
-            print(Table.objects.filter(active=True, project=project).exclude(pk=table_file.table.id))
 
-            retorno['id'] = id
+            retorno['id'] = table_file.id
         else:
             form = FormTableFile()
+            # form.fields['table'].queryset = TableFile.project_file.project.app_table_project.all()
 
             # form.fields['table'].queryset = TableFile.project_file.project.app_table_project.all().query
 
         retorno['form'] = form
+        retorno['schedule'] = schedule_id
         return render_to_response('schedule/record.html', retorno)
 
 
@@ -99,6 +101,9 @@ def save(data, id=None):
         else:
             retorno['success'] = False
             retorno['error'] = 'ERRO'
+
+            # for erro in
+            print(form.errors)
 
     except Exception as erro:
         retorno['success'] = False
@@ -131,7 +136,7 @@ def finish(request, id=None):
     retorno = {}
 
     if id:
-        project_file = ProjectFile.objects.filter
+        project_file = ProjectFile.objects.get(pk=id)
         project_file.status = 0
         project_file.save()
         print('salvou')
@@ -140,15 +145,6 @@ def finish(request, id=None):
         raise HttpResponseForbidden('ID NAO INFORMADO')
 
     return HttpResponse(json.dumps(retorno), content_type='text/json')
-
-
-@login_required()
-def files(request, id=None):
-    try:
-        if id:
-            return render_to_response('project/files.html', {'project': id})
-    except Exception, e:
-        print(e)
 
 
 @login_required()

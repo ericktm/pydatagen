@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     function file_actions(cellValue, options, rowObject) {
 
-        var files = '';
+        var files = 'Sem arquivos.';
 
         if (rowObject.status == 'Concluído') {
             files += '<a class="btn-files mini" ' +
@@ -18,10 +18,10 @@ $(document).ready(function () {
     $("#tab_files").jqGrid({
         url: '/app/project/files/search.html',
         datatype: 'local',
-        colNames: ['Ações', 'Código', 'Data criação', 'Situação', 'Quant. Gerada', 'Início', 'Fim', 'Log'],
+        colNames: ['Baixar', 'Código', 'Data criação', 'Situação', 'Quant. Gerada', 'Início', 'Fim', 'Log'],
 
         colModel: [
-            {name: 'actions', width: 50, formatter: file_actions, align: "center", sortable: false},
+            {name: 'actions', width: 100, formatter: file_actions, align: "center", sortable: false},
             {name: 'id', index: 'id', width: 50, align: "center", key: true},
             {name: 'created', index: 'created', width: 80, align: "center"},
             {name: 'status', index: 'status', align: "left", width: 90},

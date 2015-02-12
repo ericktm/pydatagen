@@ -59,7 +59,7 @@ class Table(models.Model):
 
 class TableFile(models.Model):
     project_file = models.ForeignKey(ProjectFile, editable=False)
-    table = models.ForeignKey(Table)
+    table = models.ForeignKey(Table, verbose_name='Tabela')
     order = models.SmallIntegerField(verbose_name='Ordem')
     quantity = models.IntegerField(verbose_name='Quantidade de registros', default=1000)
 

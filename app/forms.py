@@ -41,6 +41,8 @@ class FormField(forms.ModelForm):
 
 
 class FormTableFile(forms.ModelForm):
+    readonly_fields = ('table',)
+
     class Meta:
         model = TableFile
 
