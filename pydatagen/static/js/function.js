@@ -25,7 +25,7 @@ $(document).ready(function () {
     $('.btn-menu-simple').button();
 
     $(document).ajaxStart(function () {
-        debug('Iniciando requisição ajax.');
+        debug('ajax start.');
         $.blockUI({
             title: 'Aguarde..',
             message: '<h1><img src="/static/img/loader.gif"/></h1>',
@@ -40,7 +40,7 @@ $(document).ready(function () {
             }
         });
     }).ajaxStop(function () {
-        debug('Requisição ajax finalizada!');
+        debug('ajax end.');
         updateScreen();
         setTimeout(function () {
             $.unblockUI();
@@ -78,7 +78,7 @@ $(document).ready(function () {
         var href = $(this).attr('href');
         if (href != '#') {
             $('#center *').remove();
-            console.log('Carregando página ' + href);
+            console.log('load page: ' + href);
             $('#center').load(href);
         }
     });
