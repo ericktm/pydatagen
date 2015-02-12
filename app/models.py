@@ -58,10 +58,13 @@ class Table(models.Model):
 
 
 class TableFile(models.Model):
-    project_file = models.ForeignKey(ProjectFile)
+    project_file = models.ForeignKey(ProjectFile, editable=False)
     table = models.ForeignKey(Table)
     order = models.SmallIntegerField(verbose_name='Ordem')
     quantity = models.IntegerField(verbose_name='Quantidade de registros', default=1000)
+
+    def __unicode__(self):
+        return self.table.name.upper()
 
 
 class Field(models.Model):

@@ -3,25 +3,51 @@ import json
 
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import PermissionDenied
-from django.http.response import HttpResponse
+from django.http.response import HttpResponse, HttpResponseForbidden
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.views.decorators.csrf import csrf_exempt
 
-from app.business.file.search import FileSearch
 from app.business.schedule.search import ScheduleSearch
-from app.forms import FormProject
-from app.models import Project, ProjectFile, TableFile
+from app.forms import FormTableFile
+from app.models import Project, ProjectFile, TableFile, Table
 
 
 @login_required
 def index(request, id=None):
-    return render_to_response('schedule/schedules.html', {'project': id}, RequestContext(request))
+    print(id)
+
+    try:
+        if id:
+            # Verificar se existe projeto em rascunho
+            project = Project.objects.get(pk=id)
+            scheduler, created = ProjectFile.objects.get_or_create(project=project, status=4)
+            if created:
+                order = 0
+
+                for table in Table.objects.filter(active=True, project=project).all():
+                    new = TableFile()
+                    new.project_file = scheduler
+                    new.order = order
+                    new.quantity = 0
+                    new.table = table
+                    new.save()
+                    order += 1
+
+            print(created)
+            return render_to_response('schedule/schedules.html', {'schedule': scheduler}, RequestContext(request))
+            # return render_to_response('project/schedule.html', {'scheduler': scheduler})
+        else:
+            raise PermissionDenied
+    except Exception, e:
+        print(e)
 
 
 @login_required
 def search(request):
     retorno = {}
+
+    print(request.GET)
 
     try:
         busca = ScheduleSearch(request.GET)
@@ -41,12 +67,21 @@ def record(request, id=None):
     else:
         retorno = {}
         if id:
-            form = FormProject(instance=Project.objects.get(pk=id))
+
+            table_file = TableFile.objects.get(pk=id)
+            form = FormTableFile(instance=table_file)
+            form.fields['table'].widget.attrs = {'disabled': ''}
+            project = TableFile.objects.get(pk=id).project_file.project
+            print(Table.objects.filter(active=True, project=project).exclude(pk=table_file.table.id))
+
             retorno['id'] = id
         else:
-            form = FormProject()
+            form = FormTableFile()
+
+            # form.fields['table'].queryset = TableFile.project_file.project.app_table_project.all().query
+
         retorno['form'] = form
-        return render_to_response('project/record.html', retorno)
+        return render_to_response('schedule/record.html', retorno)
 
 
 def save(data, id=None):
@@ -54,9 +89,9 @@ def save(data, id=None):
         retorno = {}
 
         if id:
-            form = FormProject(data, instance=Project.objects.get(pk=id))
+            form = FormTableFile(data, instance=TableFile.objects.get(pk=id))
         else:
-            form = FormProject(data)
+            form = FormTableFile(data)
 
         if form.is_valid():
             form.save()
@@ -64,6 +99,7 @@ def save(data, id=None):
         else:
             retorno['success'] = False
             retorno['error'] = 'ERRO'
+
     except Exception as erro:
         retorno['success'] = False
         retorno['error'] = erro.message
@@ -91,17 +127,19 @@ def delete(request, id=None):
 
 @login_required()
 @csrf_exempt
-def file_search(request):
+def finish(request, id=None):
     retorno = {}
 
-    try:
-        busca = FileSearch(request.GET)
-        retorno = busca.buscar()
-    except Exception, e:
-        print(e)
+    if id:
+        project_file = ProjectFile.objects.filter
+        project_file.status = 0
+        project_file.save()
+        print('salvou')
+        retorno['success'] = True
+    else:
+        raise HttpResponseForbidden('ID NAO INFORMADO')
 
-    retorno = json.dumps(retorno)
-    return HttpResponse(retorno, content_type='text/json')
+    return HttpResponse(json.dumps(retorno), content_type='text/json')
 
 
 @login_required()

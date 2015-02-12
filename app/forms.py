@@ -1,10 +1,9 @@
 from django import forms
-from django.forms.models import ModelForm
 
-from app.models import Project, Table, Field, TYPE_CHOICES
+from app.models import Project, Table, Field, TYPE_CHOICES, TableFile
 
 
-class FormProject(ModelForm):
+class FormProject(forms.ModelForm):
     name = forms.CharField(widget=forms.TextInput(attrs={
         'required': ''
     }))
@@ -13,7 +12,7 @@ class FormProject(ModelForm):
         model = Project
 
 
-class FormTable(ModelForm):
+class FormTable(forms.ModelForm):
     project = forms.ModelChoiceField(queryset=Project.objects.all(),
                                      widget=forms.HiddenInput)
     name = forms.CharField(widget=forms.TextInput(attrs={
@@ -24,7 +23,7 @@ class FormTable(ModelForm):
         model = Table
 
 
-class FormField(ModelForm):
+class FormField(forms.ModelForm):
     name = forms.CharField(widget=forms.TextInput(attrs={
         'required': ''
     }))
@@ -39,4 +38,9 @@ class FormField(ModelForm):
 
     class Meta:
         model = Field
+
+
+class FormTableFile(forms.ModelForm):
+    class Meta:
+        model = TableFile
 

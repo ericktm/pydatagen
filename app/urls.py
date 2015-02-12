@@ -14,6 +14,8 @@ urlpatterns = patterns('app.views',
 
                        url(r'^project/schedule/?(?P<id>\d*)?\.html', 'schedule.index'),
                        url(r'^schedule/search\.html', 'schedule.search'),
+                       url(r'^schedule/record/?(?P<id>\d*)?\.html', 'schedule.record'),
+                       url(r'^schedule/finish/?(?P<id>\d*)?\.html', 'schedule.finish'),
 
                        url(r'^table/?(?P<project>\d*)?\.html', 'table.index'),
                        url(r'^table/search\.html', 'table.search'),

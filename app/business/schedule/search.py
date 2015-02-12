@@ -10,6 +10,8 @@ class ScheduleSearch(object):
         self.dados = TableFile.objects
 
         self.table = query.get('table')
+        self.project = query.get('project')
+        self.schedule = query.get('schedule')
 
         if query.get('sord') == 'desc':
             self.order = '-%s' % query.get('sidx')
@@ -26,6 +28,10 @@ class ScheduleSearch(object):
         if self.table:
             self.dados = self.dados.filter(table=self.table)
 
+        if self.schedule:
+            self.dados = self.dados.filter(project_file=self.schedule)
+
+        print('TableFile search: %s' % self.dados.query)
         return self.paginar()
 
     def paginar(self):

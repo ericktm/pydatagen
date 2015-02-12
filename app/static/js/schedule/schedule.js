@@ -6,8 +6,8 @@ $(document).ready(function () {
             'data-div="dlg-table"' +
             'data-title="Opções de geração"' +
             'data-width="500"' +
-            'data-height="160"' +
-            'data-url="/app/project/record/' + rowObject.id + '.html"></button>';
+            'data-height="360"' +
+            'data-url="/app/schedule/record/' + rowObject.id + '.html"></button>';
         var trash = '<button class="btn-trash mini" data-update="tab_project" title="Excluir Projeto" data-url="/app/project/delete/' + rowObject.id + '.html"></button>';
 
         return edit + trash;
@@ -21,7 +21,7 @@ $(document).ready(function () {
         colModel: [
             {name: 'actions', width: 50, formatter: file_actions, align: "center", sortable: false},
             {name: 'order', index: 'id', width: 50, align: "center"},
-            {name: 'table', index: 'created', width: 80, align: "center"},
+            {name: 'table', index: 'table', width: 80, align: "center"},
             {name: 'quantity', index: 'quantity', align: "center", width: 90}
 
         ],
@@ -33,13 +33,16 @@ $(document).ready(function () {
         sortname: 'id',
         sortorder: "desc",
         hidegrid: false,
-        caption: "Arquivos gerados no Projeto",
+        caption: "Lista de tabelas para geração dos registros",
         scrollOffset: 0
     });
     $("#tab_schedules").jqGrid('navGrid', '#pag_schedules', {edit: false, add: false, del: false, search: false});
 
     $("#tab_schedules").jqGrid('setGridParam', {
-        postData: {project: $('#project_id').val()},
+        postData: {
+            project: $('#project_id').val(),
+            schedule: $('#schedule_id').val()
+        },
         datatype: 'json'
     }).trigger('reloadGrid');
 });
