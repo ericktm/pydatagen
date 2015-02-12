@@ -7,7 +7,7 @@ from django.utils import timezone
 import kronos
 
 from app.core.generator.main import Generator
-from app.models import ProjectFile
+from app.models import ProjectFile, TableFile
 from pydatagen.settings import SQL_DIR
 
 
@@ -31,8 +31,8 @@ def do():
             schedule.save()
 
             sql = ''
-            print(vars(ProjectFile))
-            for table in updated_schedule.tablefile_set.filter(active=True).all():
+
+            for table in TableFile.objects.filter(project_file=updated_schedule, table__active=True).all():
                 if table.quantity > 0:
                     sql_insert = 'INSERT INTO %s (%s) VALUES (%s);\n'
                     last_name = ''
@@ -62,7 +62,8 @@ def do():
                             else:
                                 options = dict()
 
-                            value = 'teste'
+                            value = 'initial'
+
                             # Case Integer
                             if field.type == 4:
                                 value = "%s" % fabric.get_regex(options.get('regex', '\d{2}'))
@@ -122,7 +123,7 @@ def do():
                     schedule.log = 'Table not used'
 
             try:
-
+                # if quant = 0, saves blank file
                 w.write(sql)
                 schedule.status = 2
                 schedule.end_exec = timezone.now()

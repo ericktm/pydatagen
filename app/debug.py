@@ -10,7 +10,5 @@ from app.cron import do
 
 do()
 
-print('teste')
-
 
 

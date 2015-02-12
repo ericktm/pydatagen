@@ -29,7 +29,7 @@ $(document).ready(function () {
             'data-url="/app/project/files/' + rowObject.id + '.html"' +
             'data-div="dlg-project"' +
             'data-title="Arquivos Gerados"' +
-            'data-width="850"' +
+            'data-width="900"' +
             'data-height="420"' +
             '></button>'
 
@@ -45,8 +45,8 @@ $(document).ready(function () {
             {name: 'id', index: 'id', width: 90, key: true},
             {name: 'name', index: 'name', width: 200},
             {name: 'quant', index: 'quant', sortable: false, editable: true},
-            {name: 'created', index: 'created', width: 80, align: "center"},
-            {name: 'edited', index: 'edited', width: 80, align: "center"}
+            {name: 'created', index: 'created', width: 100, align: "center"},
+            {name: 'edited', index: 'edited', width: 100, align: "center"}
         ],
         rowNum: 10,
         autowidth: true,

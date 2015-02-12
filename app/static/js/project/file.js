@@ -4,8 +4,8 @@ $(document).ready(function () {
 
         var files = 'Sem arquivos.';
 
-        if (rowObject.status == 'Concluído') {
-            files += '<a class="btn-files mini" ' +
+        if (rowObject.status == 'Concluído' && rowObject.quantity > 0) {
+            files = '<a class="btn-files mini" ' +
             'title="Arquivos Gerados"' +
             'target="_blank" ' +
             'href="/media/project_files/' + rowObject.id + '.sql"' +
@@ -26,8 +26,8 @@ $(document).ready(function () {
             {name: 'created', index: 'created', width: 80, align: "center"},
             {name: 'status', index: 'status', align: "left", width: 90},
             {name: 'quantity', index: 'quantity', align: "center", width: 90},
-            {name: 'start_exec', index: 'start_exec', width: 90, align: "left"},
-            {name: 'end_exec', index: 'end_exec', width: 90, align: "left"},
+            {name: 'start_exec', index: 'start_exec', width: 100, align: "left"},
+            {name: 'end_exec', index: 'end_exec', width: 100, align: "left"},
             {name: 'log', index: 'log', sortable: false}
 
         ],

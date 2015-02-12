@@ -65,24 +65,24 @@ def record(request, schedule_id=None, id=None):
     if request.method == 'POST':
         return save(request.POST, id)
     else:
-
-        print(schedule_id)
         retorno = {}
-        if id:
 
+        schedule = ProjectFile.objects.get(pk=schedule_id)
+
+        if id:
             table_file = TableFile.objects.get(pk=id)
             form = FormTableFile(instance=table_file)
-            project = TableFile.objects.get(pk=id).project_file.project
 
             retorno['id'] = table_file.id
         else:
             form = FormTableFile()
             # form.fields['table'].queryset = TableFile.project_file.project.app_table_project.all()
 
-            # form.fields['table'].queryset = TableFile.project_file.project.app_table_project.all().query
+        form.fields['table'].queryset = Table.objects.filter(project=schedule.project, active=True).all()
 
         retorno['form'] = form
         retorno['schedule'] = schedule_id
+
         return render_to_response('schedule/record.html', retorno)
 
 
