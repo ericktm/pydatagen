@@ -25,7 +25,7 @@ def search(request):
 
     try:
         busca = ProjectSearch(request.GET)
-        retorno = busca.buscar()
+        retorno = busca.seach()
     except Exception, e:
         print(e)
 
