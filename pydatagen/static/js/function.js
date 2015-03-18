@@ -97,7 +97,7 @@ $(document).ready(function () {
                 $('#' + update).trigger("reloadGrid");
                 $('#' + close).remove();
             } else {
-                message('Sucesso', 'Registro salvo com sucesso');
+                message('Erro!', retorno.error);
             }
 
         });

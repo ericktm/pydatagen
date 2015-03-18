@@ -34,7 +34,7 @@ def index(request, project=None):
         retorno['success'] = True
         retorno['message'] = 'Agendamento realizado com com sucesso!'
 
-    except Exception, e:
+    except Exception as e:
 
         retorno['success'] = False
         retorno['message'] = 'Erro ao realizar agendamento!'

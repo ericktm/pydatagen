@@ -23,7 +23,7 @@ def do_login(request, *args, **kwargs):
             data_return['status'] = 'error'
             data_return['message'] = 'Usuário ou senha inválidoss'
 
-    except Exception, e:
+    except Exception as e:
         print(e)
 
     return HttpResponse(json.dumps(data_return), content_type='text/json')

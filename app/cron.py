@@ -1,11 +1,11 @@
 #! coding:utf-8
-import random
 import datetime
 import json
 
+import random
 from django.utils import timezone
-import kronos
 
+import kronos
 from app.core.generator.main import Generator
 from app.models import ProjectFile, TableFile
 from pydatagen.settings import SQL_DIR
@@ -136,7 +136,7 @@ def do():
 
                 w.close()
 
-            except Exception, e:
+            except Exception as e:
                 schedule.status = 3
                 schedule.log = 'Erro: %s ' % str(e)
                 schedule.end_exec = datetime.datetime.now()

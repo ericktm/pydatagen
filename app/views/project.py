@@ -26,7 +26,7 @@ def search(request):
     try:
         busca = ProjectSearch(request.GET)
         retorno = busca.seach()
-    except Exception, e:
+    except Exception as e:
         print(e)
 
     retorno = json.dumps(retorno)
@@ -97,7 +97,7 @@ def file_search(request):
     try:
         busca = FileSearch(request.GET)
         retorno = busca.buscar()
-    except Exception, e:
+    except Exception as e:
         print(e)
 
     retorno = json.dumps(retorno)
@@ -109,7 +109,7 @@ def files(request, id=None):
     try:
         if id:
             return render_to_response('project/files.html', {'project': id})
-    except Exception, e:
+    except Exception as e:
         print(e)
 
 
@@ -134,7 +134,7 @@ def schedule(request, id=None):
             return render_to_response('project/schedule.html', {'scheduler': scheduler})
         else:
             raise PermissionDenied
-    except Exception, e:
+    except Exception as e:
         print(e)
 
 

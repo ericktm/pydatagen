@@ -23,7 +23,7 @@ def search(request):
     try:
         busca = TableSearch(request.GET)
         return_data = busca.search()
-    except Exception, e:
+    except Exception as e:
         print(e)
 
     return_data = json.dumps(return_data)
@@ -66,7 +66,7 @@ def save(data, id=None):
         else:
             return_data['success'] = False
             return_data['error'] = 'Erro na validação do formulário!'
-            print(form.errors)
+
     except Exception as erro:
         return_data['success'] = False
         return_data['error'] = erro.message

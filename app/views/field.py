@@ -24,7 +24,7 @@ def search(request):
     try:
         busca = FieldSearch(request.GET)
         return_data = busca.search()
-    except Exception, e:
+    except Exception as e:
         print(e)
 
     return_data = json.dumps(return_data)

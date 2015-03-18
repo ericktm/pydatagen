@@ -39,7 +39,7 @@ def index(request, id=None):
             # return render_to_response('project/schedule.html', {'scheduler': scheduler})
         else:
             raise PermissionDenied
-    except Exception, e:
+    except Exception as e:
         print(e)
 
 
@@ -52,7 +52,7 @@ def search(request):
     try:
         busca = ScheduleSearch(request.GET)
         retorno = busca.buscar()
-    except Exception, e:
+    except Exception as e:
         print(e)
 
     retorno = json.dumps(retorno)
@@ -168,7 +168,7 @@ def schedule(request, id=None):
             return render_to_response('project/schedule.html', {'scheduler': scheduler})
         else:
             raise PermissionDenied
-    except Exception, e:
+    except Exception as e:
         print(e)
 
 
