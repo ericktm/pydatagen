@@ -1,0 +1,22 @@
+
+.right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.top10 {
+    margin-top: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}

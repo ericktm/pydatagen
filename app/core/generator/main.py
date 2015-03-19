@@ -15,6 +15,7 @@ class Generator(object):
     def __init__(self):
         super(Generator, self).__init__()
         self.names = self.get_names()
+        self.family_names = self.get_family_names()
         self.countries = self.get_countries()
 
     @staticmethod
@@ -25,6 +26,15 @@ class Generator(object):
         for linha in arquivo:
             names.append(linha)
         return names
+
+    @staticmethod
+    def get_family_names():
+        family_names = []
+        file_dir = os.path.join(PROJECT_PATH, 'res/')
+        arquivo = open(file_dir + 'names.csv', 'r')
+        for linha in arquivo:
+            family_names.append(linha)
+        return family_names
 
     @staticmethod
     def get_countries():
