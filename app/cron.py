@@ -104,10 +104,14 @@ def do():
                             elif field.type == 8:
                                 value = "'%s'" % fabric.get_login(last_name)
 
+                            elif field.type == 9:
+                                value = "%s" % random.choice([True, False])
+
                             if values == '':
                                 values += '%s' % value
                             else:
                                 values += ', %s' % value
+
 
                         # After generate all fields
                         sql += sql_insert % (table.table.name, columns_names, values)

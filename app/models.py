@@ -10,7 +10,8 @@ TYPE_CHOICES = (
     (5, 'Chave Estrangeira'),
     (6, 'País'),
     (7, 'Email'),
-    (8, 'Username')
+    (8, 'Username'),
+    (9, 'Booleano'),
 )
 
 FILE_STATUS = (

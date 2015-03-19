@@ -10,7 +10,7 @@ class Conection(object):
         strCon = str('mysql+mysqldb' + '://' + user + ':' + password + '@' + server + '/' + database)
         self.meta = MetaData(strCon)
         self.meta.reflect()
-        print "Conectou ao banco de dados!"
+        print("Conectou ao banco de dados!")
 
 
     def listaTabelas(self):

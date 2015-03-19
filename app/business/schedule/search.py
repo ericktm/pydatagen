@@ -45,7 +45,7 @@ class ScheduleSearch(object):
             novo['table'] = registro.table.name
             novo['table_id'] = registro.table.id
             novo['order'] = registro.order
-            novo['quantity'] = registro.quantity.format('{:.}')
+            novo['quantity'] = str(registro.quantity).format('{:.}')
             novo['schedule'] = registro.project_file.id
             self.registros.append(novo)
 
