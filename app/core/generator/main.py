@@ -1,11 +1,11 @@
 #! coding: utf-8
-import os
-import random
 from datetime import timedelta
 import datetime
+
+import os
+import random
 from random import choice
 import re
-
 import exrex
 
 from pydatagen.settings import PROJECT_PATH
@@ -100,12 +100,12 @@ class Generator(object):
 
 if __name__ == '__main__':
     gen = Generator()
-    print gen.get_int(min=400, max=9000)
+    print(gen.get_int(min=400, max=9000))
 
     nome_gerado = gen.get_name()
-    print nome_gerado
+    print(nome_gerado)
     email = gen.get_email(nome_gerado)
-    print email
+    print(email)
     datain = datetime.datetime(2013, 12, 12)
 
     # print gen.get_regex('')

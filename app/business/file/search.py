@@ -44,7 +44,7 @@ class FileSearch(object):
             novo['created'] = registro.created.strftime('%d/%m/%Y')
             novo['status'] = registro.get_status_display()
             novo['log'] = registro.log
-            novo['quantity'] = registro.quantity
+            novo['quantity'] = str(registro.quantity).format('{:,}')
             novo['start_exec'] = registro.start_exec.strftime(
                 '%d/%m/%Y %H:%M:%S') if registro.start_exec else 'Não Iniciado'
             novo['end_exec'] = registro.end_exec.strftime(

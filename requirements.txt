@@ -1,6 +1,6 @@
 Django
 SQLAlchemy
-django-kronos
+https://github.com/ericktm/django-kronos/archive/master.zip
 exrex
 fake-factory
 gunicorn

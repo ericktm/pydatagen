@@ -31,6 +31,9 @@ class Project(models.Model):
     def __unicode__(self):
         return self.name.upper()
 
+    def __str__(self):
+        return self.name.upper()
+
 
 class ProjectFile(models.Model):
     project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_project_files_project')
@@ -56,6 +59,9 @@ class Table(models.Model):
     def __unicode__(self):
         return self.name
 
+    def __str__(self):
+        return self.name
+
 
 class TableFile(models.Model):
     project_file = models.ForeignKey(ProjectFile, editable=False)
@@ -64,6 +70,9 @@ class TableFile(models.Model):
     quantity = models.IntegerField(verbose_name='Quantidade de registros', default=1000)
 
     def __unicode__(self):
+        return self.table.name.upper()
+
+    def __str__(self):
         return self.table.name.upper()
 
 
@@ -83,6 +92,9 @@ class Field(models.Model):
     active = models.BooleanField(default=True, editable=False)
 
     def __unicode__(self):
+        return '%s - %s' % (self.name, self.table)
+
+    def __str__(self):
         return '%s - %s' % (self.name, self.table)
 
 

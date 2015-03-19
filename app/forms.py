@@ -4,7 +4,7 @@ from app.models import Project, Table, Field, TYPE_CHOICES, TableFile
 
 
 class FormProject(forms.ModelForm):
-    name = forms.CharField(widget=forms.TextInput(attrs={
+    name = forms.CharField(label='Nome do Projeto', widget=forms.TextInput(attrs={
         'required': ''
     }))
 
