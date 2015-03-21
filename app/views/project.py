@@ -7,11 +7,13 @@ from django.http.response import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.views.decorators.csrf import csrf_exempt
+import os
 
 from app.business.file.search import FileSearch
 from app.business.project.search import ProjectSearch
 from app.forms import FormProject
 from app.models import Project, ProjectFile, TableFile
+from pydatagen.settings import SQL_DIR
 
 
 @login_required
@@ -99,6 +101,29 @@ def file_search(request):
         retorno = busca.buscar()
     except Exception as e:
         print(e)
+
+    retorno = json.dumps(retorno)
+    return HttpResponse(retorno, content_type='text/json')
+
+
+@login_required()
+@csrf_exempt
+def file_delete(request, id=None):
+    retorno = {}
+
+    try:
+        file = ProjectFile.objects.get(pk=id)
+
+        try:
+            os.remove('%s/%s.sql' % (SQL_DIR, id))
+        except Exception as err:
+            print(err)
+
+        file.delete()
+    except Exception as e:
+        print(e)
+
+
 
     retorno = json.dumps(retorno)
     return HttpResponse(retorno, content_type='text/json')

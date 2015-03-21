@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="Implementado geração de nomes de bancos.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/schedule/schedule.js" afterPath="$PROJECT_DIR$/app/static/js/schedule/schedule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/schedule.py" afterPath="$PROJECT_DIR$/app/views/schedule.py" />
+    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="Implementado método de remoção das tabelas do agendamento.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/project/file.js" afterPath="$PROJECT_DIR$/app/static/js/project/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/project.py" afterPath="$PROJECT_DIR$/app/views/project.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/urls.py" afterPath="$PROJECT_DIR$/app/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -19,7 +19,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pydatagen$debug.coverage" NAME="debug Coverage Results" MODIFIED="1426897760911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pydatagen" />
+    <SUITE FILE_PATH="coverage/pydatagen$debug.coverage" NAME="debug Coverage Results" MODIFIED="1426899633091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pydatagen" />
     <SUITE FILE_PATH="coverage/pydatagen$main.coverage" NAME="main Coverage Results" MODIFIED="1381449541276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/core/generator" />
     <SUITE FILE_PATH="coverage/pydatagen$cron.coverage" NAME="cron Coverage Results" MODIFIED="1422921495893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
@@ -92,43 +92,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1001" max-vertical-offset="2412">
-              <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/core/generator/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="2538">
-              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cron.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/cron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="3060">
-              <caret line="106" column="49" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
-              <folding>
-                <element signature="e#16#31#0" expanded="true" />
-                <marker date="1426896868409" expanded="true" signature="958:989" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="schedule.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/schedule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1782" max-vertical-offset="3042">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="3240">
               <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
               <folding />
             </state>
@@ -158,38 +125,71 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="702">
-              <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="720">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/generic.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schedule.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/js/schedule/schedule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="1008">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
               <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/table.py">
+      <file leaf-file-name="cron.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/cron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="447" max-vertical-offset="1566">
-              <caret line="71" column="26" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2358" max-vertical-offset="3060">
+              <caret line="156" column="55" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="55" />
+              <folding>
+                <element signature="e#16#31#0" expanded="true" />
+                <marker date="1426896868409" expanded="true" signature="958:989" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/js/project/file.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1206">
+              <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2538" max-vertical-offset="5058">
+              <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1404">
+              <caret line="17" column="76" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47402596" vertical-offset="1562" max-vertical-offset="2862">
+              <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -229,14 +229,12 @@
         <option value="$PROJECT_DIR$/app/templates/schedule/record.html" />
         <option value="$PROJECT_DIR$/app/debug.py" />
         <option value="$PROJECT_DIR$/app/static/js/project/project.js" />
-        <option value="$PROJECT_DIR$/app/static/js/project/file.js" />
         <option value="$PROJECT_DIR$/app/business/table/search.py" />
         <option value="$PROJECT_DIR$/app/static/js/table/table.js" />
         <option value="$PROJECT_DIR$/app/business/project/search.py" />
         <option value="$PROJECT_DIR$/app/views/user.py" />
         <option value="$PROJECT_DIR$/app/views/generate.py" />
         <option value="$PROJECT_DIR$/app/views/field.py" />
-        <option value="$PROJECT_DIR$/app/views/project.py" />
         <option value="$PROJECT_DIR$/app/views/table.py" />
         <option value="$PROJECT_DIR$/pydatagen/static/js/function.js" />
         <option value="$PROJECT_DIR$/requirements.txt" />
@@ -253,9 +251,11 @@
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/app/core/generator/main.py" />
         <option value="$PROJECT_DIR$/app/cron.py" />
-        <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/app/views/schedule.py" />
         <option value="$PROJECT_DIR$/app/static/js/schedule/schedule.js" />
+        <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/app/static/js/project/file.js" />
+        <option value="$PROJECT_DIR$/app/views/project.py" />
       </list>
     </option>
   </component>
@@ -350,6 +350,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,6 +506,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="schedule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pydatagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -888,12 +954,6 @@
       <option name="number" value="Default" />
       <updated>1376100926870</updated>
     </task>
-    <task id="LOCAL-00042" summary="* Adicionado método para geração de datas;&#10;* Adicionado campo options parqa customização dos dados a ser gerados, através de objeto json;&#10;* alterado tamanho do campo regex(o campo será removido no futuro(ou não));&#10;* removidos dependencias inuteis do proveto(factory)">
-      <created>1405120445463</created>
-      <option name="number" value="00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1405120445463</updated>
-    </task>
     <task id="LOCAL-00043" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1405123065554</created>
       <option name="number" value="00043" />
@@ -1182,7 +1242,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426896868595</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Implementado método de remoção das tabelas do agendamento.">
+      <created>1426898210601</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1426898210602</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1274,7 +1340,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Adicionados modelos de endereçamento;&#10;melhorada mensagem de erro&#10;otimização no processo de geração de email, com base no ultimo nome gerado&#10;adicionado icone para geração de arquivo do projeto atravez da grid de listagem de projetos&#10;adicionado quantidade de registros a ser gerado por tabela&#10;adicionado flag que indica se a tabela é populável&#10;" />
     <MESSAGE value="* Adicionado método para geração de datas;&#10;* Adicionado campo options parqa customização dos dados a ser gerados, através de objeto json;&#10;* alterado tamanho do campo regex(o campo será removido no futuro(ou não));&#10;* removidos dependencias inuteis do proveto(factory)" />
     <MESSAGE value="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options" />
     <MESSAGE value="* Adicionada classe tam330 para utilização em formularios de busca" />
@@ -1299,7 +1364,8 @@
     <MESSAGE value="Implementado geração de dados booleanos." />
     <MESSAGE value="Melhorias na geração de nomes de pessoas" />
     <MESSAGE value="Implementado geração de nomes de bancos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementado geração de nomes de bancos." />
+    <MESSAGE value="Implementado método de remoção das tabelas do agendamento." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado método de remoção das tabelas do agendamento." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1427,20 +1493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1404">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/project/file.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1008">
-          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/field.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566">
@@ -1459,13 +1511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11394">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3024" max-vertical-offset="5058">
-          <caret line="203" column="27" selection-start-line="203" selection-start-column="27" selection-end-line="203" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1517,6 +1562,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="593" max-vertical-offset="1116">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1548,14 +1594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="1170">
           <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="2430">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1638,17 +1676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/cron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="3060">
-          <caret line="106" column="49" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-            <marker date="1426896868409" expanded="true" signature="958:989" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/table.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="447" max-vertical-offset="1566">
@@ -1661,30 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="702">
-          <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -1705,10 +1708,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="720">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/schedule/schedule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="1008">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
           <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/project/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1404">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/static/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2538" max-vertical-offset="5058">
+          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/project/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1206">
+          <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2358" max-vertical-offset="3060">
+          <caret line="156" column="55" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="55" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+            <marker date="1426896868409" expanded="true" signature="958:989" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47402596" vertical-offset="1562" max-vertical-offset="2862">
+          <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
           <folding />
         </state>
       </provider>
