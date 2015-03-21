@@ -22,18 +22,18 @@ class Generator(object):
     def get_names():
         names = []
         file_dir = os.path.join(PROJECT_PATH, 'res/')
-        arquivo = open(file_dir + 'names.csv', 'r')
+        arquivo = open(file_dir + 'names.txt', 'r')
         for linha in arquivo:
-            names.append(linha)
+            names.append(linha.replace("'", "''"))
         return names
 
     @staticmethod
     def get_family_names():
         family_names = []
         file_dir = os.path.join(PROJECT_PATH, 'res/')
-        arquivo = open(file_dir + 'names.csv', 'r')
+        arquivo = open(file_dir + 'family_names.txt', 'r')
         for linha in arquivo:
-            family_names.append(linha)
+            family_names.append(linha.replace("'", "''"))
         return family_names
 
     @staticmethod
@@ -79,7 +79,7 @@ class Generator(object):
         Os nomes são gerados conforme o gênero informado ao chamar o método
         Se o gênero não é informado, é gerado de qualquer gênero.
         '''
-        return choice(self.names)
+        return '%s %s' % (choice(self.names), choice(self.family_names))
 
     def get_login(self, name='name sample'):
         """
