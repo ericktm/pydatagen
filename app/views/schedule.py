@@ -118,9 +118,8 @@ def delete(request, id=None):
     retorno = {}
 
     try:
-        project = Project.objects.get(pk=id)
-        project.active = False
-        project.save()
+        table = TableFile.objects.get(pk=id)
+        table.delete()
         retorno['success'] = True
         retorno['message'] = 'Registro excluído com sucesso!'
     except Exception as error:

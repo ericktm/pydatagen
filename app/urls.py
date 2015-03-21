@@ -14,6 +14,7 @@ urlpatterns = patterns('app.views',
 
                        url(r'^project/schedule/?(?P<id>\d*)?\.html', 'schedule.index'),
                        url(r'^schedule/search\.html', 'schedule.search'),
+                       url(r'^schedule/delete/?(?P<id>\d*)?\.html', 'schedule.delete'),
                        url(r'^schedule/record/(?P<schedule_id>\d*)/(?P<id>\d*)?\.html', 'schedule.record'),
                        url(r'^schedule/finish/?(?P<id>\d*)?\.html', 'schedule.finish'),
 
@@ -30,4 +31,4 @@ urlpatterns = patterns('app.views',
 
                        url(r'^generate/(?P<project>\d*)\.html$', 'generate.index'),
                        url(r'^extrair\.html$', 'generate.extrair_nome'),
-)
+                       )
