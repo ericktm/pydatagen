@@ -4,8 +4,8 @@ import json
 
 import random
 from django.utils import timezone
-
 import kronos
+
 from app.core.generator.main import Generator
 from app.models import ProjectFile, TableFile
 from pydatagen.settings import SQL_DIR
@@ -106,6 +106,9 @@ def do():
 
                             elif field.type == 9:
                                 value = "%s" % random.choice([True, False])
+
+                            elif field.type == 10:
+                                value = "'%s'" % fabric.get_bank()
 
                             if values == '':
                                 values += '%s' % value

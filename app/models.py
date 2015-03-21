@@ -12,6 +12,7 @@ TYPE_CHOICES = (
     (7, 'Email'),
     (8, 'Username'),
     (9, 'Booleano'),
+    (10, 'Bancos'),
 )
 
 FILE_STATUS = (

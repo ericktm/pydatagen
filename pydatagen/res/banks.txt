@@ -1,0 +1,294 @@
+Banco do Brasil S.A.
+Banco Central do Brasil
+Banco da Amazonia S.A.
+Banco do Nordeste do Brasil S.A.
+Banco Nac. de Credito Coop. S.A.
+Banco Nac.Desenv.Econ. Social S.A.
+Banco Meridional S.A.
+Bacen - Tesouro Nacional
+Banco do Est. de Alagoas S.A.
+Banco do Est. do Espirito Sto. S.A.
+Banco de Cred. Real de M. Ger. S.A.
+Banco do Est. de Pernambuco S.A.
+Banco Alfa S.A.
+Banco do Est. do Acre S.A.
+Banco do Est. de Santa Catarina S.A
+Banco do Est. da Bahia S.A.
+Banco Banerj S.A.
+Paraiban-Bco do Est da Paraiba S.A.
+Banco do Est. de Goias S.A.
+Banco do Est. de Mato Grosso S.A
+Banco Santander Brasil S.A.
+Banco do Est. do Amazonas S.A.
+Banco do Est. do Ceara S.A.
+Banco do Est. do Maranhao S.A.
+Banco do Est. do Para S.A.
+Banco do Est. do Parana S.A
+Banco do Est. do Piaui S.A.
+Banco Cargill S .A .
+Banco do Est. R. Grande do Sul S.A.
+Banco J. Safra S. A .
+Banco do Est. Rio Grande Norte S.A.
+Banco BVA S . A .
+Banco do Est. de Sergipe S.A.
+Banco Bemge S.A.
+Banco do Est. de Rondonia S.A.
+BRB-Banco de Brasilia S.A.
+Caixa Economica Federal
+Banco Itabanco S.A.
+Banco BBM S.A.
+Banco Credibanco S.A.
+Banco BNL do Brasil S.A.
+Multi Banco S.A.
+Caixa Economica Est. Minas Gerais
+Nossa Caixa - Nosso Banco S.A.
+Caixa Economica do Estado de Goias
+Caixa Economica Est. Rio Gde. Sul
+Caixa Ec do Est de St Catarina S.A
+Banco Credit Commercial France S.A.
+Banco Norchem S.A.
+Banco Inter-Atlantico S.A.
+Banco CCF Brasil S.A.
+Banco de Financ. Internacional S.A.
+Continental Banco S.A.
+Banco BBA-Creditanstalt S.A.
+Banco Financial Portugues
+Banco Ficrisa Axelrud S.A.
+Banco Axial S.A.
+Banco Braseg S.A.
+Banco Sibisa S.A.
+Banco Inter American Express S.A.
+Banco Sul America S.A.
+Banco Martinelli S.A.
+Banco Garavelo S.A.
+Banco Pactual S.A.
+Agrobanco Banco Comercial S.A.
+Dresdner Bank L. Aktiengesellchaft
+Banco Sistema S.A.
+Banco Matone S.A.
+Banco Arbi S.A.
+Banco Dibens S.A.
+Banco America do Sul S.A.
+Banco Regional Malcon S.A.
+Banco John Deere S . A .
+BBS-Banco Bonsucesso S.A.
+Banco Zogbi S . A .
+Banco Crefisul S.A.
+Banco Fleming Graphus S.A.
+Banco AGF Braseg S.A.
+Banco Interunion S.A.
+Banco Fibra S.A.
+Banco Brascan S.A.
+Banco Auxiliar S.A.
+Banco Rosa S.A.
+Banco Icatu S.A.
+Banco Cruzeiro do Sul S.A.
+Banco Bandeirantes S.A.
+Banco Boavista Interatlantico S.A.
+Banco Interpart S.A.
+Banco GE Capital S.A.
+Banco Lavra S.A.
+Banco Liberal S.A.
+Banco Cambial S.A.
+Banco Bradesco S.A.
+Banco Bancred S.A.
+Banco de Cred. Real de M. Ger. S.A.
+Banco Classico S.A.
+Banco Euroinvest S.A.-Eurobanco
+Banco Stock Maxima S.A.
+Banco Cidade S.A.
+Banco Empresarial S.A.
+Banco ABC-Brasil S.A.
+Banco Warburg Dillon Read S.A.
+Banco Investcred S.A.
+Banco Schahin S.A.
+Banco Sao Jorge S.A.
+Banco Fininvest S.A.
+Parana Banco S.A.
+MilBanco S.A.
+Banco Gulfinvest S.A.
+Banco Induscred S.A.
+Banco Varig S.A.
+Banco Boreal S.A.
+Banco Cacique S.A.
+Banco Performance S.A.
+Banco Fator S.A.
+Banco Cedula S.A.
+Banco BBM-Com.C.Imob.C.Fin.Inv.S.A.
+Banco Real S.A.
+Banco Planibanc S.A.
+Banco Brasileiro Comercial S.A.
+Banco das Nacoes S.A.
+Banco de Credito Nacional S.A.
+BCR-Banco de Credito Real S.A.
+Banco Crediplan S.A
+Banco de La Nacion Argentina
+Banco do Progresso S.A.
+Banco HNF S.A.
+Banco Pontual S.A.
+Banco Comercial Bancesa S.A.
+Banco do Comercio e Ind. de SP S.A
+Banco Inter-Atlantico S.A.
+Banco do Comercio S.A.
+Banco BMG S.A
+Banco Industrial e Comercial S.A.
+Banco Economico S.A.
+Banco Savena S.A.
+Banco F. Barreto S.A.
+Banco Itau S.A.
+Banco Mercantil S.A.
+Banco Financial S.A.
+Banco Frances e Brasileiro S.A.
+Banco Sudameris Brasil S.A.
+Banco Bozano, Simonsen S.A.
+Banco Santander Brasil S.A.
+Banco ABN Amro S.A.
+Banco Industrial de Pernambuco S.A.
+Banco Sogeral S.A.
+Banco Digibanco S.A.
+Banco Europeu p/Am.Latina (Beal)S.A
+Banco Itamarati S.A.
+Banco Fenicia S.A.
+Banco Chase Manhattan S.A.
+Banco BMD S.A.
+Banco Mercantil do Brasil S.A.
+Banco Mercantil-Finasa S.A.-S.Paulo
+Banco BMC S.A.
+HSBC Bank Brasil S.A.-Bco Multiplo
+Banco Mineiro S.A.
+Unibanco-Uniao Bcos Brasileiros S.A
+Banco Capital S.A.
+Banco Nacional S.A.
+Banco Sul Brasileiro S . A .
+Banco Banorte S.A.
+Banco Safra S.A.
+Banco Santander Noroeste S.A.
+Banco Pinto de Magalhaes S . A .
+Banfort-Banco Fortaleza S.A.
+Banco Real de Sao Paulo S . A .
+Banco Regional S . A .
+Banco Rural S.A.
+Banco deTokyo-Mitsubishi Brasil S.A
+Banco Sumitomo Brasileiro S.A.
+Banco Mitsubishi Brasileiro S.A.
+Lloyds Bank PLC
+Banco Financial Portugues
+Banco de Credito Comercial S . A .
+BankBoston Bco Multiplo S.A.
+Banco Wachovia S.A.
+Banco Agrimisa S.A.
+Banco de Roraima S.A.
+Deutsche Bank S.A.-Banco Alemao
+Morgan Guaranty Trust Company of NY
+Banco Frances Intern.-Brasil S.A.
+Banco Residencia S . A .
+Banco Maisonnave S.A.
+Ing Bank N.V.
+Banco Union, S.A.C.A.
+Banco de La Rep. Or. Del Uruguay
+Banco de La Prov. de Buenos Aires
+Banco Exterior de Espana S.A.
+Banco Hispano Americano S . A.
+Centro Hispano Banco
+Banco Iochpe S.A.
+Banco Habitasul S . A .
+Banco Brasileiro Iraquiano S.A.
+Banco Santander de Negocios S.A
+Banco BRJ S . A .
+Banco Multiplic S.A.
+Banco Credit Suisse F. B. G. S.A.
+Banco Luso Brasileiro S.A.
+BFC Banco S.A.
+Banco Patente S.A.
+Banco Hercules S.A.
+Banco Industrial do Brasil S.A.
+BPA Banco Pao de Acucar S . A .
+Banco Grande Rio S.A.
+Banco Santos Neves S.A.
+Banco Open S.A.
+Banco Adolpho Oliveira e Assoc.S.A.
+Banco VR S.A.
+Banco Paulista S.A.
+Banco Guanabara S.A.
+Banco Pecunia S.A.
+Banco Interpacifico S.A.
+Banco Investor S.A.
+Banco Tendencia S.A.
+Banco Aplicap S.A.
+Banco Dracma S.A.
+Banco Panamericano S.A.
+Banco General Motors S.A.
+Banco Araucaria S.A.
+Banco Ficsa S.A.
+Banco Destak S.A.
+Banco Criterium S.A.
+Bancorp - Banco Com. e de Inv. S.A.
+Banco Intercap S.A.
+Banco Columbia S.A.
+Banco Rendimento S.A.
+Banco Triangulo S.A.
+Banco do Est. do Amapa S.A.
+Banco Sofisa S.A.
+Banco Prosper S.A.
+Big S.A.- Banco Irmaos Guimaraes
+Banco Credito Metropolitano S.A.
+Banco Bilbao Vizcaya Brasil S.A.
+Brasbanco S.A. - Banco Comercial
+Banco Pine S.A.
+Banco do Est. de Roraima S.A.
+Banco Marka S.A.
+Banco Atlantis S.A.
+Banco Dimensao S.A.
+Banco Pebb S.A.
+Banco Frances e Brasileiro S.A.
+Banco Indusval S.A.
+Banco A.J.Renner S.A.
+Banco Votorantim S.A.
+Banco Matrix S.A.
+Banco Tecnicorp S.A.
+Banco Porto Real S.A.
+Banco Santos S.A.
+Banco Investcorp S.A.
+Banco Daycoval S.A.
+Banco Vetor S.A.
+Banco Cindam S.A.
+Banco Vega S.A.
+Banco Operador S.A.
+Banco Banif Primus S . A .
+Banco Maxinvest S.A.
+Banco Credibel S.A.
+Banco Interior de Sao Paulo S.A.
+Banco Porto Seguro S.A.
+Banco Finansinos S.A.
+Banco Universal S.A.
+Banco Comercial de Sao Paulo S.A.
+Banco Fital S.A.
+Banco Fonte Cindam S.A.
+Banco Comercial Paraguayo S.A.
+Banco GNPP S.A.
+Banco Minas S.A.
+Banco das Nacoes S.A.
+Banco Gerdau S.A.
+Banco Pottencial S.A.
+Banco United S.A.
+Banco Theca S.A.
+Banco Morada S.A.
+Banco BGN S.A.
+Banco Barclays e Galicia S.A.
+Banco Ribeirao Preto S.A.
+Banco Equatorial S.A.
+Banco Emblema S.A.
+BankBoston N.A.
+Banco Citibank S.A.
+Banco Modal S.A.
+Banco Rabobank Internat Br. S.A.
+Banco Coop. Sicredi S.A.-Bansicredi
+BR Banco Mercantil S.A.
+Banco Republic Nat. OF NY-BR S.A.
+Dresdner Bank Brasil S.A. B.Mult.
+Banco Banque Nat. Paris BR S.A.
+Banco Comercial Uruguai S.A.
+Banco Merrill Lynch S.A.
+Banco Cooperativo do Brasil S.A.
+Banco Keb do Brasil S.A.
+BCR-Banco de Credito Real S.A.

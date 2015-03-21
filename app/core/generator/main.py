@@ -17,6 +17,7 @@ class Generator(object):
         self.names = self.get_names()
         self.family_names = self.get_family_names()
         self.countries = self.get_countries()
+        self.banks = self.get_banks()
 
     @staticmethod
     def get_names():
@@ -37,6 +38,15 @@ class Generator(object):
         return family_names
 
     @staticmethod
+    def get_banks():
+        banks = []
+        file_dir = os.path.join(PROJECT_PATH, 'res/')
+        arquivo = open(file_dir + 'banks.txt', 'r')
+        for linha in arquivo:
+            banks.append(linha.replace("'", "''"))
+        return banks
+
+    @staticmethod
     def get_countries():
         countries = []
 
@@ -50,6 +60,9 @@ class Generator(object):
 
     def get_country(self):
         return random.choice(self.countries)
+
+    def get_bank(self):
+        return random.choice(self.banks)
 
     def get_int(self, min=0, max=100):
         """
