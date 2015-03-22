@@ -1,10 +1,12 @@
 #! coding: utf-8
 import json
 
+from django.contrib.auth import logout
+
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.core.exceptions import PermissionDenied
-from django.http.response import HttpResponse
+from django.http.response import HttpResponse, HttpResponseForbidden
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.views.decorators.csrf import csrf_exempt
@@ -45,7 +47,22 @@ def record(request, id=None):
     else:
         retorno = {}
         if id:
-            form = FormProject(instance=Project.objects.get(pk=id))
+            project = Project.objects.get(pk=id)
+            user = request.user
+
+            if project.user != user:
+                user = request.user
+
+                print('bloqueando usuário')
+                user.is_active = False
+                user.save()
+
+                logout(request)
+
+                return HttpResponseForbidden('tentativa de acesso à conteudo nao autorizado. usuario bloqueado')
+
+            form = FormProject(instance=project)
+
             retorno['id'] = id
         else:
             form = FormProject()
