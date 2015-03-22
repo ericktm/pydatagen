@@ -8,6 +8,15 @@ class FormProject(forms.ModelForm):
         'required': ''
     }))
 
+    def save(self, user, commit=True):
+        project = super(FormProject, self).save(commit=False)
+        project.user = user
+
+        if commit:
+            project.save()
+
+        return project
+
     class Meta:
         model = Project
 

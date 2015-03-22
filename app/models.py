@@ -1,4 +1,5 @@
 #!- coding:utf-8
+from django.contrib.auth.models import User
 from django.db import models
 
 
@@ -28,7 +29,8 @@ class Project(models.Model):
     name = models.CharField(verbose_name='Nome do Projeto', max_length=50)
     created = models.DateTimeField(auto_now_add=True, editable=False)
     edited = models.DateTimeField(null=True, editable=False, auto_now=True)
-    active = models.BooleanField(default=True, editable=False)
+    active = models.BooleanField(default=True, editable=False, db_index=True)
+    user = models.ForeignKey(User, related_name='project_user', db_index=True, editable=False)
 
     def __unicode__(self):
         return self.name.upper()
@@ -38,11 +40,11 @@ class Project(models.Model):
 
 
 class ProjectFile(models.Model):
-    project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_project_files_project')
+    project = models.ForeignKey(verbose_name='Projeto', to=Project, related_name='app_project_files_project',
+                                db_index=True)
     quantity = models.IntegerField(verbose_name='Quantidade de registros', default=0)
     created = models.DateTimeField(auto_now_add=True, editable=False)
-    # file = models.
-    status = models.SmallIntegerField(choices=FILE_STATUS, default=4)
+    status = models.SmallIntegerField(choices=FILE_STATUS, default=4, db_index=True)
     log = models.CharField(max_length=2000, blank=True)
     start_exec = models.DateTimeField(blank=True, null=True)
     end_exec = models.DateTimeField(blank=True, null=True)
@@ -54,7 +56,7 @@ class Table(models.Model):
     # order = models.SmallIntegerField(verbose_name='Ordem')
     created = models.DateTimeField(auto_now_add=True, editable=False)
     edited = models.DateTimeField(null=True, editable=False, auto_now=True)
-    active = models.BooleanField(default=True, editable=False)
+    active = models.BooleanField(default=True, editable=False, db_index=True)
     # insert = models.BooleanField(verbose_name='Populável', default=True)
     # quantity = models.IntegerField(verbose_name='Quantidade de registros', default=1000)
 

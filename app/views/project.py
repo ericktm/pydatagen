@@ -2,6 +2,7 @@
 import json
 
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
 from django.core.exceptions import PermissionDenied
 from django.http.response import HttpResponse
 from django.shortcuts import render_to_response
@@ -24,10 +25,11 @@ def index(request):
 @login_required
 def search(request):
     retorno = {}
+    user = request.user
 
     try:
-        busca = ProjectSearch(request.GET)
-        retorno = busca.seach()
+        busca = ProjectSearch(request.GET, user)
+        retorno = busca.search()
     except Exception as e:
         print(e)
 
@@ -39,7 +41,7 @@ def search(request):
 @login_required
 def record(request, id=None):
     if request.method == 'POST':
-        return save(request.POST, id)
+        return save(request.POST, id=id, user=request.user)
     else:
         retorno = {}
         if id:
@@ -51,7 +53,7 @@ def record(request, id=None):
         return render_to_response('project/record.html', retorno)
 
 
-def save(data, id=None):
+def save(data, id=None, user=User):
     try:
         retorno = {}
 
@@ -61,14 +63,15 @@ def save(data, id=None):
             form = FormProject(data)
 
         if form.is_valid():
-            form.save()
+            form.save(user=user)
             retorno['success'] = True
         else:
             retorno['success'] = False
             retorno['error'] = 'ERRO'
+
     except Exception as erro:
         retorno['success'] = False
-        retorno['error'] = erro.message
+        retorno['error'] = erro
 
     return HttpResponse(json.dumps(retorno), content_type='text/json')
 

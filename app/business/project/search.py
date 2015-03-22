@@ -1,15 +1,17 @@
+from django.contrib.auth.models import User
 from django.core.paginator import Paginator
 
 from app.models import Project
 
 
 class ProjectSearch(object):
-    def __init__(self, query={}):
+    def __init__(self, query={}, user=User):
 
         self.data = Project.objects
 
         self.id = query.get('id')
         self.name = query.get('name')
+        self.user = user
 
         if query.get('sord') == 'desc':
             self.order = '-%s' % query.get('sidx')
@@ -21,7 +23,7 @@ class ProjectSearch(object):
 
         self.records = []
 
-    def seach(self):
+    def search(self):
 
         if self.id:
             self.data = self.data.filter(pk=self.id)
@@ -31,6 +33,12 @@ class ProjectSearch(object):
 
         # Only active records
         self.data = self.data.filter(active=True)
+
+        # Only records of current user
+        self.data = self.data.filter(user=self.user)
+
+        print(self.data.query)
+
         return self.paginate()
 
     def paginate(self):
