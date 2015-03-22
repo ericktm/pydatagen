@@ -14,10 +14,10 @@ $(document).ready(function () {
             'disabled="true"></a>';
         }
 
-        if (rowObject.status != 'Agendado' && rowObject.status != 'Em execução') {
+        if (rowObject.status != 'Em execução' && rowObject.status != 'Rascunho') {
             trash = '<a class="btn-trash mini" ' +
             'title="Remover Agendamento"' +
-            'data-update="tab_files"' +
+            'data-update="tab_files" ' +
             'href="#" ' +
             'data-url="/app/project/files/delete/' + rowObject.id + '.html"' +
             '></a>';

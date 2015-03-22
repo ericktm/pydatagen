@@ -114,16 +114,24 @@ def file_delete(request, id=None):
     try:
         file = ProjectFile.objects.get(pk=id)
 
-        try:
-            os.remove('%s/%s.sql' % (SQL_DIR, id))
-        except Exception as err:
-            print(err)
+        if file.status == 1:
+            retorno['success'] = False
+            retorno['error'] = 'O agendamento não pode ser removido, pois está em execução!'
+        else:
+            try:
+                os.remove('%s/%s.sql' % (SQL_DIR, id))
+            except Exception as err:
+                print(err)
 
-        file.delete()
+            file.delete()
+
+            retorno['success'] = True
+            retorno['message'] = 'Agendamento removido com sucesso!'
+
     except Exception as e:
         print(e)
-
-
+        retorno['success'] = False
+        retorno['error'] = 'Erro ao remover agendamento.'
 
     retorno = json.dumps(retorno)
     return HttpResponse(retorno, content_type='text/json')
