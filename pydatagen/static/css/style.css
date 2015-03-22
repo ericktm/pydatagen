@@ -160,3 +160,7 @@ form input {
 form label {
     cursor: pointer;
 }
+
+.help {
+    padding: 10px;
+}

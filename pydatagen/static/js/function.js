@@ -238,6 +238,12 @@ $(document).ready(function () {
             }
         });
 
+        $('.btn-trash-icon').button({
+            icons: {
+                primary: 'ui-icon-trash'
+            }
+        });
+
         $('.btn-clean').button({
             icons: {
                 primary: 'ui-icon-tag'
