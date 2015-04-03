@@ -6,6 +6,3 @@ django.setup()
 
 from app.cron import do
 do()
-
-
-

@@ -129,3 +129,8 @@ class City(models.Model):
 class FirstName(models.Model):
     name = models.CharField(max_length=60)
     gender = models.CharField(max_length=1)
+
+
+class EmailConfig(models.Model):
+    api_user = models.CharField(max_length=200)
+    api_key = models.CharField(max_length=200)

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt_BR">
+    <meta charset="UTF-8">
+    <title>Processamento finalizado</title>
+</head>
+<body>
+
+
+<h1>Processamento finalizado!</h1>
+<ul>
+    <li>
+        Execução: {{ record.id }}
+    </li>
+    <li>
+        Projeto: {{ record.project.name }}
+    </li>
+    <li>
+        Quantidade: {{ record.quantity }}
+    </li>
+    <li>
+        Hora início: {{ record.start_exec }}
+    </li>
+    <li>
+        Hora fim: {{ record.end_exec }}
+    </li>
+    <li>
+        <a href="http://pydatagen.erick.net.br/media/project_files/{{ record.id }}.sql">Download</a>
+    </li>
+</ul>
+
+
+</body>
+</html>

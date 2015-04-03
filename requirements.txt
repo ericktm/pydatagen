@@ -4,5 +4,5 @@ exrex
 fake-factory
 gunicorn
 psycopg2
-wsgiref
 python-social-auth
+sendgrid

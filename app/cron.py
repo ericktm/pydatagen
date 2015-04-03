@@ -4,9 +4,11 @@ import json
 
 import random
 from django.utils import timezone
+import sendgrid
+from django.template.loader import render_to_string
 
 from app.core.generator.main import Generator
-from app.models import ProjectFile, TableFile
+from app.models import ProjectFile, TableFile, EmailConfig
 from pydatagen.settings import SQL_DIR
 
 
@@ -25,6 +27,9 @@ def do():
 
         if updated_schedule.status == 0:
             schedule.status = 1
+            schedule.log = ''
+            schedule.end_exec = None
+            schedule.quantity = 0
             schedule.start_exec = timezone.now()
             schedule.save()
 
@@ -136,6 +141,8 @@ def do():
                 schedule.quantity = quant
                 schedule.save()
 
+                send_mail(schedule)
+
                 # os.remove(path)
                 print('SUCCESS')
 
@@ -160,3 +167,22 @@ class Writter(object):
     def close(self):
         print('closing file..')
         self.file.close()
+
+
+def send_mail(schedule=None):
+    if schedule:
+        if schedule.status == 2:
+            email_config = EmailConfig.objects.get(pk=1)
+            sg = sendgrid.SendGridClient(email_config.api_user, email_config.api_key)
+            message = sendgrid.Mail()
+            message.add_to('Erick Oliveira <contato@erick.net.br>')
+            message.set_subject('Execução do agendamento %s finalizada' % schedule.id)
+            message.set_html(render_to_string('project/email.html', {'record': schedule}))
+            message.set_from('Pydatagen <contato@pydatagen.co,>')
+
+            status, msg = sg.send(message)
+
+            print(status)
+            print(msg)
+
+
