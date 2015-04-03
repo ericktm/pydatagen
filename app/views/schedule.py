@@ -23,7 +23,7 @@ def index(request, id=None):
             project = Project.objects.get(pk=id)
             scheduler, created = ProjectFile.objects.get_or_create(project=project, status=4)
             if created:
-                order = 0
+                order = 1
 
                 for table in Table.objects.filter(active=True, project=project).all():
                     new = TableFile()
@@ -161,8 +161,6 @@ def schedule(request, id=None):
                     new.quantity = 0
                     new.table = table
                     new.save()
-
-            print(scheduler)
 
             return render_to_response('project/schedule.html', {'scheduler': scheduler})
         else:
