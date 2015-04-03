@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="adicionado bloqueio de usuário caso o mesmo tente acessar um projeto nao pertencente ao mesmo.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/migrations/0007_auto_20150322_0904.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/migrations/0008_auto_20150323_2051.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/debug.py" afterPath="$PROJECT_DIR$/app/execute.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cron.py" afterPath="$PROJECT_DIR$/app/cron.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/templates/login.html" afterPath="$PROJECT_DIR$/pydatagen/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/static/js/login.js" afterPath="$PROJECT_DIR$/pydatagen/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pydatagen/settings.py" afterPath="$PROJECT_DIR$/pydatagen/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/urls.py" afterPath="$PROJECT_DIR$/app/urls.py" />
+    <list default="true" id="81b23f15-645f-4317-a8f8-b80ce41a8da8" name="Default" comment="alterado processo de cron">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/execute.py" afterPath="$PROJECT_DIR$/execute.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pydatagen.iws" />
@@ -117,18 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/project.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3600">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-              <folding>
-                <element signature="e#17#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pydatagen/settings.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -167,10 +147,10 @@
         </entry>
       </file>
       <file leaf-file-name="execute.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/execute.py">
+        <entry file="file://$PROJECT_DIR$/execute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29126215" vertical-offset="0" max-vertical-offset="618">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35044247" vertical-offset="0" max-vertical-offset="565">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -181,8 +161,8 @@
       <file leaf-file-name="cron.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/cron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3024">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="3024">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <marker date="1428019602168" expanded="true" signature="912:943" placeholder="INSERT INTO ..." />
               </folding>
@@ -194,7 +174,17 @@
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
-              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pydatagen/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+              <caret line="21" column="68" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -442,6 +432,8 @@
       <recent name="$PROJECT_DIR$/app/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pydatagen" />
       <recent name="$PROJECT_DIR$/app/templates/schedule" />
       <recent name="F:\projects\pydatagen\pydatagen\res" />
       <recent name="$PROJECT_DIR$/app/core" />
@@ -742,7 +734,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pydatagen" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/execute.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/execute.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
@@ -806,12 +798,6 @@
       <created>1376100926870</created>
       <option name="number" value="Default" />
       <updated>1376100926870</updated>
-    </task>
-    <task id="LOCAL-00050" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
-      <created>1409058497125</created>
-      <option name="number" value="00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1409058497125</updated>
     </task>
     <task id="LOCAL-00051" summary="* removido campo regex, o mesmo foi substituido pelo atributo regex do campo options">
       <created>1409058973002</created>
@@ -1101,7 +1087,13 @@
       <option name="project" value="LOCAL" />
       <updated>1427034321035</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="alterado processo de cron">
+      <created>1428020022146</created>
+      <option name="number" value="00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1428020022146</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1130,19 +1122,19 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713348" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27578476" sideWeight="0.50159913" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33370787" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33679834" sideWeight="0.49945474" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27578476" sideWeight="0.49840087" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33479214" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2764045" sideWeight="0.49840087" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33370787" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20842217" sideWeight="0.6767896" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6727079" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946696" sideWeight="0.6853377" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17217484" sideWeight="0.32104123" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34135666" sideWeight="0.49947917" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1193,7 +1185,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Adicionada Tela de arquivos do projeto" />
     <MESSAGE value="adicionado botão de download de arquivo" />
     <MESSAGE value="* Implementado agendador de execuções. (crontab)" />
     <MESSAGE value="* Adicionado controle transacional na execução de agendamentos;" />
@@ -1218,7 +1209,8 @@
     <MESSAGE value="Adicionada legenda dos botões de ação, no rodapé da listagem de projetos." />
     <MESSAGE value="Adicionado relacionamento de usuario no modl de projetos.&#10;Para possibilitar arquitetura multi-usuario" />
     <MESSAGE value="adicionado bloqueio de usuário caso o mesmo tente acessar um projeto nao pertencente ao mesmo." />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado bloqueio de usuário caso o mesmo tente acessar um projeto nao pertencente ao mesmo." />
+    <MESSAGE value="alterado processo de cron" />
+    <option name="LAST_COMMIT_MESSAGE" value="alterado processo de cron" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1388,13 +1380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pydatagen/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pydatagen/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
@@ -1535,7 +1520,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3600">
           <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
-            <element signature="e#17#28#0" expanded="true" />
+            <element signature="e#17#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1589,14 +1574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
@@ -1607,8 +1584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/cron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3024">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="3024">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <marker date="1428019602168" expanded="true" signature="912:943" placeholder="INSERT INTO ..." />
           </folding>
@@ -1625,10 +1602,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/execute.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29126215" vertical-offset="0" max-vertical-offset="618">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pydatagen/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35044247" vertical-offset="0" max-vertical-offset="565">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
