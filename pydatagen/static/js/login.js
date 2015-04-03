@@ -19,7 +19,7 @@ $(document).ready(function () {
     $(".ui-dialog-titlebar-close").hide();
 
 
-    $('form').on('submit', function (e) {
+    $('#form_login').on('submit', function (e) {
         e.preventDefault();
         var form = $(this);
         var dados = form.serialize();

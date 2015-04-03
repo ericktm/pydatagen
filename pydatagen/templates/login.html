@@ -9,10 +9,10 @@
             <p>Usuário e/ou senha inválidos.</p>
         {% endif %}
 
-        <form method="post" action="{% url 'app.views.user.do_login' %}">
+        <form method="post" action="{% url 'app.views.user.do_login' %}" id="form_login">
             {% csrf_token %}
             <table class="top10">
-            <tr>
+                <tr>
                     <td>{{ form.username.label_tag }}</td>
                     <td>{{ form.username }}</td>
                 </tr>
@@ -22,11 +22,47 @@
                 </tr>
             </table>
 
+
             <input type="hidden" name="next" value="{{ next }}"/>
 
             <div class="right top10">
+                <div id="signinButton">
+                        <span class="g-signin" data-scope="https://www.googleapis.com/auth/userinfo.email"
+                              data-clientid="992875392872-i9su2s8ddisr36fqqiiageala4bh79ea.apps.googleusercontent.com"
+                              data-redirecturi="postmessage"
+                              data-accesstype="online"
+                              data-approvalprompt="force"
+                              data-cookiepolicy="single_host_origin"
+                              data-includegrantedscopes="false"
+                              data-callback="signInCallback">
+                        </span>
+                </div>
                 <button type="submit" id="btn_login" title="Autenticar">Autenticar</button>
             </div>
+
+            <form id="google-plus" method="post" action="{% url 'social:complete' "google-plus" %}">{% csrf_token %}
+                <input id="at" type="hidden" name="access_token" value=""/>
+                <input id="code" type="hidden" name="code" value=""/>
+            </form>
+
+            <script type="text/javascript">
+                document.getElementById('id_username').focus();
+                function signInCallback(result) {
+                    if (result['error']) {
+                        console.log(result['error']);
+                    } else {
+                        document.getElementById('signinButton').setAttribute('style', 'display: none');
+                        $('#code').attr('value', result['code']);
+                        $('#google-plus').submit();
+                    }
+                }
+            </script>
+
+            <script src="https://apis.google.com/js/plusone.js">
+                window.onbeforeunload = function (e) {
+                    gapi.auth.signOut();
+                };
+            </script>
 
 
             <div class="footer top10 text-center">

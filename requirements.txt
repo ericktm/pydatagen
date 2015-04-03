@@ -1,8 +1,8 @@
 Django
 SQLAlchemy
-https://github.com/ericktm/django-kronos/archive/master.zip
 exrex
 fake-factory
 gunicorn
 psycopg2
 wsgiref
+python-social-auth

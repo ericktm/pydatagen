@@ -1,8 +1,9 @@
 # ! coding:utf-8
-from django.conf.urls import patterns, url
+from django.conf.urls import patterns, url, include
 
 
 urlpatterns = patterns('app.views',
+                       url('', include('social.apps.django_app.urls', namespace='social')),
 
                        url(r'^$', 'project.index'),
                        url(r'^project\.html$', 'project.index'),
@@ -32,4 +33,6 @@ urlpatterns = patterns('app.views',
 
                        url(r'^generate/(?P<project>\d*)\.html$', 'generate.index'),
                        url(r'^extrair\.html$', 'generate.extrair_nome'),
+
+
                        )

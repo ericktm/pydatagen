@@ -4,14 +4,12 @@ import json
 
 import random
 from django.utils import timezone
-import kronos
 
 from app.core.generator.main import Generator
 from app.models import ProjectFile, TableFile
 from pydatagen.settings import SQL_DIR
 
 
-@kronos.register('*/1 * * * *')
 def do():
     print('starting...')
 
