@@ -171,14 +171,17 @@ class Writter(object):
 
 def send_mail(schedule=None):
     if schedule:
-        if schedule.status == 2:
+
+        user = schedule.project.user
+
+        if schedule.status == 2 and user.email != ' ':
             email_config = EmailConfig.objects.get(pk=1)
             sg = sendgrid.SendGridClient(email_config.api_user, email_config.api_key)
             message = sendgrid.Mail()
-            message.add_to('Erick Oliveira <contato@erick.net.br>')
+            message.add_to('%s <%s>' % (user.first_name, user.email))
             message.set_subject('Execução do agendamento %s finalizada' % schedule.id)
             message.set_html(render_to_string('project/email.html', {'record': schedule}))
-            message.set_from('Pydatagen <contato@pydatagen.co,>')
+            message.set_from('Pydatagen <contato@erick.net.br,>')
 
             status, msg = sg.send(message)
 
