@@ -39,6 +39,7 @@ def do():
                 if table.quantity > 0:
                     sql_insert = 'INSERT INTO %s (%s) VALUES (%s);\n'
                     last_name = ''
+                    sequencial = None
                     fabric = Generator()
                     # get active fields
                     fields = table.table.app_field_table.filter(active=True, insert=True).order_by('type').all()
@@ -112,6 +113,14 @@ def do():
 
                             elif field.type == 10:
                                 value = "'%s'" % fabric.get_bank()
+
+                            elif field.type == 11:
+                                if not sequencial:
+                                    sequencial = options.get('start', 1)
+                                else:
+                                    sequencial += 1
+
+                                value = "%s" % sequencial
 
                             if values == '':
                                 values += '%s' % value

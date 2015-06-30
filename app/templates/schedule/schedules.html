@@ -6,7 +6,7 @@
 <form method="post" name="form_field" class="center tam400 form_post"
       action="/app/schedule/finish/{{ schedule.id }}.html" data-close="dlg-project">
 
-    <input type="hidden" value="{{ schedule.project }}" id="project_id"/>
+    <input type="hidden" value="{{ schedule.project.id }}" id="project_id"/>
     <input type="hidden" value="{{ schedule.id }}" id="schedule_id" name="schedule_id"/>
 
     <div class="actions center tam400 text-center">

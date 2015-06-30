@@ -19,6 +19,7 @@ class FormProject(forms.ModelForm):
 
     class Meta:
         model = Project
+        fields = ('name',)
 
 
 class FormTable(forms.ModelForm):
@@ -30,6 +31,7 @@ class FormTable(forms.ModelForm):
 
     class Meta:
         model = Table
+        fields = ('project', 'name')
 
 
 class FormField(forms.ModelForm):
@@ -47,6 +49,7 @@ class FormField(forms.ModelForm):
 
     class Meta:
         model = Field
+        exclude = ('',)
 
 
 class FormTableFile(forms.ModelForm):
@@ -54,4 +57,5 @@ class FormTableFile(forms.ModelForm):
 
     class Meta:
         model = TableFile
+        exclude = ('',)
 

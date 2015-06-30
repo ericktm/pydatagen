@@ -10,10 +10,10 @@ class Mapper(object):
     def __init__(self, con = None, arquivo=None):
 
         # strCon = str('mysql+mysqldb' + '://' + con.username + ':' + con.password + '@' + con.hostname + '/' + con.database)
-        strCon = str('mysql+mysqldb://root:ericktm@localhost/banco')
+        -- strCon = str('mysql+mysqldb://root:ericktm@localhost/banco')
         self.meta = MetaData(strCon)
-        print self.meta.reflect()
-        print "Conectou ao banco de dados!"
+        print(self.meta.reflect())
+        print("Conectou ao banco de dados!")
         
         if arquivo:
             #Implementar função para leitura e parser do arquivo json
@@ -34,7 +34,7 @@ class Mapper(object):
 
 
     def conecta(self, sgbd, servidor, usuario, senha, banco):
-        # self.con = Conection(sgbd, servidor, usuario, senha, banco)
+        #self.con = Conection(sgbd, servidor, usuario, senha, banco)
         self.map['database'] = {
             'engine': sgbd,
             'server': servidor,
@@ -56,7 +56,7 @@ class Mapper(object):
         pass
 
     def getTables(self):
-        print "processando tabelas"
+        print("processando tabelas")
         tabelas = self.con.listaTabelas()
 
         for tabela in tabelas:
@@ -77,7 +77,7 @@ class Mapper(object):
                 for chave in campo.foreign_keys:
                     self.addChaves(chave)
                 if p_size.match(tipo):
-                    print "possui tamanho"
+                    print("possui tamanho")
                     # print vars(campo)
                 # print 'Campo: %s - Tipo: %s - Chave Primaria: %s' % (nome, tipo, primario)
                 dcampos[nome] = {
@@ -155,9 +155,9 @@ class Mapper(object):
             json.dump(map.map, outfile)
 
     def saveTables(self):
-        print "Salvando"
+        print("Salvando")
 
 if __name__ == '__main__':
     map = Mapper()
-    # map.conecta('mysql+mysqldb', 'localhost', 'root', 'ericktm', 'mariana_banco')
-    # map.saveFile('arquivo.json')
+    map.conecta('postgresql+psycopg2', 'localhost', 'pydatagen', 'py123gen', 'pydatagen')
+    map.saveFile('arquivo.json')

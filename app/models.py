@@ -14,6 +14,7 @@ TYPE_CHOICES = (
     (8, 'Username'),
     (9, 'Booleano'),
     (10, 'Bancos'),
+    (11, 'Sequencial'),
 )
 
 FILE_STATUS = (

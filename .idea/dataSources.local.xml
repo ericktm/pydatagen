@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - @localhost [2]" uuid="ce2d4e37-192a-43e9-8ae3-43de4df30885">
+      <user-name>postgres</user-name>
+      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
+    </data-source>
+    <data-source name="Django default" uuid="c0680ac1-9207-4fe5-ae2b-9d3bd37e3add">
+      <user-name>pydatagen</user-name>
+      <user-password>dfdadfd3df9bdf98df99dfcddfcfdfc4</user-password>
+    </data-source>
+  </component>
+</project>

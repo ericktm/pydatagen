@@ -23,7 +23,7 @@ class Generator(object):
     def get_names():
         names = []
         file_dir = os.path.join(PROJECT_PATH, 'res/')
-        arquivo = open(file_dir + 'names.txt', 'r')
+        arquivo = open(file_dir + 'names.txt', 'r', encoding='UTF8')
         for linha in arquivo:
             names.append(linha.replace("'", "''"))
         return names
@@ -32,7 +32,7 @@ class Generator(object):
     def get_family_names():
         family_names = []
         file_dir = os.path.join(PROJECT_PATH, 'res/')
-        arquivo = open(file_dir + 'family_names.txt', 'r')
+        arquivo = open(file_dir + 'family_names.txt', 'r', encoding='UTF8')
         for linha in arquivo:
             family_names.append(linha.replace("'", "''"))
         return family_names
@@ -41,7 +41,7 @@ class Generator(object):
     def get_banks():
         banks = []
         file_dir = os.path.join(PROJECT_PATH, 'res/')
-        arquivo = open(file_dir + 'banks.txt', 'r')
+        arquivo = open(file_dir + 'banks.txt', 'r', encoding='UTF8')
         for linha in arquivo:
             banks.append(linha.replace("'", "''"))
         return banks
@@ -51,7 +51,7 @@ class Generator(object):
         countries = []
 
         file_dir = os.path.join(PROJECT_PATH, 'res/')
-        arquivo = open(file_dir + 'country_list.txt', 'r')
+        arquivo = open(file_dir + 'country_list.txt', 'r', encoding='UTF8')
 
         for line in arquivo:
             countries.append(line.replace('\n', '').replace("'", "''"))
