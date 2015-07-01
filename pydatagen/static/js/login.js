@@ -2,6 +2,17 @@
  * Created by Erick on 04/06/14.
  */
 
+function message(title, content, type) {
+    if (!type) {
+        type = 'info';
+    }
+    $.jGrowl(content, {
+        header: title
+    });
+}
+
+
+
 $(document).ready(function () {
 
     $('#window').dialog({

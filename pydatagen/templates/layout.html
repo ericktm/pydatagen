@@ -57,8 +57,14 @@
 <script src="{% static "js/jquery.jgrowl.min.js" %}" type="text/javascript"></script>
 <script src="{% static "js/jquery.jqGrid.min.js" %}" type="text/javascript"></script>
 <script src="{% static "js/i18n/grid.locale-pt-br.js" %}" type="text/javascript"></script>
-<script src="{% static "js/function.js" %}" type="text/javascript"></script>
+
+{% block main_function %}
+    <script src="{% static "js/function.js" %}" type="text/javascript"></script>
+{% endblock %}
+
+
 {% block script %}
+
     <!-- //Custom Javascript -->
 {% endblock %}
 </body>

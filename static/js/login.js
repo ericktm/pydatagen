@@ -24,6 +24,7 @@ $(document).ready(function () {
         var form = $(this);
         var dados = form.serialize();
         $.post(form.attr('action'), dados, function (retorno) {
+            console.log(retorno);
             if (retorno.status == 'success') {
                 window.location = "/";
             } else {

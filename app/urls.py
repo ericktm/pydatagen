@@ -3,7 +3,6 @@ from django.conf.urls import patterns, url, include
 
 
 urlpatterns = patterns('app.views',
-                       url('', include('social.apps.django_app.urls', namespace='social')),
 
                        url(r'^$', 'project.index'),
                        url(r'^project\.html$', 'project.index'),
