@@ -153,7 +153,6 @@ $(document).ready(function () {
         var url = $(this).attr('data-url');
         var update = $(this).attr('data-update');
 
-        debug(update);
 
         var div = '<div id="confirm" class="hidden" title="Confirmar exclusão">' +
             '<span class="ui-icon ui-icon-help" style="float:left; margin:0 7px 50px 0;"></span>' +
@@ -180,6 +179,8 @@ $(document).ready(function () {
                             } else {
                                 message('Sucesso', retorno.error);
                             }
+                            //reloading grid
+                            $('#' + update).trigger("reloadGrid");
                         });
                     }
                     $(this).dialog("close");
@@ -189,9 +190,6 @@ $(document).ready(function () {
                 }
             }
         });
-
-        //reloading grid
-        $('#' + update).trigger("reloadGrid");
     });
 
     $(document).on('click', '.btn-clean', function (e) {
