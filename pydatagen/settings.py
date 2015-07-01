@@ -1,5 +1,5 @@
 import os
-from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP, STATICFILES_DIRS
 from social.backends.google import GooglePlusAuth
 
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
@@ -103,20 +103,16 @@ AUTHENTICATION_BACKENDS = (
     'social.backends.google.GoogleOAuth2',
     'social.backends.google.GoogleOAuth',
     'social.backends.google.GooglePlusAuth',
-    'social.backends.twitter.TwitterOAuth',
-    'social.backends.yahoo.YahooOpenId',
     'social.backends.github.BaseOAuth2',
     'social.backends.linkedin.BaseOAuth2',
-    'social.backends.github.GithubMemberOAuth2',
     'django.contrib.auth.backends.ModelBackend',
 )
 
-TEMPLATE_CONTEXT_PROCESSORS += (
+TEMPLATE_CONTEXT_PROCESSORS = TCP + (
     'django.core.context_processors.request',
     'social.apps.django_app.context_processors.backends',
     'social.apps.django_app.context_processors.login_redirect',
 )
-
 SOCIAL_AUTH_PIPELINE = (
     # Get the information we can about the user and return it in a simple
     # format to create the user instance later. On some cases the details are

@@ -48,12 +48,15 @@
             <script type="text/javascript">
                 document.getElementById('id_username').focus();
                 function signInCallback(result) {
+
                     if (result['error']) {
                         console.log(result['error']);
                     } else {
                         document.getElementById('signinButton').setAttribute('style', 'display: none');
                         $('#code').attr('value', result['code']);
+                        $('#at').attr('value', result['access_token']);
                         $('#google-plus').submit();
+                        console.log(result);
                     }
                 }
             </script>
