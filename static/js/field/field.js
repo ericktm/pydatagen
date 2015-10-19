@@ -15,7 +15,7 @@ $(document).ready(function () {
     $("#tab_field").jqGrid({
         url: '/app/field/search.html',
         datatype: 'local',
-        colNames: ['Ações', 'Código', 'Nome', 'Tipo', 'Preencher', 'Data criação', 'Data Edição'],
+        colNames: ['Ações', 'Código', 'Nome', 'Tipo' , 'Preencher' , 'Data criação', 'Data Edição'],
         colModel: [
             {name: 'actions', formatter: actions, align: "center", sorfield: false},
             {name: 'id', index: 'id', width: 90, key: true},
@@ -35,7 +35,7 @@ $(document).ready(function () {
         hidegrid: false,
         caption: "Resultado da pesquisa",
         scrollOffset: 0,
-        jsonReader: {repeatitems: false}
+        jsonReader: { repeatitems: false}
     });
     $("#tab_field").jqGrid('navGrid', '#pag_field', {edit: false, add: false, del: false, search: false});
 
@@ -44,8 +44,7 @@ $(document).ready(function () {
         $("#tab_field").jqGrid('setGridParam', {
             postData: {
                 id: $('#codigo_campo').val(),
-                name: $('#nome_campo').val()
-            },
+                name: $('#nome_campo').val()},
             datatype: 'json'
         }).trigger('reloadGrid');
     });

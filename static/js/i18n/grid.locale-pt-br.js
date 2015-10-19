@@ -29,26 +29,26 @@
             Find: "Procurar",
             Reset: "Resetar",
             odata: [
-                {oper: 'eq', text: "igual"},
-                {oper: 'ne', text: "diferente"},
-                {oper: 'lt', text: "menor"},
-                {oper: 'le', text: "menor ou igual"},
-                {oper: 'gt', text: "maior"},
-                {oper: 'ge', text: "maior ou igual"},
-                {oper: 'bw', text: "inicia com"},
-                {oper: 'bn', text: "não inicia com"},
-                {oper: 'in', text: "está em"},
-                {oper: 'ni', text: "não está em"},
-                {oper: 'ew', text: "termina com"},
-                {oper: 'en', text: "não termina com"},
-                {oper: 'cn', text: "contém"},
-                {oper: 'nc', text: "não contém"},
-                {oper: 'nu', text: "nulo"},
-                {oper: 'nn', text: "não nulo"}
+                { oper: 'eq', text: "igual"},
+                { oper: 'ne', text: "diferente"},
+                { oper: 'lt', text: "menor"},
+                { oper: 'le', text: "menor ou igual"},
+                { oper: 'gt', text: "maior"},
+                { oper: 'ge', text: "maior ou igual"},
+                { oper: 'bw', text: "inicia com"},
+                { oper: 'bn', text: "não inicia com"},
+                { oper: 'in', text: "está em"},
+                { oper: 'ni', text: "não está em"},
+                { oper: 'ew', text: "termina com"},
+                { oper: 'en', text: "não termina com"},
+                { oper: 'cn', text: "contém"},
+                { oper: 'nc', text: "não contém"},
+                { oper: 'nu', text: "nulo"},
+                { oper: 'nn', text: "não nulo"}
             ],
             groupOps: [
-                {op: "AND", text: "todos"},
-                {op: "OR", text: "qualquer um"}
+                { op: "AND", text: "todos" },
+                { op: "OR", text: "qualquer um" }
             ],
             operandTitle: "Click to select search operation.",
             resetTitle: "Reset Search Value"
@@ -118,14 +118,7 @@
         formatter: {
             integer: {thousandsSeparator: " ", defaultValue: '0'},
             number: {decimalSeparator: ",", thousandsSeparator: " ", decimalPlaces: 2, defaultValue: '0,00'},
-            currency: {
-                decimalSeparator: ",",
-                thousandsSeparator: ".",
-                decimalPlaces: 2,
-                prefix: "R$ ",
-                suffix: "",
-                defaultValue: '0,00'
-            },
+            currency: {decimalSeparator: ",", thousandsSeparator: ".", decimalPlaces: 2, prefix: "R$ ", suffix: "", defaultValue: '0,00'},
             date: {
                 dayNames: [
                     "Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb",

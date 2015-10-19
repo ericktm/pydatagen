@@ -4,6 +4,8 @@ $(document).ready(function () {
 
         var files = 'Sem arquivos.';
 
+        var trash = '';
+
         if (rowObject.status == 'Concluído' && rowObject.quantity > 0) {
             files = '<a class="btn-files mini" ' +
             'title="Arquivos Gerados"' +
@@ -12,7 +14,16 @@ $(document).ready(function () {
             'disabled="true"></a>';
         }
 
-        return files;
+        if (rowObject.status != 'Em execução' && rowObject.status != 'Rascunho') {
+            trash = '<a class="btn-trash mini" ' +
+            'title="Remover Agendamento"' +
+            'data-update="tab_files" ' +
+            'href="#" ' +
+            'data-url="/app/project/files/delete/' + rowObject.id + '.html"' +
+            '></a>';
+        }
+
+        return files + trash;
     }
 
     $("#tab_files").jqGrid({

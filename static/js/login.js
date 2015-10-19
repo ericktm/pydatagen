@@ -2,6 +2,17 @@
  * Created by Erick on 04/06/14.
  */
 
+function message(title, content, type) {
+    if (!type) {
+        type = 'info';
+    }
+    $.jGrowl(content, {
+        header: title
+    });
+}
+
+
+
 $(document).ready(function () {
 
     $('#window').dialog({
@@ -24,7 +35,6 @@ $(document).ready(function () {
         var form = $(this);
         var dados = form.serialize();
         $.post(form.attr('action'), dados, function (retorno) {
-            console.log(retorno);
             if (retorno.status == 'success') {
                 window.location = "/";
             } else {

@@ -21,7 +21,7 @@
         $.fn._fadeIn = $.fn.fadeIn;
 
         var noOp = $.noop || function () {
-            };
+        };
 
         // this bit is to ensure we don't call setExpression when we shouldn't (with extra muscle to handle
         // confusing userAgent strings on Vista)
@@ -89,7 +89,7 @@
                 var $el = $(this);
                 if (fullOpts.ignoreIfBlocked && $el.data('blockUI.isBlocked'))
                     return;
-                $el.unblock({fadeOut: 0});
+                $el.unblock({ fadeOut: 0 });
             });
 
             return this.each(function () {

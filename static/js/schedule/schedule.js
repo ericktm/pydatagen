@@ -8,8 +8,9 @@ $(document).ready(function () {
             'data-width="500"' +
             'data-height="360"' +
             'data-url="/app/schedule/record/' + rowObject.schedule + '/' + rowObject.id + '.html"></button>';
-        var trash = '<button class="btn-trash mini" data-update="tab_project" title="Excluir Projeto" ' +
-            'data-url="/app/project/delete/' + rowObject.id + '.html">' +
+
+        var trash = '<button class="btn-trash mini" data-update="tab_schedules" title="Excluir Projeto" ' +
+            'data-url="/app/schedule/delete/' + rowObject.id + '.html">' +
             '</button>';
 
         return edit + trash;

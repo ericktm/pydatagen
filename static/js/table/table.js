@@ -40,7 +40,7 @@ $(document).ready(function () {
         hidegrid: false,
         caption: "Resultado da pesquisa",
         scrollOffset: 0,
-        jsonReader: {repeatitems: false}
+        jsonReader: { repeatitems: false}
     });
     $("#tab_table").jqGrid('navGrid', '#pag_table', {edit: false, add: false, del: false, search: false});
 
@@ -50,8 +50,7 @@ $(document).ready(function () {
             postData: {
                 id: $('#codigo_tabela').val(),
                 project: $('#project').val(),
-                name: $('#nome_tabela').val()
-            },
+                name: $('#nome_tabela').val()},
             datatype: 'json'
         }).trigger('reloadGrid');
     });

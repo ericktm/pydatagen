@@ -153,6 +153,7 @@ $(document).ready(function () {
         var url = $(this).attr('data-url');
         var update = $(this).attr('data-update');
 
+
         var div = '<div id="confirm" class="hidden" title="Confirmar exclusão">' +
             '<span class="ui-icon ui-icon-help" style="float:left; margin:0 7px 50px 0;"></span>' +
             'Deseja inativar o registro?' +
@@ -173,13 +174,13 @@ $(document).ready(function () {
                     console.log(url);
                     if (url != '#') {
                         $.get(url, function (retorno) {
-                            debug(retorno);
                             if (retorno.success == true) {
                                 message('Sucesso', retorno.message, 'success');
-                                $('#' + update).trigger("reloadGrid");
                             } else {
                                 message('Sucesso', retorno.error);
                             }
+                            //reloading grid
+                            $('#' + update).trigger("reloadGrid");
                         });
                     }
                     $(this).dialog("close");
@@ -230,6 +231,12 @@ $(document).ready(function () {
         });
 
         $('.btn-trash').button({
+            icons: {
+                primary: 'ui-icon-trash'
+            }
+        });
+
+        $('.btn-trash-icon').button({
             icons: {
                 primary: 'ui-icon-trash'
             }
